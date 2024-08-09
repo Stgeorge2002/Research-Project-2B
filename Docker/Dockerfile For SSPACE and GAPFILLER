@@ -1,0 +1,55 @@
+# Use the official Miniconda3 image as the base
+FROM continuumio/miniconda3:latest
+
+# Avoid prompts from apt
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install necessary system utilities and build tools
+RUN apt-get update && apt-get install -y \
+    procps \
+    build-essential \
+    libssl-dev \
+    zlib1g-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set up Bioconda channels
+RUN conda config --add channels defaults && \
+    conda config --add channels bioconda && \
+    conda config --add channels conda-forge && \
+    conda config --set channel_priority flexible
+
+# Create conda environment and install packages
+RUN conda create -n sspace_env python=3.7 && \
+    conda run -n sspace_env conda install -y \
+    sspace_basic=2.1.1 \
+    gapfiller=2.1.2 \
+    bowtie=1.3.1 \
+    perl \
+    boost-cpp=1.74.0 \
+    zlib \
+    perl-bioperl
+
+# Set the working directory
+WORKDIR /data
+
+# Add conda environment to PATH and activate it by default
+ENV PATH="/opt/conda/envs/sspace_env/bin:$PATH"
+RUN echo "conda activate sspace_env" >> ~/.bashrc
+
+# Verify installation of SSPACE, GapFiller, and Bowtie
+RUN conda run -n sspace_env bash -c '\
+    which SSPACE_Basic.pl && \
+    which GapFiller.pl && \
+    which bowtie'
+
+# Create symlinks if necessary
+RUN conda run -n sspace_env bash -c '\
+    if [ ! -f /opt/conda/envs/sspace_env/bin/GapFiller.pl ]; then \
+        find /opt/conda -name "GapFiller.pl" | xargs -I {} ln -s {} /opt/conda/envs/sspace_env/bin/GapFiller.pl; \
+    fi'
+
+# Verify BioPerl installation
+RUN conda run -n sspace_env perl -e "use Bio::Perl; print \"BioPerl is installed\n\""
+
+# Set the default command to run when the container starts
+CMD ["/bin/bash"]

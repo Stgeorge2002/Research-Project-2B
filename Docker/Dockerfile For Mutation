@@ -1,0 +1,49 @@
+FROM rocker/r-ver:4.1.0
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    libcurl4-openssl-dev \
+    libssl-dev \
+    libxml2-dev \
+    liblzma-dev \
+    libbz2-dev \
+    libgit2-dev \
+    libfontconfig1-dev \
+    libharfbuzz-dev \
+    libfribidi-dev \
+    libfreetype6-dev \
+    libpng-dev \
+    libtiff5-dev \
+    libjpeg-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install BiocManager and set the appropriate version
+RUN R -e "install.packages('BiocManager', repos='https://cran.rstudio.com/')" && \
+    R -e "BiocManager::install(version = '3.14')"
+
+# Install matrixStats explicitly
+RUN R -e "install.packages('matrixStats', repos='https://cloud.r-project.org')"
+
+# Install required Bioconductor packages individually
+RUN R -e "BiocManager::install('MatrixGenerics', version = '3.14', update = TRUE, ask = FALSE)" && \
+    R -e "BiocManager::install('DelayedArray', version = '3.14', update = TRUE, ask = FALSE)" && \
+    R -e "BiocManager::install('SummarizedExperiment', version = '3.14', update = TRUE, ask = FALSE)" && \
+    R -e "BiocManager::install('GenomicAlignments', version = '3.14', update = TRUE, ask = FALSE)" && \
+    R -e "BiocManager::install('rtracklayer', version = '3.14', update = TRUE, ask = FALSE)" && \
+    R -e "BiocManager::install('GenomicFeatures', version = '3.14', update = TRUE, ask = FALSE)"
+
+# Install additional R packages
+RUN R -e "install.packages(c('parallel'), repos='https://cran.rstudio.com/')"
+
+# Verify installation
+RUN R -e "library(GenomicFeatures); library(Biostrings); library(rtracklayer); library(parallel); cat('All required packages installed successfully\n')"
+
+# Copy the R script into the container
+COPY bin/mutate_genes.R /usr/local/bin/mutate_genes.R
+RUN chmod +x /usr/local/bin/mutate_genes.R
+
+# Set the working directory
+WORKDIR /data
+
+# Set environment variable to ensure R can find the libraries
+ENV R_LIBS_SITE=/usr/local/lib/R/site-library:/usr/local/lib/R/library

@@ -1,0 +1,369 @@
+Aug-09 19:08:23.914 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf --runRealReadsAnalysis false --assembledGenomesDir null --search_term acetyltransferase
+Aug-09 19:08:24.074 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.3
+Aug-09 19:08:24.094 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/tbea20/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2-patch1,nf-tower@1.9.1,nf-wave@1.4.2
+Aug-09 19:08:24.107 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Aug-09 19:08:24.108 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Aug-09 19:08:24.112 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
+Aug-09 19:08:24.123 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Aug-09 19:08:24.144 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/tbea20/newpangenomes/nextflow.config
+Aug-09 19:08:24.147 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/tbea20/newpangenomes/nextflow.config
+Aug-09 19:08:24.174 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/tbea20/.nextflow/secrets/store.json
+Aug-09 19:08:24.178 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@5a4c638d] - activable => nextflow.secret.LocalSecretsProvider@5a4c638d
+Aug-09 19:08:24.192 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Aug-09 19:08:24.954 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Aug-09 19:08:24.969 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [goofy_austin] DSL2 - revision: a6907763e1
+Aug-09 19:08:24.971 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Aug-09 19:08:24.971 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Aug-09 19:08:25.016 [main] DEBUG nextflow.Session - Session UUID: 3f66a653-13e4-4b2e-b77d-f11ee45e5040
+Aug-09 19:08:25.016 [main] DEBUG nextflow.Session - Run name: goofy_austin
+Aug-09 19:08:25.017 [main] DEBUG nextflow.Session - Executor pool size: 12
+Aug-09 19:08:25.025 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Aug-09 19:08:25.052 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.04.3 build 5916
+  Created: 09-07-2024 19:35 UTC (20:35 BST)
+  System: Linux 5.15.153.1-microsoft-standard-WSL2
+  Runtime: Groovy 4.0.21 on OpenJDK 64-Bit Server VM 22.0.1-internal-adhoc.conda.src
+  Encoding: UTF-8 (UTF-8)
+  Process: 8295@TheoTop [127.0.1.1]
+  CPUs: 12 - Mem: 15.2 GB (11.3 GB) - Swap: 4 GB (4 GB) - Virtual threads ON
+Aug-09 19:08:25.074 [main] DEBUG nextflow.Session - Work-dir: /home/tbea20/newpangenomes/work [ext2/ext3]
+Aug-09 19:08:25.106 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Aug-09 19:08:25.119 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Aug-09 19:08:25.193 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Aug-09 19:08:25.202 [main] DEBUG nextflow.util.CustomPoolFactory - Creating virtual thread pool
+Aug-09 19:08:25.267 [main] DEBUG nextflow.Session - Session start
+Aug-09 19:08:25.270 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/tbea20/newpangenomes/results/pipeline_trace.txt
+Aug-09 19:08:25.727 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Aug-09 19:08:26.694 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `blast_db` -- Initialise it to a default value eg. `params.blast_db = some_value`
+Aug-09 19:08:26.695 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `blast_species_taxid` -- Initialise it to a default value eg. `params.blast_species_taxid = some_value`
+Aug-09 19:08:26.696 [main] INFO  nextflow.Nextflow - 
+         P A N G E N O M E   A N A L Y S I S   P I P E L I N E    
+         ===================================================
+         Input file         : /home/tbea20/newpangenomes/input_urls.txt
+         Output directory   : /home/tbea20/newpangenomes/results
+         Non-mutated dir    : /home/tbea20/newpangenomes/results/non_mutated
+         Mutated dir        : /home/tbea20/newpangenomes/results/mutated
+         
+         Mutation parameters:
+         Num genes to mutate: 10
+         Mutation keyword   : acetyltransferase
+         
+         Gene extraction:
+         First stage keyword : acetyltransferase
+         Second stage keyword: acetyltransferase
+         
+         DWGSIM parameters:
+         Error rate         : 0.0001
+         Outer distance     : 500
+         Standard deviation : 50
+         Number of reads    : 1000000
+         Read length        : 150
+         
+         Resource parameters:
+         Max CPUs           : 6
+         Max memory         : 8GB
+         Max time           : 24h
+         
+         Prokka parameters:
+         Genus              : Streptococcus
+         Species            : pneumoniae
+         Strain             : SPNEU
+         
+         Panaroo parameters:
+         Clean mode         : strict
+         
+         BLAST parameters:
+         BLAST database     : null
+         Species taxid      : null
+         Word size          : 7
+         E-value            : 1e-10
+         Percent identity   : 90
+         Max target seqs    : 500
+         Dust               : no
+         Soft masking       : false
+         X-drop ungapped    : 0
+         X-drop gap         : 0
+         Gap open           : 0
+         Gap extend         : 0
+
+Aug-09 19:08:26.851 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:DOWNLOAD_FOLDER` matches process DOWNLOAD_FOLDER
+Aug-09 19:08:26.862 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:26.862 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:26.867 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Aug-09 19:08:26.873 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=15.2 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Aug-09 19:08:26.876 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Aug-09 19:08:26.945 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:PROKKA_INITIAL` matches process PROKKA_INITIAL
+Aug-09 19:08:26.950 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:26.951 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:26.975 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MUTATE_GENES` matches process MUTATE_GENES
+Aug-09 19:08:26.977 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:26.977 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:26.992 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:PROKKA_MUTATED` matches process PROKKA_MUTATED
+Aug-09 19:08:26.997 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:26.997 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.008 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:DWGSIM_MUTATED` matches process DWGSIM_MUTATED
+Aug-09 19:08:27.010 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.010 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.017 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:DWGSIM_NON_MUTATED` matches process DWGSIM_NON_MUTATED
+Aug-09 19:08:27.019 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.019 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.030 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:PANAROO_NON_MUTATED` matches process PANAROO_NON_MUTATED
+Aug-09 19:08:27.032 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.033 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.049 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:PANAROO_MUTATED` matches process PANAROO_MUTATED
+Aug-09 19:08:27.051 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.051 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.068 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:EXTRACT_NON_MUTATED_GENOME_KEYWORD_GENES` matches process EXTRACT_NON_MUTATED_GENOME_KEYWORD_GENES
+Aug-09 19:08:27.071 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.071 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.081 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:EXTRACT_MUTATED_GENOME_KEYWORD_GENES` matches process EXTRACT_MUTATED_GENOME_KEYWORD_GENES
+Aug-09 19:08:27.082 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.083 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.090 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CREATE_CUSTOM_ACETYLTRANSFERASE_DB` matches process CREATE_CUSTOM_ACETYLTRANSFERASE_DB
+Aug-09 19:08:27.092 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.092 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.100 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:BLAST_ACETYLTRANSFERASES_NON_MUTATED` matches process BLAST_ACETYLTRANSFERASES_NON_MUTATED
+Aug-09 19:08:27.102 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.103 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.111 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:BLAST_ACETYLTRANSFERASES_MUTATED` matches process BLAST_ACETYLTRANSFERASES_MUTATED
+Aug-09 19:08:27.113 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.113 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.123 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:EXTRACT_ALL_KEYWORD_GENES_NON_MUTATED` matches process EXTRACT_ALL_KEYWORD_GENES_NON_MUTATED
+Aug-09 19:08:27.124 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.124 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.134 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:ALIGN_KEYWORD_GENES_TO_REFERENCE` matches process ALIGN_KEYWORD_GENES_TO_REFERENCE
+Aug-09 19:08:27.136 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.136 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.144 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:EXTRACT_ALL_KEYWORD_GENES_MUTATED` matches process EXTRACT_ALL_KEYWORD_GENES_MUTATED
+Aug-09 19:08:27.146 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.146 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.155 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:ALIGN_KEYWORD_GENES_TO_REFERENCE_MUTATED` matches process ALIGN_KEYWORD_GENES_TO_REFERENCE_MUTATED
+Aug-09 19:08:27.156 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.156 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.162 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:ANALYZE_NON_MUTATED_GENES` matches process ANALYZE_NON_MUTATED_GENES
+Aug-09 19:08:27.164 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.164 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.181 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:ANALYZE_MUTATED_GENES` matches process ANALYZE_MUTATED_GENES
+Aug-09 19:08:27.183 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.183 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.233 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches labels `process_high` for process with name SNIPPY_MUTATED
+Aug-09 19:08:27.235 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SNIPPY_MUTATED` matches process SNIPPY_MUTATED
+Aug-09 19:08:27.236 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.236 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.243 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches labels `process_high` for process with name SNIPPY_NON_MUTATED
+Aug-09 19:08:27.243 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SNIPPY_NON_MUTATED` matches process SNIPPY_NON_MUTATED
+Aug-09 19:08:27.244 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.244 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.259 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:PROKKA_ASSEMBLED_PREASSEMBLED` matches process PROKKA_ASSEMBLED_PREASSEMBLED
+Aug-09 19:08:27.259 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:PROKKA_ASSEMBLED_PREASSEMBLED` matches process PROKKA_ASSEMBLED_PREASSEMBLED
+Aug-09 19:08:27.261 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.261 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.268 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:EXTRACT_ACETYLTRANSFERASE_GENES_GFF_ASSEMBLED` matches process EXTRACT_ACETYLTRANSFERASE_GENES_GFF_ASSEMBLED
+Aug-09 19:08:27.270 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:EXTRACT_ACETYLTRANSFERASE_GENES_GFF_ASSEMBLED` matches process EXTRACT_ACETYLTRANSFERASE_GENES_GFF_ASSEMBLED
+Aug-09 19:08:27.271 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.272 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.279 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:ANALYZE_PREMATURE_STOPS_PREASSEMBLED` matches process ANALYZE_PREMATURE_STOPS_PREASSEMBLED
+Aug-09 19:08:27.280 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:ANALYZE_PREMATURE_STOPS_PREASSEMBLED` matches process ANALYZE_PREMATURE_STOPS_PREASSEMBLED
+Aug-09 19:08:27.281 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.281 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.292 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:BLAST_ACETYLTRANSFERASES_PREASSEMBLED` matches process BLAST_ACETYLTRANSFERASES_PREASSEMBLED
+Aug-09 19:08:27.293 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:BLAST_ACETYLTRANSFERASES_PREASSEMBLED` matches process BLAST_ACETYLTRANSFERASES_PREASSEMBLED
+Aug-09 19:08:27.295 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-09 19:08:27.295 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-09 19:08:27.299 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: ANALYZE_PREMATURE_STOPS_PREASSEMBLED, BLAST_ACETYLTRANSFERASES, DOWNLOAD_FOLDER, EXTRACT_MUTATED_GENOME_KEYWORD_GENES, BLAST_ACETYLTRANSFERASES_REAL, SNIPPY_MUTATED, PANAROO_MUTATED, MUTATE_GENES, ANALYZE_MUTATED_GENES, ANALYZE_PREMATURE_STOPS_REAL, PANAROO_NON_MUTATED, BLAST_ACETYLTRANSFERASES_MUTATED, EXTRACT_ACETYLTRANSFERASE_GENES_GFF_REAL, GAPFILLER, SSPACE_SCAFFOLDING, CREATE_CUSTOM_ACETYLTRANSFERASE_DB, ALIGN_KEYWORD_GENES_TO_REFERENCE_MUTATED, PROKKA_ASSEMBLED, EXTRACT_ALL_KEYWORD_GENES_NON_MUTATED, DWGSIM_MUTATED, BLAST_ACETYLTRANSFERASES_PREASSEMBLED, DWGSIM_NON_MUTATED, PROKKA_INITIAL, PROKKA_MUTATED, SNIPPY_REAL_READS, EXTRACT_ACETYLTRANSFERASE_GENES_GFF, ANALYZE_NON_MUTATED_GENES, ANALYZE_PREMATURE_STOPS_ASSEMBLED, PROCESS_LOCAL_FILES, EXTRACT_NON_MUTATED_GENOME_KEYWORD_GENES, PROKKA_ASSEMBLED_REAL, SPADES_ASSEMBLY, SNIPPY_NON_MUTATED, EXTRACT_ACETYLTRANSFERASE_GENES_GFF_ASSEMBLED, EXTRACT_ALL_KEYWORD_GENES_MUTATED, ALIGN_KEYWORD_GENES_TO_REFERENCE, BLAST_ACETYLTRANSFERASES_NON_MUTATED, PROKKA_ASSEMBLED_PREASSEMBLED
+Aug-09 19:08:27.305 [main] DEBUG nextflow.Session - Igniting dataflow network (27)
+Aug-09 19:08:27.314 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DOWNLOAD_FOLDER
+Aug-09 19:08:27.315 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROKKA_INITIAL
+Aug-09 19:08:27.316 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MUTATE_GENES
+Aug-09 19:08:27.316 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROKKA_MUTATED
+Aug-09 19:08:27.317 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DWGSIM_MUTATED
+Aug-09 19:08:27.318 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DWGSIM_NON_MUTATED
+Aug-09 19:08:27.318 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PANAROO_NON_MUTATED
+Aug-09 19:08:27.319 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PANAROO_MUTATED
+Aug-09 19:08:27.319 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > EXTRACT_NON_MUTATED_GENOME_KEYWORD_GENES
+Aug-09 19:08:27.320 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > EXTRACT_MUTATED_GENOME_KEYWORD_GENES
+Aug-09 19:08:27.320 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CREATE_CUSTOM_ACETYLTRANSFERASE_DB
+Aug-09 19:08:27.321 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BLAST_ACETYLTRANSFERASES_NON_MUTATED
+Aug-09 19:08:27.321 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BLAST_ACETYLTRANSFERASES_MUTATED
+Aug-09 19:08:27.321 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > EXTRACT_ALL_KEYWORD_GENES_NON_MUTATED
+Aug-09 19:08:27.322 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ALIGN_KEYWORD_GENES_TO_REFERENCE
+Aug-09 19:08:27.322 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > EXTRACT_ALL_KEYWORD_GENES_MUTATED
+Aug-09 19:08:27.322 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ALIGN_KEYWORD_GENES_TO_REFERENCE_MUTATED
+Aug-09 19:08:27.323 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ANALYZE_NON_MUTATED_GENES
+Aug-09 19:08:27.323 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ANALYZE_MUTATED_GENES
+Aug-09 19:08:27.324 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SNIPPY_MUTATED
+Aug-09 19:08:27.324 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SNIPPY_NON_MUTATED
+Aug-09 19:08:27.325 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROKKA_ASSEMBLED_PREASSEMBLED
+Aug-09 19:08:27.326 [PathVisitor-2] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: null/; pattern: *.fa; options: [:]
+Aug-09 19:08:27.326 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > EXTRACT_ACETYLTRANSFERASE_GENES_GFF_ASSEMBLED
+Aug-09 19:08:27.327 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ANALYZE_PREMATURE_STOPS_PREASSEMBLED
+Aug-09 19:08:27.327 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BLAST_ACETYLTRANSFERASES_PREASSEMBLED
+Aug-09 19:08:27.329 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_1d03bdcabaed0d83: /home/tbea20/newpangenomes/./modules/analyze_mutated_genes.nf
+  Script_ff923b68eb024046: /home/tbea20/newpangenomes/./modules/extract_acetyltransferase_genes_gff.nf
+  Script_2853357a99adf83f: /home/tbea20/newpangenomes/./modules/extract_mutated_genome_keyword_genes.nf
+  Script_460bb26ee3db21ae: /home/tbea20/newpangenomes/./modules/download_folder.nf
+  Script_befd29550fa7abf0: /home/tbea20/newpangenomes/./modules/gapfiller.nf
+  Script_4b96398ee133e3a5: /home/tbea20/newpangenomes/./modules/align_keyword_genes_to_reference_mutated.nf
+  Script_24736cd5110435ad: /home/tbea20/newpangenomes/./modules/extract_all_keyword_genes_mutated.nf
+  Script_ef735e8ae6773578: /home/tbea20/newpangenomes/./modules/blast_acetyltransferases_non_mutated.nf
+  Script_9575102b3ef3b74e: /home/tbea20/newpangenomes/./modules/blast_acetyltransferases_mutated.nf
+  Script_59bfd9d49d0e6794: /home/tbea20/newpangenomes/./modules/prokka_initial.nf
+  Script_eae2f8871d33e953: /home/tbea20/newpangenomes/./modules/create_custom_acetyltransferase_db.nf
+  Script_e0e86ffc40cff0d7: /home/tbea20/newpangenomes/./modules/analyze_non_mutated_genes.nf
+  Script_519364f0e348cfd0: /home/tbea20/newpangenomes/./modules/extract_non_mutated_genome_keyword_genes.nf
+  Script_20e09810289caa9b: /home/tbea20/newpangenomes/./modules/prokka_assembled.nf
+  Script_5b65c424c3153171: /home/tbea20/newpangenomes/./modules/dwgsim_non_mutated.nf
+  Script_9963e3df9f148e4a: /home/tbea20/newpangenomes/./modules/extract_all_keyword_genes_non_mutated.nf
+  Script_2d1ee2f4efdee721: /home/tbea20/newpangenomes/./modules/snippy_real_reads.nf
+  Script_40337828cb3befb7: /home/tbea20/newpangenomes/./modules/sspace_scaffolding.nf
+  Script_3c37debb546291c0: /home/tbea20/newpangenomes/./modules/analyze_premature_stops_assembled.nf
+  Script_94449cc7078ee7b3: /home/tbea20/newpangenomes/./modules/prokka_mutated.nf
+  Script_f20615b8e45efae0: /home/tbea20/newpangenomes/./modules/snippy_mutated.nf
+  Script_542a99e3b6ecc31d: /home/tbea20/newpangenomes/./modules/snippy_non_mutated.nf
+  Script_4208eece884745ab: /home/tbea20/newpangenomes/./modules/dwgsim_mutated.nf
+  Script_cd66fce8ed8b00e0: /home/tbea20/newpangenomes/./modules/panaroo_mutated.nf
+  Script_44d8ce245f9ecbd3: /home/tbea20/newpangenomes/./modules/process_local_files.nf
+  Script_3a53d08b78d0aeba: /home/tbea20/newpangenomes/./modules/blast_acetyltransferases.nf
+  Script_ddb537184b388777: /home/tbea20/newpangenomes/./modules/panaroo_non_mutated.nf
+  Script_1a4353f3589ba776: /home/tbea20/newpangenomes/./modules/spades_assembly.nf
+  Script_1d09c3498407c324: /home/tbea20/newpangenomes/./modules/mutate_genes.nf
+  Script_7a98a8c37dc7de88: /home/tbea20/newpangenomes/main.nf
+  Script_fd92006f8e115069: /home/tbea20/newpangenomes/./modules/align_keyword_genes_to_reference.nf
+Aug-09 19:08:27.329 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Aug-09 19:08:27.329 [main] DEBUG nextflow.Session - Session await
+Aug-09 19:08:27.332 [PathVisitor-2] DEBUG nextflow.file.PathVisitor - No such file or directory: null/ -- Skipping visit
+Aug-09 19:08:27.469 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 19:08:27.471 [Task submitter] INFO  nextflow.Session - [b1/406b78] Submitted process > CREATE_CUSTOM_ACETYLTRANSFERASE_DB
+Aug-09 19:08:27.483 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 19:08:27.483 [Task submitter] INFO  nextflow.Session - [69/058555] Submitted process > DOWNLOAD_FOLDER (Downloading https://data-viewer.monocle.sanger.ac.uk/files/downloads/d003cad74036401dbea196133ddecec6/42b5d62e579b4d2ab176ef386c27dce9.zip)
+Aug-09 19:08:29.440 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: DOWNLOAD_FOLDER (Downloading https://data-viewer.monocle.sanger.ac.uk/files/downloads/d003cad74036401dbea196133ddecec6/42b5d62e579b4d2ab176ef386c27dce9.zip); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/newpangenomes/work/69/058555ffd779e0ad6bdfb71f5bbdb7]
+Aug-09 19:08:29.564 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 19:08:29.565 [Task submitter] INFO  nextflow.Session - [3b/85577b] Submitted process > PROKKA_INITIAL (PROKKA on 11658_1#15.contigs_velvet)
+Aug-09 19:08:29.574 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 19:08:29.579 [Task submitter] INFO  nextflow.Session - [3c/bd2955] Submitted process > PROKKA_INITIAL (PROKKA on 11657_2#27.contigs_velvet)
+Aug-09 19:08:29.596 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 19:08:29.597 [Task submitter] INFO  nextflow.Session - [51/0c43ae] Submitted process > PROKKA_INITIAL (PROKKA on 11826_1#30.contigs_velvet)
+Aug-09 19:08:29.609 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 19:08:29.610 [Task submitter] INFO  nextflow.Session - [1c/461bb4] Submitted process > PROKKA_INITIAL (PROKKA on 11657_2#28.contigs_velvet)
+Aug-09 19:08:29.633 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 19:08:29.633 [Task submitter] INFO  nextflow.Session - [5e/bed2de] Submitted process > PROKKA_INITIAL (PROKKA on 11511_7#13.contigs_velvet)
+Aug-09 19:08:29.646 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-09 19:08:29.647 [Task submitter] INFO  nextflow.Session - [f3/1a7d48] Submitted process > PROKKA_INITIAL (PROKKA on 9950_2#65.contigs_velvet)
+Aug-09 19:08:32.079 [SIGINT handler] DEBUG nextflow.Session - Session aborted -- Cause: SIGINT
+Aug-09 19:08:32.156 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Aug-09 19:08:32.162 [SIGINT handler] DEBUG nextflow.Session - The following nodes are still active:
+[process] MUTATE_GENES
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] PROKKA_MUTATED
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] DWGSIM_MUTATED
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] DWGSIM_NON_MUTATED
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] PANAROO_NON_MUTATED
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: gff_files
+  port 1: (cntrl) -     ; channel: $
+
+[process] PANAROO_MUTATED
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: gff_files
+  port 1: (cntrl) -     ; channel: $
+
+[process] EXTRACT_NON_MUTATED_GENOME_KEYWORD_GENES
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: keyword
+  port 2: (cntrl) -     ; channel: $
+
+[process] EXTRACT_MUTATED_GENOME_KEYWORD_GENES
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: keyword
+  port 2: (cntrl) -     ; channel: $
+
+[process] BLAST_ACETYLTRANSFERASES_NON_MUTATED
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: fasta_file
+  port 1: (value) OPEN  ; channel: blast_db_files
+  port 2: (cntrl) -     ; channel: $
+
+[process] BLAST_ACETYLTRANSFERASES_MUTATED
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: fasta_file
+  port 1: (value) OPEN  ; channel: blast_db_files
+  port 2: (cntrl) -     ; channel: $
+
+[process] EXTRACT_ALL_KEYWORD_GENES_NON_MUTATED
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: gene_data_csv
+  port 1: (value) bound ; channel: keyword
+  port 2: (cntrl) -     ; channel: $
+
+[process] ALIGN_KEYWORD_GENES_TO_REFERENCE
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: extracted_genes
+  port 1: (value) OPEN  ; channel: pangenome_reference
+  port 2: (cntrl) -     ; channel: $
+
+[process] EXTRACT_ALL_KEYWORD_GENES_MUTATED
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: gene_data_csv
+  port 1: (value) bound ; channel: keyword
+  port 2: (cntrl) -     ; channel: $
+
+[process] ALIGN_KEYWORD_GENES_TO_REFERENCE_MUTATED
+  status=ACTIVE
+  port 0: (value) OPEN  ; channel: extracted_genes
+  port 1: (value) OPEN  ; channel: pangenome_reference
+  port 2: (cntrl) -     ; channel: $
+
+[process] ANALYZE_NON_MUTATED_GENES
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: fasta_file
+  port 1: (cntrl) -     ; channel: $
+
+[process] ANALYZE_MUTATED_GENES
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: fasta_file
+  port 1: (cntrl) -     ; channel: $
+
+[process] SNIPPY_MUTATED
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (queue) OPEN  ; channel: non_mutated_reference_fasta
+  port 2: (cntrl) -     ; channel: $
+
+[process] SNIPPY_NON_MUTATED
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (queue) OPEN  ; channel: mutated_reference_fasta
+  port 2: (cntrl) -     ; channel: $
+
+Aug-09 19:08:32.166 [SIGINT handler] ERROR nextflow.Nextflow - Pipeline execution stopped with the following message: SIGINT
+Aug-09 19:08:32.174 [main] DEBUG nextflow.Session - Session await > all processes finished
+Aug-09 19:08:32.174 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Aug-09 19:08:32.179 [main] INFO  nextflow.Nextflow - Pipeline completed at: 2024-08-09T19:08:32.177617398+01:00
+Aug-09 19:08:32.180 [main] INFO  nextflow.Nextflow - Execution status: failed
+Aug-09 19:08:32.183 [main] INFO  nextflow.Nextflow - Execution duration: 7s
+Aug-09 19:08:32.193 [main] WARN  n.processor.TaskPollingMonitor - Killing running tasks (7)
+Aug-09 19:08:32.273 [Actor Thread 177] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Aug-09 19:08:32.305 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=7; succeedDuration=926ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=7; peakCpus=7; peakMemory=0; ]
+Aug-09 19:08:32.305 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Aug-09 19:08:32.308 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Aug-09 19:08:33.055 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Aug-09 19:08:33.245 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Aug-09 19:08:33.300 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

@@ -1,0 +1,17 @@
+# Use the specified Python image as the base
+FROM python:3.9.19-slim-bullseye
+
+# Install necessary packages
+RUN apt-get update && apt-get install -y \
+    procps \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Biopython and BCBio
+RUN pip install biopython bcbio-gff
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Command to run when the container starts (this can be overridden by Nextflow)
+CMD ["python", "--version"]

@@ -1,0 +1,15 @@
+FROM python:3.9.19-slim-bullseye
+
+RUN apt-get update && apt-get install -y \
+    procps \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install biopython
+
+WORKDIR /app
+
+COPY bin/analyze_premature_stops.py /app/analyze_premature_stops.py
+RUN chmod +x /app/analyze_premature_stops.py
+
+CMD ["python3"]

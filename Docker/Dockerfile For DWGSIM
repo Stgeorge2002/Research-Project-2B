@@ -1,0 +1,34 @@
+# Use Ubuntu as the base image
+FROM ubuntu:20.04
+
+# Avoid prompts from apt
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install necessary system utilities and dependencies
+RUN apt-get update && apt-get install -y \
+    procps \
+    wget \
+    build-essential \
+    zlib1g-dev \
+    libncurses5-dev \
+    libbz2-dev \
+    liblzma-dev \
+    libcurl4-gnutls-dev \
+    libssl-dev \
+    git \
+    autoconf \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install DWGSIM
+RUN git clone --recursive https://github.com/nh13/DWGSIM.git && \
+    cd DWGSIM && \
+    make && \
+    cp dwgsim dwgsim_eval /usr/local/bin/ && \
+    cd .. && \
+    rm -rf DWGSIM
+
+# Set the working directory
+WORKDIR /data
+
+# Use CMD instead of ENTRYPOINT
+CMD ["/bin/bash"]
