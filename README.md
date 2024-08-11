@@ -7,6 +7,8 @@ This diagram shows only the processes that we discussed previously, and they all
 IMPORTANT:Note ~ To run this, use the command "nextflow run main.nf --runRealReadsAnalysis false -with-docker" to run the pipeline as discussed last meeting. This is done as the new read reads part (with spades, sspace and gapfiller) isnt working yet. 
 
 
+<iframe src="https://www.plectica.com/maps/EM04TH3E9" width="700" height="500"></iframe>
+
 Commands:
 # To run the pipeline
 nextflow run main.nf \
