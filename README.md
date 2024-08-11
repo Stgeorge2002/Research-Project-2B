@@ -2,7 +2,7 @@
 
 ## Workflow process.
 
-![image](https://github.com/user-attachments/assets/11c75679-a1cf-4a4d-997a-db291e31e428)
+![image](https://github.com/user-attachments/assets/3c2c3df9-be43-4e56-965d-598f32020748)
 
 # Commands:
 ### To run the pipeline
