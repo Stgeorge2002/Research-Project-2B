@@ -1,4 +1,4 @@
-# PanReadTools.
+# PanReadPipe.
 
 ## Workflow process.
 
