@@ -1,4 +1,6 @@
-Please see below a diagram to explain the workflow process.
+# PanReadTools.
+
+## Workflow process.
 
 ![image](https://github.com/user-attachments/assets/11c75679-a1cf-4a4d-997a-db291e31e428)
 
