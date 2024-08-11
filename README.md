@@ -2,8 +2,8 @@ Please see below a diagram to explain the workflow process.
 
 ![image](https://github.com/user-attachments/assets/11c75679-a1cf-4a4d-997a-db291e31e428)
 
-Commands:
-# To run the pipeline
+#Commands:
+## To run the pipeline
 nextflow run main.nf \
 # Parameters:
   # Search term used for all extraction, alignment and mutation processes, to focus on genes of interest, default to 'acetyltransferase.
