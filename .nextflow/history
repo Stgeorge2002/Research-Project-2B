@@ -1,0 +1,319 @@
+2024-08-07 17:25:32	10m 28s	kickass_neumann	ERR	22909b7dd456f70149182c8553f50cb8	6fc04b2b-f7f9-4c5b-ade1-d57a0a3f54d2	nextflow run main.nf
+2024-08-07 17:43:53	5m 56s	nasty_elion	ERR	22909b7dd456f70149182c8553f50cb8	6fc04b2b-f7f9-4c5b-ade1-d57a0a3f54d2	nextflow run main.nf -resume
+2024-08-07 18:15:17	4.7s	extravagant_kilby	ERR	22909b7dd456f70149182c8553f50cb8	6fc04b2b-f7f9-4c5b-ade1-d57a0a3f54d2	nextflow run main.nf -resume
+2024-08-07 18:24:06	7m 40s	silly_maxwell	OK	94b60d70af0450f5bf4fed877f66ffb4	6fc04b2b-f7f9-4c5b-ade1-d57a0a3f54d2	nextflow run main.nf -resume
+2024-08-07 18:55:18	3.8s	trusting_baekeland	ERR	94b60d70af0450f5bf4fed877f66ffb4	d4b72c6d-f80e-43d7-a526-340a57e13141	nextflow run main.nf
+2024-08-07 18:58:24	2.9s	scruffy_gilbert	ERR	94b60d70af0450f5bf4fed877f66ffb4	12a49c88-635f-4bd2-bf13-2154d15619c9	nextflow run main.nf
+2024-08-07 18:59:31	12m 11s	exotic_gutenberg	OK	94b60d70af0450f5bf4fed877f66ffb4	1f8b5edf-59a3-417e-927e-238c13ffafa4	nextflow run main.nf
+2024-08-07 20:47:56	11m 49s	friendly_northcutt	OK	94b60d70af0450f5bf4fed877f66ffb4	fdf62878-0244-4a7a-9972-d34dac7c0987	nextflow run main.nf
+2024-08-07 21:02:07	5s	nice_watson	ERR	94b60d70af0450f5bf4fed877f66ffb4	fdf62878-0244-4a7a-9972-d34dac7c0987	nextflow run main.nf -resume '[bd/d1006d]'
+2024-08-07 21:04:43	5.2s	grave_kirch	ERR	94b60d70af0450f5bf4fed877f66ffb4	fdf62878-0244-4a7a-9972-d34dac7c0987	nextflow run main.nf -resume '[b4/784d5f]'
+2024-08-07 21:05:18	7m 36s	insane_avogadro	OK	94b60d70af0450f5bf4fed877f66ffb4	fdf62878-0244-4a7a-9972-d34dac7c0987	nextflow run main.nf -resume '[b4/784d5f]'
+2024-08-07 23:37:27	12m 11s	thirsty_planck	OK	94b60d70af0450f5bf4fed877f66ffb4	0522db07-bb03-4b0b-8b56-610f5ba98325	nextflow run main.nf
+2024-08-08 00:17:49	9.7s	condescending_laplace	ERR	94b60d70af0450f5bf4fed877f66ffb4	8e6774ee-d7c6-4dab-abc9-129e137d5d69	nextflow run main.nf
+2024-08-08 01:09:12	-	deadly_yalow	-	ea0ef0d70d8edade736d0b76d5d63964	e686a3e5-8201-4926-8cfb-3aba7da43003	nextflow run main.nf
+2024-08-08 01:09:46	-	spontaneous_mendel	-	8f6eb457e31ff53057f5d02bc3211606	c3e353fd-1c0e-43bb-95d8-849adc966a0d	nextflow run main.nf
+2024-08-08 01:10:52	-	suspicious_payne	-	8f6eb457e31ff53057f5d02bc3211606	bdffd6d4-c351-4e65-9852-2349b65d9082	nextflow run main.nf
+2024-08-08 01:15:31	8.9s	reverent_raman	ERR	5fb53e17d60c74e469b0e7c529b62b44	4c5d6cf1-0362-4b63-9a1f-acd7afda2ba1	nextflow run main.nf
+2024-08-08 02:40:21	4m 33s	curious_chandrasekhar	ERR	9a1762765bbaf2b1678df64a51604c66	4c5d6cf1-0362-4b63-9a1f-acd7afda2ba1	nextflow run main.nf -resume
+2024-08-08 02:46:00	10m 50s	exotic_kalman	ERR	9a1762765bbaf2b1678df64a51604c66	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false
+2024-08-08 03:04:33	6m 17s	suspicious_noether	ERR	66960b89375d47a1be79fc9266974f72	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[04/f1f9c2]'
+2024-08-08 03:12:34	21m 53s	berserk_boltzmann	ERR	66960b89375d47a1be79fc9266974f72	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-08 03:59:13	20m 16s	fervent_maxwell	ERR	66960b89375d47a1be79fc9266974f72	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-08 13:07:00	16.8s	insane_panini	ERR	66960b89375d47a1be79fc9266974f72	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[23/ed0542]'
+2024-08-08 13:07:56	16m 18s	high_hugle	ERR	66960b89375d47a1be79fc9266974f72	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[23/ed0542]'
+2024-08-08 22:07:57	-	small_raman	-	b712c31e2ad4146793426a962bee3766	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-08 22:11:14	-	sad_spence	-	b712c31e2ad4146793426a962bee3766	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-08 22:12:20	-	desperate_ramanujan	-	b712c31e2ad4146793426a962bee3766	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-08 22:13:19	-	naughty_goldstine	-	b712c31e2ad4146793426a962bee3766	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-08 22:13:55	-	awesome_baekeland	-	f61adf6afffe658cb12c2cca740c6315	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-08 22:15:05	4.3s	determined_montalcini	ERR	411fdc54683adb914dbe885f7d8668b6	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-08 22:17:11	12m 8s	furious_brattain	ERR	9537b375bd517366b171237d9d459bd9	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-08 22:35:05	2m 6s	clever_heisenberg	ERR	18b94195b69a5742af26659d3390a4b2	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-08 22:42:13	2m 11s	sick_crick	ERR	8da58679d80a3d3efabc41aa60e21637	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-08 22:46:09	14.1s	cranky_hamilton	ERR	aad4aead0bd77b202a0bdcb5cadbdab4	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-08 22:46:42	11m 25s	clever_meitner	ERR	aad4aead0bd77b202a0bdcb5cadbdab4	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[f9/6add82]'
+2024-08-08 23:46:16	14.2s	compassionate_panini	ERR	89c7212945eefc663e1c584710ade3c1	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[ef/db0678]'
+2024-08-08 23:46:45	15.1s	astonishing_lattes	ERR	89c7212945eefc663e1c584710ade3c1	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[17/3dbb3f]'
+2024-08-08 23:47:08	11m 23s	clever_blackwell	ERR	89c7212945eefc663e1c584710ade3c1	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[f9/6add82]'
+2024-08-09 00:01:58	-	festering_varahamihira	-	89c7212945eefc663e1c584710ade3c1	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[c1/3738d7]'
+2024-08-09 00:02:45	-	irreverent_khorana	-	89c7212945eefc663e1c584710ade3c1	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[c1/3738d7]'
+2024-08-09 00:04:47	11m 47s	lonely_yalow	ERR	ca8377fdde0354d7c52d6e3dab63d0e7	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[c1/3738d7]'
+2024-08-09 00:21:30	8.3s	maniac_laplace	ERR	99ca42fefed10558a7fae97a51bf43a9	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-09 00:21:51	7.7s	clever_pare	ERR	99ca42fefed10558a7fae97a51bf43a9	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[d8/1d627e]'
+2024-08-09 00:22:21	4.4s	high_easley	ERR	99ca42fefed10558a7fae97a51bf43a9	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[83/7ef5a3]'
+2024-08-09 00:28:37	3.5s	soggy_becquerel	ERR	7d84596940134ea4e3b5f491fb86ff4c	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[83/7ef5a3]'
+2024-08-09 00:36:36	-	romantic_shannon	-	341808862647c202974cc55cb8378289	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[83/7ef5a3]'
+2024-08-09 00:55:29	-	wise_swartz	-	6e6e4b371e875b9bb4fffd2ea314774b	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[83/7ef5a3]'
+2024-08-09 01:00:06	3.6s	sick_noyce	ERR	e22a64a9345bb74f409317e500ed57f4	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[83/7ef5a3]'
+2024-08-09 01:03:00	3.8s	nasty_heyrovsky	ERR	45d7b9292a18f21c0cd674f077ba6c0f	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[83/7ef5a3]'
+2024-08-09 01:05:39	14m 24s	desperate_meitner	ERR	5324af86cef4501b665434f5cff54ae3	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[83/7ef5a3]'
+2024-08-09 01:30:15	12m 17s	disturbed_sanger	ERR	093a433b3dd3be03817c494d173e2158	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[83/7ef5a3]'
+2024-08-09 01:45:47	-	adoring_baekeland	-	895e04961b4f0adba783eb2e2170d3cd	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[31/4582bd]'
+2024-08-09 01:47:19	7.6s	focused_church	ERR	895e04961b4f0adba783eb2e2170d3cd	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[31/4582bd]'
+2024-08-09 01:47:43	11m 18s	furious_sax	ERR	895e04961b4f0adba783eb2e2170d3cd	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[df/95cb89]'
+2024-08-09 02:11:53	6.1s	gloomy_chandrasekhar	ERR	895e04961b4f0adba783eb2e2170d3cd	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[df/95cb89]'
+2024-08-09 02:16:23	5.6s	boring_hamilton	ERR	895e04961b4f0adba783eb2e2170d3cd	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[df/95cb89]'
+2024-08-09 02:17:58	12m 2s	hungry_monod	ERR	895e04961b4f0adba783eb2e2170d3cd	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[df/95cb89]'
+2024-08-09 02:45:00	6.3s	lethal_bassi	ERR	895e04961b4f0adba783eb2e2170d3cd	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[42/db2aa1]'
+2024-08-09 02:46:36	8.6s	confident_escher	ERR	895e04961b4f0adba783eb2e2170d3cd	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[42/db2aa1]'
+2024-08-09 02:46:57	8.2s	romantic_pare	ERR	895e04961b4f0adba783eb2e2170d3cd	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[9a/122bd5]'
+2024-08-09 02:47:10	7.6s	mad_lovelace	ERR	895e04961b4f0adba783eb2e2170d3cd	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[31/4582bd]'
+2024-08-09 02:47:42	5.9s	distraught_meninsky	ERR	895e04961b4f0adba783eb2e2170d3cd	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[d5/4be6d2]'
+2024-08-09 02:58:52	6.9s	drunk_crick	ERR	895e04961b4f0adba783eb2e2170d3cd	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[d5/4be6d2]'
+2024-08-09 02:59:16	5.8s	extravagant_hodgkin	ERR	895e04961b4f0adba783eb2e2170d3cd	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[b4/2717c9]'
+2024-08-09 03:04:26	-	gloomy_nightingale	-	83dc215fd07e16052adc19818b93ee84	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-09 03:05:05	-	big_rosalind	-	0f873ed53e5b07a9226faeeb7113a10a	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-09 03:09:10	5.5s	pedantic_colden	ERR	6c778d17c9577eec6595f689aef54367	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-09 03:17:34	3.7s	maniac_noether	ERR	158d6e81e4672d437b9f2959dad91553	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-09 03:18:47	7.1s	modest_kare	ERR	26209bf40d4e2eef430394862ad61bce	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-09 03:19:03	7s	condescending_goldstine	ERR	26209bf40d4e2eef430394862ad61bce	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[cf/172dce]'
+2024-08-09 03:19:31	3.7s	fabulous_montalcini	ERR	26209bf40d4e2eef430394862ad61bce	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[cf/172dce]'
+2024-08-09 03:31:51	3.5s	admiring_agnesi	ERR	9e78abaa87f846eafabd2f5113191232	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[cf/172dce]'
+2024-08-09 03:32:11	4.1s	evil_mercator	ERR	9e78abaa87f846eafabd2f5113191232	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[cf/172dce]'
+2024-08-09 03:33:17	6.5s	gloomy_curran	ERR	e23558d636ca00c6a3c74af75cf2778f	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[cf/172dce]'
+2024-08-09 03:33:35	4.1s	peaceful_stone	ERR	e23558d636ca00c6a3c74af75cf2778f	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[f2/136abe]'
+2024-08-09 03:34:49	3.6s	extravagant_descartes	ERR	9e78abaa87f846eafabd2f5113191232	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[f2/136abe]'
+2024-08-09 03:37:03	4.1s	marvelous_mirzakhani	ERR	4e36521ba6b8cf7319f542af093162a5	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[cf/172dce]'
+2024-08-09 03:38:48	3.9s	deadly_stone	ERR	fa4209a287716b8398f63451a01de449	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[f2/136abe]'
+2024-08-09 03:39:33	3.7s	cranky_kowalevski	ERR	fa4209a287716b8398f63451a01de449	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[f2/136abe]'
+2024-08-09 03:41:34	3.5s	infallible_majorana	ERR	589b4317e10cab553fecaa7c0eb2f308	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[cf/172dce]'
+2024-08-09 03:45:17	7s	stupefied_babbage	ERR	e23ccfd9ee53cf498bd6c211521cd835	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[1c/b14f56]'
+2024-08-09 03:45:29	3.7s	deadly_wescoff	ERR	e23ccfd9ee53cf498bd6c211521cd835	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[cf/172dce]'
+2024-08-09 03:48:29	-	prickly_euclid	-	580ddd9b421d490f01a32a692ee21ba3	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[cf/172dce]'
+2024-08-09 03:49:48	6.5s	loving_magritte	ERR	09b43f758e7804978f383d0843221355	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[cf/172dce]'
+2024-08-09 03:50:07	25.4s	fabulous_rutherford	ERR	09b43f758e7804978f383d0843221355	4c0414b9-e978-4e16-af45-0ac64ab0a436	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[1c/b14f56]'
+2024-08-09 03:50:49	22m 20s	focused_bartik	ERR	09b43f758e7804978f383d0843221355	d469e19a-566e-419a-97b2-9d3328528db8	nextflow run main.nf --runRealReadsAnalysis --useRealReads false
+2024-08-09 11:49:41	3.7s	condescending_almeida	ERR	ec2aa43ae09c60f6aace053360e02f03	d469e19a-566e-419a-97b2-9d3328528db8	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[a1/928307]'
+2024-08-09 11:52:27	5.6s	nostalgic_volhard	ERR	2a9b3b4e20bee79858e25f5cd745ed6e	d469e19a-566e-419a-97b2-9d3328528db8	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[a1/928307]'
+2024-08-09 11:52:52	6.2s	happy_lorenz	ERR	2a9b3b4e20bee79858e25f5cd745ed6e	d469e19a-566e-419a-97b2-9d3328528db8	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[a1/928307]'
+2024-08-09 11:53:14	31.8s	berserk_nobel	ERR	2a9b3b4e20bee79858e25f5cd745ed6e	d469e19a-566e-419a-97b2-9d3328528db8	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[2b/01ddf7]'
+2024-08-09 11:54:13	18m 59s	kickass_mercator	ERR	2a9b3b4e20bee79858e25f5cd745ed6e	d469e19a-566e-419a-97b2-9d3328528db8	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[9e/a863d1]'
+2024-08-09 12:19:36	4.2s	backstabbing_euler	ERR	9cf5d95f1f7d741c56d77c6e84bbc05d	d469e19a-566e-419a-97b2-9d3328528db8	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[19/06d70d]'
+2024-08-09 12:21:55	3.6s	pedantic_bhabha	ERR	3d70d8e1a88b7dd3f01cc6fd7dece7f6	d469e19a-566e-419a-97b2-9d3328528db8	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[19/06d70d]'
+2024-08-09 12:24:26	19m 34s	evil_hamilton	ERR	b902e565a6996e328b4c3932e092c27e	d469e19a-566e-419a-97b2-9d3328528db8	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[19/06d70d]'
+2024-08-09 12:44:16	3.9s	high_pare	ERR	2621a6fab833e5810df1bef207ab43e4	d469e19a-566e-419a-97b2-9d3328528db8	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[78/79ddc2]'
+2024-08-09 12:47:32	20m 8s	disturbed_nightingale	ERR	b207fcc82070dc3ab01e01d9089218c7	d469e19a-566e-419a-97b2-9d3328528db8	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume '[a1/928307]'
+2024-08-09 13:47:32	7.2s	thirsty_almeida	ERR	d7d3d381c0daa869200522f63cfb42c9	d469e19a-566e-419a-97b2-9d3328528db8	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-09 13:54:40	19m 43s	sad_boltzmann	ERR	879782d105963640ced94f7046f55361	d469e19a-566e-419a-97b2-9d3328528db8	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-09 14:18:28	4.6s	nauseous_meninsky	ERR	39cd6cab880bb6233e5bb47198369648	d469e19a-566e-419a-97b2-9d3328528db8	nextflow run main.nf --runRealReadsAnalysis --useRealReads false -resume
+2024-08-09 18:25:44	3.9s	exotic_elion	ERR	a6907763e16ac21839a0ac9290df13d6	5041092a-6eaf-43ac-b4d9-1c39fe847442	nextflow run main.nf --runRealReadsAnalysis false --assembledGenomesDir null
+2024-08-09 18:26:22	3.9s	irreverent_watson	ERR	a6907763e16ac21839a0ac9290df13d6	a5627c92-efe5-4627-80ee-4e3e4bcb7f1a	nextflow run main.nf --runRealReadsAnalysis false --assembledGenomesDir null
+2024-08-09 18:27:45	29.3s	happy_payne	ERR	a6907763e16ac21839a0ac9290df13d6	1fe725f9-4f7f-49ec-873c-95c181c8995e	nextflow run main.nf --runRealReadsAnalysis false --assembledGenomesDir null
+2024-08-09 18:28:37	13m 38s	big_keller	OK	a6907763e16ac21839a0ac9290df13d6	e6f950d1-e864-4de7-a3ea-8869e4d1094b	nextflow run main.nf --runRealReadsAnalysis false --assembledGenomesDir null
+2024-08-09 19:03:10	1m 31s	amazing_engelbart	ERR	a6907763e16ac21839a0ac9290df13d6	f217ad05-01f3-406b-8a6d-63b10280cb2a	nextflow run main.nf --runRealReadsAnalysis false --assembledGenomesDir null
+2024-08-09 19:04:46	2m 54s	naughty_wright	ERR	a6907763e16ac21839a0ac9290df13d6	fad793a9-4b18-42a6-bdf6-7357ee8ec432	nextflow run main.nf --runRealReadsAnalysis false --assembledGenomesDir null
+2024-08-09 19:08:25	8.3s	goofy_austin	ERR	a6907763e16ac21839a0ac9290df13d6	3f66a653-13e4-4b2e-b77d-f11ee45e5040	nextflow run main.nf --runRealReadsAnalysis false --assembledGenomesDir null --search_term acetyltransferase
+2024-08-10 02:17:08	12m 23s	elated_stone	OK	a6907763e16ac21839a0ac9290df13d6	1b352fd8-494d-4f8c-96f9-9cbc28208ce0	nextflow run main.nf --runRealReadsAnalysis false --useRealReads false
+2024-08-10 02:31:01	26m 58s	compassionate_mahavira	ERR	a6907763e16ac21839a0ac9290df13d6	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-10 03:06:14	22m 28s	adoring_lattes	ERR	aa85e579414228917c84c4d2430b667b	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-10 03:44:26	4.4s	modest_watson	ERR	5486ce368a435fb345c0e29a9a169f0a	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[99/95b852]'
+2024-08-10 03:45:45	9.1s	fabulous_gauss	ERR	de39b958634a145a8e48e19cde45bb24	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[99/95b852]'
+2024-08-10 03:46:08	21m 5s	gloomy_franklin	ERR	de39b958634a145a8e48e19cde45bb24	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[43/783b62]'
+2024-08-10 04:19:01	4.5s	clever_fermi	ERR	5883a23ae412272a934212f5c8b06ad1	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[1b/e7f43a]'
+2024-08-10 04:21:25	6.2s	curious_cajal	ERR	3bc46cdd2fb8236c123737fc5386f82b	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[43/783b62]'
+2024-08-10 04:21:35	4.4s	hungry_bose	ERR	3bc46cdd2fb8236c123737fc5386f82b	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[1b/e7f43a]'
+2024-08-10 04:23:39	8.2s	clever_bell	ERR	b30a497b5f45620e4a089e618c82e9a3	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[1b/e7f43a]'
+2024-08-10 04:24:01	3m 5s	magical_monod	ERR	b30a497b5f45620e4a089e618c82e9a3	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[1b/e7f43a]'
+2024-08-10 04:34:26	4.2s	lethal_pike	ERR	9fa0b20e9a09684139971234a7e5919e	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[1b/e7f43a]'
+2024-08-10 04:38:55	10.2s	mad_easley	ERR	22c7b1876caaf9dbe1f3972281361fbe	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[1b/e7f43a]'
+2024-08-10 04:39:19	4.1s	golden_saha	ERR	22c7b1876caaf9dbe1f3972281361fbe	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[1b/e7f43a]'
+2024-08-10 04:41:37	4.4s	mad_borg	ERR	7429168bc2b04283d1b292684020cbf0	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[43/783b62]'
+2024-08-10 04:43:14	-	spontaneous_bose	-	0cf5cb4064814d748c0ac989b12d9cad	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[43/783b62]'
+2024-08-10 04:44:41	3.9s	stupefied_angela	ERR	98b10f72e93beecc3437df84d53b552b	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[43/783b62]'
+2024-08-10 04:46:49	5.4s	crazy_feynman	ERR	3d9cbc7da9e162c74e4735446be7d356	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[43/783b62]'
+2024-08-10 04:50:31	29.5s	focused_shaw	ERR	3d9cbc7da9e162c74e4735446be7d356	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[e2/c8d80b]'
+2024-08-10 04:55:20	4.8s	modest_jones	ERR	3d9cbc7da9e162c74e4735446be7d356	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-10 04:57:29	7.6s	ecstatic_venter	ERR	4f3ea978927f096e649ba60072f4b01c	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-10 04:57:49	7.8s	loving_dubinsky	ERR	4f3ea978927f096e649ba60072f4b01c	93f7a0e9-3ca8-4b36-a3bd-06c029e7f271	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[19/002576]'
+2024-08-10 04:58:44	1m 18s	hungry_dijkstra	ERR	4f3ea978927f096e649ba60072f4b01c	25fa0466-2369-4127-a1d0-8b3853a51d50	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-10 05:00:24	25m 26s	sleepy_gates	ERR	4f3ea978927f096e649ba60072f4b01c	693a8ed7-7000-4727-bf14-cf4e46f474b3	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-10 15:13:44	-	angry_gauss	-	6631005cc0466e0aeb6a03c7f03271bf	693a8ed7-7000-4727-bf14-cf4e46f474b3	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-10 15:26:48	-	boring_lagrange	-	6631005cc0466e0aeb6a03c7f03271bf	693a8ed7-7000-4727-bf14-cf4e46f474b3	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-10 15:29:01	3.6s	lonely_perlman	ERR	8486ded42367154b521fa71d4764dc8a	693a8ed7-7000-4727-bf14-cf4e46f474b3	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-10 15:32:17	3.7s	dreamy_hodgkin	ERR	a9383053fe503f702ff391cb61a90141	693a8ed7-7000-4727-bf14-cf4e46f474b3	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-10 15:38:40	20m 21s	compassionate_visvesvaraya	ERR	2f423fe4e5e4a380e084ff04c09b7a9f	693a8ed7-7000-4727-bf14-cf4e46f474b3	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-10 16:05:33	4.7s	naughty_avogadro	ERR	9cab1126fd74839ddfe4c77818c6d714	693a8ed7-7000-4727-bf14-cf4e46f474b3	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-10 16:15:32	20m 34s	mad_jepsen	ERR	9cab1126fd74839ddfe4c77818c6d714	693a8ed7-7000-4727-bf14-cf4e46f474b3	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-10 16:49:24	46m 10s	sad_saha	ERR	f06da14647f51964d0edf6ae8728c875	693a8ed7-7000-4727-bf14-cf4e46f474b3	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[36/74522c]'
+2024-08-10 19:49:36	54m 25s	high_torricelli	ERR	4eaa4cb6afdd4fd5bf28b603e5c842fe	693a8ed7-7000-4727-bf14-cf4e46f474b3	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[5a/bf8524]'
+2024-08-10 20:50:02	48m 12s	nice_dubinsky	OK	1862aea89a9f809fafa4a6e625ff6c82	693a8ed7-7000-4727-bf14-cf4e46f474b3	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 01:40:34	4.1s	sick_kalam	ERR	1862aea89a9f809fafa4a6e625ff6c82	693a8ed7-7000-4727-bf14-cf4e46f474b3	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[a8/d5b969]'
+2024-08-11 01:40:43	21m 57s	amazing_goldstine	OK	1862aea89a9f809fafa4a6e625ff6c82	693a8ed7-7000-4727-bf14-cf4e46f474b3	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[a8/d5b969]'
+2024-08-11 02:34:08	5.8s	confident_noether	ERR	d2ecf34237ef4aa1362d21cf1dc51c4b	843ef481-dbe2-4d97-a6a0-12a9ca0bd7d4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-11 02:34:56	5.7s	chaotic_engelbart	ERR	d2ecf34237ef4aa1362d21cf1dc51c4b	3ea1da59-3ae9-437d-9b35-b6854f824986	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-11 02:37:22	12m 45s	agitated_curry	ERR	d2ecf34237ef4aa1362d21cf1dc51c4b	851be0ab-a626-4604-ba3f-05266d49944b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-11 03:09:55	7m 18s	silly_knuth	ERR	d2ecf34237ef4aa1362d21cf1dc51c4b	851be0ab-a626-4604-ba3f-05266d49944b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 03:38:37	22.6s	spontaneous_wing	ERR	f1ee1f73b26276ab533566a5ec84cc5e	851be0ab-a626-4604-ba3f-05266d49944b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 03:45:13	6m 48s	awesome_plateau	ERR	f1ee1f73b26276ab533566a5ec84cc5e	851be0ab-a626-4604-ba3f-05266d49944b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 04:03:51	20s	sleepy_faraday	ERR	c0e5be5bef0273aafe986f5792823f38	851be0ab-a626-4604-ba3f-05266d49944b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 04:04:29	7m 8s	sharp_venter	ERR	c0e5be5bef0273aafe986f5792823f38	851be0ab-a626-4604-ba3f-05266d49944b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 04:14:27	6m 59s	cranky_bartik	ERR	c0e5be5bef0273aafe986f5792823f38	851be0ab-a626-4604-ba3f-05266d49944b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 04:32:59	6m 48s	big_swirles	ERR	5c53b3f81d2309ae691c1906d9a15525	851be0ab-a626-4604-ba3f-05266d49944b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 04:44:19	6.5s	loquacious_sanger	ERR	d2ecf34237ef4aa1362d21cf1dc51c4b	851be0ab-a626-4604-ba3f-05266d49944b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 04:50:35	6.7s	hungry_mendel	ERR	d2ecf34237ef4aa1362d21cf1dc51c4b	851be0ab-a626-4604-ba3f-05266d49944b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 04:51:52	5.1s	loving_payne	ERR	d2ecf34237ef4aa1362d21cf1dc51c4b	851be0ab-a626-4604-ba3f-05266d49944b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 04:53:54	4.7s	sleepy_woese	ERR	d2ecf34237ef4aa1362d21cf1dc51c4b	851be0ab-a626-4604-ba3f-05266d49944b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 04:54:33	7s	boring_snyder	ERR	d2ecf34237ef4aa1362d21cf1dc51c4b	851be0ab-a626-4604-ba3f-05266d49944b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 04:56:43	31.3s	nasty_lamport	ERR	d2ecf34237ef4aa1362d21cf1dc51c4b	851be0ab-a626-4604-ba3f-05266d49944b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 04:59:30	21m 20s	agitated_linnaeus	OK	d2ecf34237ef4aa1362d21cf1dc51c4b	851be0ab-a626-4604-ba3f-05266d49944b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 05:33:27	-	pedantic_bell	-	d428fea65a32842be294bbfeb9727e59	98eb7b0d-1b8d-4d86-b8c3-584d9764371f	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-11 05:34:28	28.3s	golden_gilbert	ERR	8adf1d39e079e27fc0bbab64d7eead03	ebf24fe0-7953-4ba9-af1a-3dbc8f787bf4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-11 05:38:05	6.7s	fabulous_plateau	ERR	a9fd09bb1945ed436c37f1e76bfdeb09	2a573cd6-0364-4a2c-a79d-df284bb23419	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-11 06:47:16	17.4s	determined_visvesvaraya	ERR	6323005f97a8a6684ef82f934f702796	e9540442-2a25-491c-a9dd-17e7bc483288	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-11 06:51:38	29m 34s	mighty_bardeen	OK	6323005f97a8a6684ef82f934f702796	5832cc9f-057a-48a1-a3b6-19f0aa981ed0	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-11 20:41:20	9m 11s	soggy_kimura	ERR	98f3e08e310a644e8979390141fff8e6	5832cc9f-057a-48a1-a3b6-19f0aa981ed0	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 21:22:10	8m 36s	shrivelled_pare	ERR	98f3e08e310a644e8979390141fff8e6	5832cc9f-057a-48a1-a3b6-19f0aa981ed0	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 21:33:13	9m 8s	confident_tesla	ERR	103ecdb78aa84e890ce13c7d0a7a45b4	5832cc9f-057a-48a1-a3b6-19f0aa981ed0	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 21:47:53	11s	loving_brazil	ERR	db97695a401d945b514de35b123fb357	5832cc9f-057a-48a1-a3b6-19f0aa981ed0	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 21:54:49	7m 29s	chaotic_archimedes	ERR	db97695a401d945b514de35b123fb357	5832cc9f-057a-48a1-a3b6-19f0aa981ed0	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 23:33:52	8.7s	small_shaw	ERR	db97695a401d945b514de35b123fb357	5832cc9f-057a-48a1-a3b6-19f0aa981ed0	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 23:40:30	7.8s	exotic_wing	ERR	db97695a401d945b514de35b123fb357	5832cc9f-057a-48a1-a3b6-19f0aa981ed0	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-11 23:41:22	21m 11s	scruffy_davinci	OK	db97695a401d945b514de35b123fb357	5832cc9f-057a-48a1-a3b6-19f0aa981ed0	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 02:50:32	9m 13s	pensive_einstein	ERR	db97695a401d945b514de35b123fb357	19208172-4126-4bb1-9cd0-d01bc9b6332c	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 03:00:24	15.1s	berserk_colden	ERR	db97695a401d945b514de35b123fb357	a0c3a6e6-7f12-4432-9620-07369eabfdc0	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 03:05:22	4m 27s	nice_rutherford	ERR	db97695a401d945b514de35b123fb357	d7d202fb-95f7-4772-a017-d6e03088cdf0	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 03:15:39	5m 52s	desperate_nobel	ERR	db97695a401d945b514de35b123fb357	b621a15e-f7f7-48ee-b3eb-476e79b44b05	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 03:21:58	18m 40s	amazing_shockley	ERR	db97695a401d945b514de35b123fb357	2e00e0c8-276f-4d9e-85d2-ab9aa7f0824e	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 03:42:41	-	golden_church	-	1de312b281e7ffeb4f3dfdb732242d0e	2e00e0c8-276f-4d9e-85d2-ab9aa7f0824e	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 03:43:28	-	modest_booth	-	1de312b281e7ffeb4f3dfdb732242d0e	2e00e0c8-276f-4d9e-85d2-ab9aa7f0824e	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 03:43:59	10.3s	sad_cuvier	ERR	1de312b281e7ffeb4f3dfdb732242d0e	2e00e0c8-276f-4d9e-85d2-ab9aa7f0824e	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 03:53:01	5s	tender_magritte	ERR	1de312b281e7ffeb4f3dfdb732242d0e	2e00e0c8-276f-4d9e-85d2-ab9aa7f0824e	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 03:55:45	-	distraught_brenner	-	18b70d3fa6df4f8c4e7082e2c7db8e5f	2e00e0c8-276f-4d9e-85d2-ab9aa7f0824e	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 03:56:20	1m 23s	hopeful_coulomb	ERR	18b70d3fa6df4f8c4e7082e2c7db8e5f	2e00e0c8-276f-4d9e-85d2-ab9aa7f0824e	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 03:57:49	48m 32s	distraught_dijkstra	ERR	18b70d3fa6df4f8c4e7082e2c7db8e5f	2f39aee0-de0f-4c08-a7b7-0ba6fbcaf928	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 03:59:16	11m 14s	irreverent_nightingale	ERR	18b70d3fa6df4f8c4e7082e2c7db8e5f	76856833-32d1-432d-9173-60ca48b38344	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 04:16:52	-	silly_poisson	-	f0edb0094c837e43176ebfc38394e182	96fdbc1d-f8b9-4b42-8c7c-9f1a7c4f17c9	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 04:18:33	-	astonishing_volta	-	ce20dc4fe4e55073e24634d02fe9eb15	ddf39916-bab1-4f65-ab31-f282ee87bc28	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 04:19:56	60s	cheeky_shannon	ERR	04ab51d6c83b4cb747c608a0958d88b5	0f2fcb1f-0615-4c8c-aa48-08500fd89dbb	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 04:21:28	15m 9s	modest_waddington	ERR	04ab51d6c83b4cb747c608a0958d88b5	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 04:38:05	8.2s	infallible_wozniak	ERR	1abd18d8fa4bf77a14a237e86f43f2a5	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 04:40:06	5.2s	intergalactic_booth	ERR	e0a0b67e0e26f9d08f35f847dd323b20	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 04:41:42	4.9s	insane_brazil	ERR	a8364e9b7077021e5a20b1364f44d6dd	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 04:42:55	7.9s	determined_elion	ERR	a8364e9b7077021e5a20b1364f44d6dd	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 04:44:53	4.3s	nasty_rubens	ERR	0ccfeb6f8f5939ebb0d78567514bf76f	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 04:46:02	14.4s	festering_carlsson	ERR	2d39a3301ebb32b710520d30fcf56a28	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 04:47:45	-	jovial_rubens	-	de2549910d28fe8ddd6fb098e51639e3	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 04:49:25	-	elated_kay	-	7fb17261b0a39874b7b90c0d50ad09f7	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 04:49:46	-	ecstatic_euclid	-	7fb17261b0a39874b7b90c0d50ad09f7	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 04:50:06	-	trusting_bhaskara	-	7fb17261b0a39874b7b90c0d50ad09f7	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 04:50:43	-	trusting_jones	-	7fb17261b0a39874b7b90c0d50ad09f7	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 04:52:51	4.1s	magical_aryabhata	ERR	2debea8e1fab5bb4790bec798b92df73	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 04:53:43	-	shrivelled_curran	-	04ab51d6c83b4cb747c608a0958d88b5	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 04:54:52	-	gigantic_majorana	-	04ab51d6c83b4cb747c608a0958d88b5	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:11:19	-	elated_mahavira	-	04ab51d6c83b4cb747c608a0958d88b5	8b4323be-6c5c-434f-860e-3d71447c2ac4	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:11:31	14m 18s	mad_saha	ERR	04ab51d6c83b4cb747c608a0958d88b5	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 05:25:57	1m 12s	astonishing_mandelbrot	ERR	04ab51d6c83b4cb747c608a0958d88b5	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:27:18	2m 34s	special_poisson	ERR	04ab51d6c83b4cb747c608a0958d88b5	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:29:59	1m 49s	furious_bohr	ERR	d41f8214c22561c8428266b2a094b185	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:31:52	-	ecstatic_woese	-	b1067e365ca3d60947eda1e1a7f1f72c	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:32:33	29.9s	stupefied_legentil	ERR	36b9715ae97ca450cbf14381dfa1ccb8	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:33:39	1m	ridiculous_boyd	ERR	070db879fb9806ebb817017211bdff35	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:34:44	6.5s	elegant_stallman	ERR	fea40bb1883b53ab923c5d5d063936bb	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:35:37	-	determined_leibniz	-	7b92dc02c54c60397f08baf91b524584	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:37:11	-	disturbed_avogadro	-	9b71617ad691aa7c556d8664c74497ff	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:40:19	-	scruffy_wiles	-	9b71617ad691aa7c556d8664c74497ff	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:41:11	7m 27s	goofy_franklin	ERR	cf7701548642ab88d4536c25bcb7fce6	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:48:45	-	agitated_ampere	-	ade2dc634191902128fb72d4e35e7b4d	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:49:28	11.4s	boring_feynman	ERR	ade2dc634191902128fb72d4e35e7b4d	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:51:22	4.2s	pensive_meninsky	ERR	ade2dc634191902128fb72d4e35e7b4d	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:52:53	4.1s	shrivelled_knuth	ERR	ade2dc634191902128fb72d4e35e7b4d	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:56:29	-	ridiculous_jepsen	-	ade2dc634191902128fb72d4e35e7b4d	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 05:59:31	-	pensive_kare	-	04ab51d6c83b4cb747c608a0958d88b5	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 06:00:02	5s	nice_kalam	ERR	04ab51d6c83b4cb747c608a0958d88b5	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 06:01:24	4.7s	loquacious_lumiere	ERR	04ab51d6c83b4cb747c608a0958d88b5	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 06:04:08	27m 8s	peaceful_varahamihira	ERR	04ab51d6c83b4cb747c608a0958d88b5	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 13:32:48	31m 40s	crazy_montalcini	ERR	04ab51d6c83b4cb747c608a0958d88b5	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 14:09:32	10.7s	spontaneous_ardinghelli	ERR	04ab51d6c83b4cb747c608a0958d88b5	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 14:10:22	23m 40s	sad_curran	OK	04ab51d6c83b4cb747c608a0958d88b5	ce37a6b1-01fa-47e4-8f6e-98ce86cfb7e7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 14:51:50	-	crazy_darwin	-	6aeda54a2ad98f2c0d9cac22bf02eac2	2da12c0d-6672-4887-91b9-bfd2751fc77e	nextflow run main.nf
+2024-08-12 14:53:36	-	infallible_ampere	-	f3f9bf9c2d5daaedf3247c4f16301099	77386186-0a9b-4361-9e52-2d09bb61ceb4	nextflow run main.nf
+2024-08-12 15:39:45	-	scruffy_newton	-	b12e43eb6af3a1859f4fd0b9d3dc1d60	8af8efa8-b3c6-409a-90d4-1c665e5a07b6	nextflow run main.nf
+2024-08-12 15:40:48	-	jolly_khorana	-	b12e43eb6af3a1859f4fd0b9d3dc1d60	8af8efa8-b3c6-409a-90d4-1c665e5a07b6	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 15:41:06	15m 49s	irreverent_magritte	ERR	04ab51d6c83b4cb747c608a0958d88b5	8af8efa8-b3c6-409a-90d4-1c665e5a07b6	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 15:57:38	-	kickass_marconi	-	393590b5215ee9a0739ab26d16c266e3	8af8efa8-b3c6-409a-90d4-1c665e5a07b6	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 16:11:16	-	spontaneous_heisenberg	-	12db4bfdef7cd890742527aa150a8e81	8af8efa8-b3c6-409a-90d4-1c665e5a07b6	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 16:39:43	-	distracted_curran	-	12db4bfdef7cd890742527aa150a8e81	8af8efa8-b3c6-409a-90d4-1c665e5a07b6	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 16:56:38	3.5s	ridiculous_babbage	ERR	abc05dc140ba41db1fe69b286eb3641a	8af8efa8-b3c6-409a-90d4-1c665e5a07b6	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 17:05:37	3.3s	admiring_kay	ERR	b9a6c8249ba2bd6863631ab103094156	8af8efa8-b3c6-409a-90d4-1c665e5a07b6	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 17:07:39	6.1s	stoic_aryabhata	ERR	011e1f6b5f2ec2fe3ed613bcbce46007	8af8efa8-b3c6-409a-90d4-1c665e5a07b6	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 18:00:19	43m 56s	sick_agnesi	ERR	011e1f6b5f2ec2fe3ed613bcbce46007	8af8efa8-b3c6-409a-90d4-1c665e5a07b6	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 18:44:21	48.8s	irreverent_lamarr	ERR	011e1f6b5f2ec2fe3ed613bcbce46007	4d55c241-7563-440b-8aa5-7e6bd5546ca7	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 18:46:01	32.5s	mad_mercator	ERR	011e1f6b5f2ec2fe3ed613bcbce46007	f31bfce8-be95-437e-adfc-7fccf5a5afa0	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 18:47:12	24.3s	determined_kimura	ERR	011e1f6b5f2ec2fe3ed613bcbce46007	f6496a9c-3419-4514-adc2-97b3a663f333	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 18:53:27	7m 1s	gigantic_bassi	ERR	011e1f6b5f2ec2fe3ed613bcbce46007	d99c6c6c-5cbc-4a30-ba85-bae06172853b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 19:08:59	6.3s	cheeky_bohr	ERR	011e1f6b5f2ec2fe3ed613bcbce46007	d99c6c6c-5cbc-4a30-ba85-bae06172853b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 19:09:39	5.3s	kickass_hopper	ERR	011e1f6b5f2ec2fe3ed613bcbce46007	d99c6c6c-5cbc-4a30-ba85-bae06172853b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 19:12:01	-	spontaneous_raman	-	512ca5e13bc655875c9269dfdd832e29	d99c6c6c-5cbc-4a30-ba85-bae06172853b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 19:13:44	6.4s	fervent_curran	ERR	54e35be234ca0d04f1e9677f9e0c54e9	d99c6c6c-5cbc-4a30-ba85-bae06172853b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 19:26:33	23m 55s	astonishing_shaw	OK	c8b778ffbf296701426479f6945edf5a	d99c6c6c-5cbc-4a30-ba85-bae06172853b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 20:29:35	21.8s	distracted_einstein	ERR	27214fe04ea3f144c8dc965a8a8650bd	d99c6c6c-5cbc-4a30-ba85-bae06172853b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 20:33:35	22.4s	backstabbing_rosalind	ERR	27214fe04ea3f144c8dc965a8a8650bd	d99c6c6c-5cbc-4a30-ba85-bae06172853b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 20:42:50	8.3s	big_church	ERR	27214fe04ea3f144c8dc965a8a8650bd	d99c6c6c-5cbc-4a30-ba85-bae06172853b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 20:47:36	22m 53s	loving_lamarr	ERR	27214fe04ea3f144c8dc965a8a8650bd	d99c6c6c-5cbc-4a30-ba85-bae06172853b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 21:18:16	40.7s	nasty_stonebraker	ERR	62faa5f1445900fbc7a99248b02a230e	d99c6c6c-5cbc-4a30-ba85-bae06172853b	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-12 21:19:58	-	sharp_ampere	-	d7e352cc3af8d63b7d6776067e9e0078	a6e1da55-f12f-479f-bd0f-888f65dff6fe	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 21:26:09	29m 40s	kickass_agnesi	OK	0c338d0854c2723549c0663971171002	0cdcf3d7-09a6-47f4-97df-cbe9c35ce744	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-12 22:30:17	13m 5s	voluminous_descartes	OK	0c338d0854c2723549c0663971171002	19956a22-2dd7-40a8-a4d4-370135ab40b9	nextflow run main.nf --core_only true
+2024-08-12 22:49:47	6.8s	agitated_raman	ERR	0c338d0854c2723549c0663971171002	c55d46bd-37bd-4935-8c75-f9101670ad05	nextflow run main.nf --core_only
+2024-08-12 22:53:18	2m 51s	awesome_gautier	ERR	0c338d0854c2723549c0663971171002	821c44c0-82f5-49e5-a551-7ff2b76904fc	nextflow run main.nf --core_only
+2024-08-12 22:56:49	7m 25s	stupefied_nightingale	OK	0c338d0854c2723549c0663971171002	c0f22d87-37fb-4dd7-8961-70f4318c897d	nextflow run main.nf --coreOnly true
+2024-08-12 23:12:40	7m 39s	naughty_golick	OK	71fac9991405bd63f34d8255da434b62	8f41928b-1fda-45aa-8e44-4629344ceb96	nextflow run main.nf --coreOnly true
+2024-08-13 01:22:32	7m 22s	wise_dijkstra	OK	04cb01778b7943b77ec0cb4b0af6aacd	4fc8a8d9-1a93-467b-bb41-37aba8865b5c	nextflow run main.nf --coreOnly true
+2024-08-13 01:34:40	7m 10s	extravagant_jennings	OK	04cb01778b7943b77ec0cb4b0af6aacd	3bc28bec-acd1-4183-8ce0-9643f7728d9e	nextflow run main.nf --coreOnly true
+2024-08-13 01:56:05	7m 18s	sleepy_pasteur	OK	d8ec646c2995a39fc8bc0eac76ace53b	783aa8fe-a3fd-40e3-978e-36db76e81446	nextflow run main.nf --coreOnly true
+2024-08-13 02:16:25	7m 35s	maniac_wilson	OK	d8ec646c2995a39fc8bc0eac76ace53b	f15a8f6e-2356-4921-b499-2ae505aecc25	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false
+2024-08-13 02:41:38	-	nice_fourier	-	273c7b8343eabd61c798a80e0e2cc439	3abb50a9-f7d3-41ed-8975-799238cd2328	nextflow run main.nf --coreOnly true
+2024-08-13 02:41:56	15.5s	confident_visvesvaraya	ERR	273c7b8343eabd61c798a80e0e2cc439	23dd9b66-afc9-4897-bc47-ff2639cb1656	nextflow run main.nf --coreOnly true
+2024-08-13 02:42:46	-	drunk_sammet	-	273c7b8343eabd61c798a80e0e2cc439	d1f32d10-9519-4c1e-ae8c-159897f0e85e	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false
+2024-08-13 02:44:25	47.4s	admiring_faraday	ERR	4958e21d284ab5b5fbbded36609a9178	a73d0846-9a3b-4223-8e7b-c63cb38331aa	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false
+2024-08-13 02:49:01	28m 16s	admiring_rubens	ERR	4637ab8b8ca8d1c0b0f3b5cd4dda7a8d	b4829c1b-0a86-45fd-adda-935f8b84072f	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false
+2024-08-13 03:17:42	19m 39s	fervent_payne	ERR	4637ab8b8ca8d1c0b0f3b5cd4dda7a8d	4a1f20d1-ba71-4af7-a01e-3c1799fe92ba	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false
+2024-08-13 03:37:27	-	focused_angela	-	fb07b91845fde9d3ab0c3466b88cd6ea	83ffed9c-ea2f-40d3-9dd1-5a3fc652de29	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false
+2024-08-13 03:42:53	28m 55s	deadly_kowalevski	OK	53041be3f99bca24dc68eeedbd1837f8	fb0c3a80-89be-4fc5-89b7-40b26f79d03c	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false
+2024-08-13 04:20:47	27m 58s	ecstatic_kirch	OK	b518f2948f0c3fb09c09b0f176928a34	2c4407e3-7cac-43c9-980a-1e4e27301bda	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false
+2024-08-13 05:01:21	2m 11s	distraught_kalam	OK	6377ab3c9d69f54bdf966ce8cc6da08c	2c4407e3-7cac-43c9-980a-1e4e27301bda	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-13 05:10:26	-	kickass_plateau	-	6377ab3c9d69f54bdf966ce8cc6da08c	2c4407e3-7cac-43c9-980a-1e4e27301bda	nextflow run main.nf --coreOnly false --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-13 05:11:19	32m 14s	kickass_minsky	OK	8feb1af287703ce08b40183cd4896c4a	2c4407e3-7cac-43c9-980a-1e4e27301bda	nextflow run main.nf --coreOnly false --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-13 06:03:20	2m 10s	hungry_meitner	ERR	8feb1af287703ce08b40183cd4896c4a	cd638bfd-9986-406e-be35-a63d0872442b	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false
+2024-08-13 06:05:56	7m 2s	gloomy_faraday	ERR	8feb1af287703ce08b40183cd4896c4a	cd638bfd-9986-406e-be35-a63d0872442b	nextflow run main.nf --coreOnly false --runRealReadsAnalysis true --useRealReads -resume
+2024-08-13 06:19:41	-	condescending_thompson	-	8feb1af287703ce08b40183cd4896c4a	63be355f-f000-44d6-a179-afb098a8557f	nextflow run main.nf --coreOnly false --runRealReadsAnalysis true --useRealReads
+2024-08-13 06:19:47	31m 25s	sleepy_jones	OK	8feb1af287703ce08b40183cd4896c4a	a855c064-85b1-4b01-a659-8ec6eec8e67c	nextflow run main.nf --coreOnly false --runRealReadsAnalysis true --useRealReads false
+2024-08-13 15:10:21	12m 34s	infallible_booth	ERR	8feb1af287703ce08b40183cd4896c4a	a855c064-85b1-4b01-a659-8ec6eec8e67c	nextflow run main.nf --coreOnly false --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-13 15:40:40	29m 17s	astonishing_hodgkin	OK	8feb1af287703ce08b40183cd4896c4a	a855c064-85b1-4b01-a659-8ec6eec8e67c	nextflow run main.nf --coreOnly false --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-13 16:26:23	18m 57s	focused_poitras	ERR	ed82363e81d4a9f6d61bcd87ba1f327f	a855c064-85b1-4b01-a659-8ec6eec8e67c	nextflow run main.nf --coreOnly false --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-13 16:45:55	37m	golden_ritchie	OK	cea59dc3d3265af99a6c5c0b0ff4d3fd	8a374a2c-477f-4585-ab49-899eda056d98	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false
+2024-08-13 21:04:43	-	jolly_swirles	-	5a3a3637be86fde1c29564e84ad75a85	8a374a2c-477f-4585-ab49-899eda056d98	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-13 21:05:23	5.4s	nasty_einstein	ERR	5c3feaeaaaa728916cdacff6ed2366d0	8a374a2c-477f-4585-ab49-899eda056d98	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-13 21:17:33	12m 15s	suspicious_stone	ERR	d53d9b3eadd3551eb4c9ab1016fb8c0e	8f56918e-eb6b-4885-bcb7-8f78fbfa1895	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-13 22:56:56	-	wise_lagrange	-	1c8867d3a5d429b1640205f6cf35054e	8f56918e-eb6b-4885-bcb7-8f78fbfa1895	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-13 22:59:06	6m 41s	loving_wiles	ERR	c726dce829698e77399b2e6d5941fef4	8f56918e-eb6b-4885-bcb7-8f78fbfa1895	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-13 23:08:50	7m 24s	loquacious_hypatia	ERR	1f931b8e17e9b3577fa76d80379c1830	8f56918e-eb6b-4885-bcb7-8f78fbfa1895	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-13 23:57:29	13m	goofy_heyrovsky	OK	fc65533617d5015fd2ce530fabc0d60f	fceb8890-2264-4788-bfe7-782aa8dc1019	nextflow run main.nf
+2024-08-14 00:19:20	11m 44s	voluminous_swartz	ERR	fc65533617d5015fd2ce530fabc0d60f	cf4bdac8-9ea4-469b-a057-0e50e91c439e	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-14 01:37:54	-	fabulous_pare	-	b2e726265d92b2f535011530c07628ea	cf4bdac8-9ea4-469b-a057-0e50e91c439e	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-14 01:39:29	-	festering_woese	-	b2e726265d92b2f535011530c07628ea	cf4bdac8-9ea4-469b-a057-0e50e91c439e	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-14 01:47:55	-	festering_curie	-	b2e726265d92b2f535011530c07628ea	cf4bdac8-9ea4-469b-a057-0e50e91c439e	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-14 01:48:02	-	awesome_liskov	-	90d18507dda310302b865215e37519ff	cf4bdac8-9ea4-469b-a057-0e50e91c439e	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-14 01:49:14	-	happy_easley	-	90d18507dda310302b865215e37519ff	cf4bdac8-9ea4-469b-a057-0e50e91c439e	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-14 01:49:21	-	grave_saha	-	90d18507dda310302b865215e37519ff	53fbeeea-a739-45a9-ae16-26e34ff06337	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-14 01:52:27	7m 36s	evil_lovelace	ERR	d3ca3316a8343841d4d5eb9396535a0c	944ed508-43e8-48ce-b185-92d0e9077cb6	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-14 02:06:09	3m 43s	cranky_kilby	ERR	48206022870e4c3dee677f3b8305e49c	e541b877-fa4b-40de-9f43-e75f95132efa	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-14 02:11:50	37m 51s	sick_hoover	ERR	48206022870e4c3dee677f3b8305e49c	e541b877-fa4b-40de-9f43-e75f95132efa	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-14 02:54:12	10.4s	scruffy_noyce	ERR	48206022870e4c3dee677f3b8305e49c	e541b877-fa4b-40de-9f43-e75f95132efa	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume '[8a/3b200c]'
+2024-08-14 02:54:31	7.7s	zen_williams	ERR	48206022870e4c3dee677f3b8305e49c	bc6b0623-ed71-4033-ab88-0be28dc70df6	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-14 02:55:48	12m 27s	desperate_visvesvaraya	ERR	48206022870e4c3dee677f3b8305e49c	f82e9a3b-14b8-486b-9826-ff26e1011e0f	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-14 03:13:44	13.7s	magical_lalande	ERR	e23b185726e185d8b3098135a522de59	f82e9a3b-14b8-486b-9826-ff26e1011e0f	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-14 03:14:05	32.7s	elegant_poitras	ERR	e23b185726e185d8b3098135a522de59	cdbea66b-77f9-4c5e-9145-f50137fdb8fd	nextflow run main.nf --runRealReadsAnalysis true --useRealReads false
+2024-08-14 03:14:50	34m 21s	happy_yalow	OK	e23b185726e185d8b3098135a522de59	889e4dcd-5674-43ab-9c53-ec395a23c811	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false
+2024-08-14 04:48:31	-	tender_jang	-	0e5306ff8a99c453d88afaddddfa9bc0	e4216eeb-ad18-46ce-a86b-70deb78ccd76	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false
+2024-08-14 04:50:12	-	intergalactic_sax	-	ca36395e13ae94d5c1a42de73417aa6b	f2a50d91-7244-4015-8bb1-20e8a6123b54	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false
+2024-08-14 04:50:45	9.9s	suspicious_celsius	ERR	2e8e0bde0e6c8a960d337897c7a7eb8f	7b317dc3-f109-41c6-8c84-8a9c65e8a4d1	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false
+2024-08-14 04:51:03	13m 31s	determined_pasteur	ERR	2e8e0bde0e6c8a960d337897c7a7eb8f	df63a186-21a5-47c3-bb2d-df59c7e8d31a	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false
+2024-08-14 05:11:56	8m 35s	determined_koch	ERR	2e8e0bde0e6c8a960d337897c7a7eb8f	df63a186-21a5-47c3-bb2d-df59c7e8d31a	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-14 05:31:40	8m 39s	loving_kirch	ERR	d5a126d1be0fd23340661223529835e2	df63a186-21a5-47c3-bb2d-df59c7e8d31a	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-14 05:47:20	6.2s	high_joliot	ERR	d5a126d1be0fd23340661223529835e2	df63a186-21a5-47c3-bb2d-df59c7e8d31a	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-14 05:48:41	27m 46s	nice_bartik	OK	d5a126d1be0fd23340661223529835e2	df63a186-21a5-47c3-bb2d-df59c7e8d31a	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-14 07:06:44	6.7s	elated_torricelli	OK	be7abae24b175473a504d1a5ad2ec66f	df63a186-21a5-47c3-bb2d-df59c7e8d31a	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-14 07:09:33	23m 11s	hopeful_ampere	ERR	be7abae24b175473a504d1a5ad2ec66f	df63a186-21a5-47c3-bb2d-df59c7e8d31a	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false -resume
+2024-08-14 07:42:28	4m 3s	jolly_cantor	ERR	be7abae24b175473a504d1a5ad2ec66f	df63a186-21a5-47c3-bb2d-df59c7e8d31a	nextflow run main.nf --coreOnly true --runRealReadsAnalysis true --useRealReads false -resume
