@@ -1,0 +1,262 @@
+Combined Results:
+
+Gene ID: dapH
+FASTA Description: | dapH_2 | | 2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase | 25:6698-7156 (-)
+FASTA Description: Unknown
+FASTA Description: | dapH_1 | | 2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase | 25:6458-6634 (-)
+FASTA Description: | dapH_3 | | 2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase | 103:363-674 (-)
+Snippy Analysis:
+  Strand: +
+  Sequence length: 699
+  Total ORF stop codons: 2
+  Premature stop codons: 1
+  ORF stop codon positions: 456, 696
+BLAST Analysis:
+  Best Database Match: lcl|CP071918.1_cds_UIK82280.1_2089
+  Percent identity: 100.00%
+  Alignment length: 456
+  Reference length: 459, Database Match length: 699
+  Truncation: Yes (Reference is shorter by 240 bp)
+  Reference coverage: 99.35%
+  Database Match coverage: 65.24%
+  Database Gene Name: dapD
+  Database Description: 2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase [Streptococcus pneumoniae]
+  Database Gene Name: dapD
+  Database Description: 2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase [Streptococcus pneumoniae]
+BLAST Analysis:
+  Best Database Match: lcl|CP071918.1_cds_UIK82280.1_2089
+  Percent identity: 100.00%
+  Alignment length: 177
+  Reference length: 177, Database Match length: 699
+  Truncation: Yes (Reference is shorter by 522 bp)
+  Reference coverage: 100.00%
+  Database Match coverage: 25.32%
+  Database Gene Name: dapD
+  Database Description: 2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase [Streptococcus pneumoniae]
+  Database Gene Name: dapD
+  Database Description: 2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase [Streptococcus pneumoniae]
+BLAST Analysis:
+  Best Database Match: lcl|CAJSSG010000012.1_cds_CAG7502583.1_43
+  Percent identity: 100.00%
+  Alignment length: 312
+  Reference length: 312, Database Match length: 618
+  Truncation: Yes (Reference is shorter by 306 bp)
+  Reference coverage: 100.00%
+  Database Match coverage: 50.49%
+  Database Gene Name: cysE
+  Database Description: serine O-acetyltransferase [Streptococcus pneumoniae]
+  Database Gene Name: cysE
+  Database Description: serine O-acetyltransferase [Streptococcus pneumoniae]
+--------------------------------------------------
+
+Gene ID: mshD
+FASTA Description: | mshD | | Mycothiol acetyltransferase | 103:992-1876 (+)
+FASTA Description: Unknown
+Snippy Analysis:
+  Strand: +
+  Sequence length: 885
+  Total ORF stop codons: 1
+  Premature stop codons: 0
+  ORF stop codon positions: 882
+BLAST Analysis:
+  Best Database Match: lcl|CAJSSG010000012.1_cds_CAG7502572.1_42
+  Percent identity: 100.00%
+  Alignment length: 885
+  Reference length: 885, Database Match length: 885
+  Truncation: No
+  Reference coverage: 100.00%
+  Database Match coverage: 100.00%
+  Database Gene Name: SAMEA1020546_01342
+  Database Description: GNAT family acetyltransferase [Streptococcus pneumoniae]
+  Database Gene Name: SAMEA1020546_01342
+  Database Description: GNAT family acetyltransferase [Streptococcus pneumoniae]
+--------------------------------------------------
+
+Gene ID: 
+FASTA Description: | | | Aminoglycoside N(6')-acetyltransferase type 1 | 63:1369-1671 (+)
+BLAST Analysis:
+  Best Database Match: lcl|CP051650.1_cds_UAU39670.1_961
+  Percent identity: 100.00%
+  Alignment length: 300
+  Reference length: 303, Database Match length: 429
+  Truncation: Yes (Reference is shorter by 126 bp)
+  Reference coverage: 99.01%
+  Database Match coverage: 69.93%
+  Database Gene Name: HG605_04870
+  Database Description: GNAT family N-acetyltransferase [Streptococcus pneumoniae]
+  Database Gene Name: HG605_04870
+  Database Description: GNAT family N-acetyltransferase [Streptococcus pneumoniae]
+--------------------------------------------------
+
+Gene ID: metAA
+FASTA Description: Unknown
+FASTA Description: | metAA_2 | | Homoserine O-acetyltransferase | 80:2451-2732 (+)
+FASTA Description: | metAA_1 | | Homoserine O-acetyltransferase | 80:1786-2064 (+)
+Snippy Analysis:
+  Strand: +
+  Sequence length: 947
+  Total ORF stop codons: 4
+  Premature stop codons: 4
+  ORF stop codon positions: 276, 609, 867, 912
+BLAST Analysis:
+  Best Database Match: lcl|CP071871.1_cds_QTE33154.1_1490
+  Percent identity: 99.64%
+  Alignment length: 282
+  Reference length: 282, Database Match length: 945
+  Truncation: Yes (Reference is shorter by 663 bp)
+  Reference coverage: 100.00%
+  Database Match coverage: 29.84%
+  Database Gene Name: metAA
+  Database Description: Homoserine O-acetyltransferase [Streptococcus pneumoniae]
+  Database Gene Name: metAA
+  Database Description: Homoserine O-acetyltransferase [Streptococcus pneumoniae]
+BLAST Analysis:
+  Best Database Match: lcl|CP071871.1_cds_QTE33154.1_1490
+  Percent identity: 100.00%
+  Alignment length: 276
+  Reference length: 279, Database Match length: 945
+  Truncation: Yes (Reference is shorter by 666 bp)
+  Reference coverage: 98.92%
+  Database Match coverage: 29.21%
+  Database Gene Name: metAA
+  Database Description: Homoserine O-acetyltransferase [Streptococcus pneumoniae]
+  Database Gene Name: metAA
+  Database Description: Homoserine O-acetyltransferase [Streptococcus pneumoniae]
+--------------------------------------------------
+
+Gene ID: pdhC
+FASTA Description: Unknown
+Snippy Analysis:
+  Strand: +
+  Sequence length: 1044
+  Total ORF stop codons: 2
+  Premature stop codons: 1
+  ORF stop codon positions: 414, 1041
+--------------------------------------------------
+
+Gene ID: cysE
+FASTA Description: | cysE | | Serine acetyltransferase | 103:714-980 (-)
+FASTA Description: Unknown
+Snippy Analysis:
+  Strand: +
+  Sequence length: 618
+  Total ORF stop codons: 2
+  Premature stop codons: 1
+  ORF stop codon positions: 264, 615
+BLAST Analysis:
+  Best Database Match: lcl|CAJSSG010000012.1_cds_CAG7502583.1_43
+  Percent identity: 99.62%
+  Alignment length: 264
+  Reference length: 267, Database Match length: 618
+  Truncation: Yes (Reference is shorter by 351 bp)
+  Reference coverage: 98.88%
+  Database Match coverage: 42.72%
+  Database Gene Name: cysE
+  Database Description: serine O-acetyltransferase [Streptococcus pneumoniae]
+  Database Gene Name: cysE
+  Database Description: serine O-acetyltransferase [Streptococcus pneumoniae]
+--------------------------------------------------
+
+Gene ID: pta
+FASTA Description: | pta_1 | | Phosphate acetyltransferase | 33:9358-9804 (+)
+FASTA Description: Unknown
+FASTA Description: | pta_2 | | Phosphate acetyltransferase | 33:9817-10332 (+)
+Snippy Analysis:
+  Strand: +
+  Sequence length: 975
+  Total ORF stop codons: 2
+  Premature stop codons: 1
+  ORF stop codon positions: 444, 972
+BLAST Analysis:
+  Best Database Match: lcl|CP071918.1_cds_UIK83374.1_1088
+  Percent identity: 100.00%
+  Alignment length: 445
+  Reference length: 447, Database Match length: 975
+  Truncation: Yes (Reference is shorter by 528 bp)
+  Reference coverage: 99.55%
+  Database Match coverage: 45.64%
+  Database Gene Name: pta
+  Database Description: phosphate acetyltransferase [Streptococcus pneumoniae]
+  Database Gene Name: pta
+  Database Description: phosphate acetyltransferase [Streptococcus pneumoniae]
+BLAST Analysis:
+  Best Database Match: lcl|CP071918.1_cds_UIK83374.1_1088
+  Percent identity: 100.00%
+  Alignment length: 516
+  Reference length: 516, Database Match length: 975
+  Truncation: Yes (Reference is shorter by 459 bp)
+  Reference coverage: 100.00%
+  Database Match coverage: 52.92%
+  Database Gene Name: pta
+  Database Description: phosphate acetyltransferase [Streptococcus pneumoniae]
+  Database Gene Name: pta
+  Database Description: phosphate acetyltransferase [Streptococcus pneumoniae]
+--------------------------------------------------
+
+Gene ID: pflB
+FASTA Description: | pflB | | Formate acetyltransferase | 270:26-1123 (+)
+FASTA Description: Unknown
+Snippy Analysis:
+  Strand: +
+  Sequence length: 2325
+  Total ORF stop codons: 2
+  Premature stop codons: 1
+  ORF stop codon positions: 1095, 2322
+BLAST Analysis:
+  Best Database Match: lcl|CP035237.1_cds_UKP21683.1_509
+  Percent identity: 100.00%
+  Alignment length: 1095
+  Reference length: 1098, Database Match length: 2325
+  Truncation: Yes (Reference is shorter by 1227 bp)
+  Reference coverage: 99.73%
+  Database Match coverage: 47.10%
+  Database Gene Name: pflB
+  Database Description: formate C-acetyltransferase [Streptococcus pneumoniae]
+  Analysis complete for sample: 11511_7#13.contigs_velvet_mutated
+  Database Gene Name: pflB
+  Database Description: formate C-acetyltransferase [Streptococcus pneumoniae]
+--------------------------------------------------
+
+Gene ID: oatA
+FASTA Description: Unknown
+Snippy Analysis:
+  Strand: +
+  Sequence length: 1818
+  Total ORF stop codons: 2
+  Premature stop codons: 1
+  ORF stop codon positions: 1332, 1815
+--------------------------------------------------
+
+Gene ID: maa
+FASTA Description: Unknown
+Snippy Analysis:
+  Strand: +
+  Sequence length: 558
+  Total ORF stop codons: 1
+  Premature stop codons: 0
+  ORF stop codon positions: 555
+--------------------------------------------------
+
+Gene ID: paiA
+FASTA Description: | paiA | | Spermidine/spermine N(1)-acetyltransferase | 230:1543-1887 (-)
+FASTA Description: Unknown
+Snippy Analysis:
+  Strand: +
+  Sequence length: 510
+  Total ORF stop codons: 2
+  Premature stop codons: 1
+  ORF stop codon positions: 342, 507
+BLAST Analysis:
+  Best Database Match: lcl|CP071918.1_cds_UIK82935.1_596
+  Percent identity: 100.00%
+  Alignment length: 342
+  Reference length: 345, Database Match length: 510
+  Truncation: Yes (Reference is shorter by 165 bp)
+  Reference coverage: 99.13%
+  Database Match coverage: 67.06%
+  Database Gene Name: J4Q31_03020
+  Database Description: GNAT family N-acetyltransferase [Streptococcus pneumoniae]
+  Database Gene Name: J4Q31_03020
+  Database Description: GNAT family N-acetyltransferase [Streptococcus pneumoniae]
+--------------------------------------------------
+

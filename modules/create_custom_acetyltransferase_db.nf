@@ -5,6 +5,7 @@ process CREATE_CUSTOM_ACETYLTRANSFERASE_DB {
 
     output:
     path "spneumo_acetyltransferase_db*", emit: db
+    path "gene_info.tsv", emit: gene_info
     
     beforeScript "chmod +x $projectDir/bin/create_custom_acetyltransferase_db.sh"
 

@@ -18,6 +18,9 @@ process DWGSIM_MUTATED {
         -2 ${params.dwgsimReadLength} \
         -d ${params.dwgsimOuterDistance} \
         -s ${params.dwgsimStdDev} \
+        -r 0 \
+        -R 0 \
+        -X 0 \
         "${fna_file}" \
         "${sampleName}"
     """

@@ -23,6 +23,9 @@ curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide
 # Filter the sequences
 awk '/^>/ {if (p) {print s; s=""}; p=/protein=.*acetyltransferase/; s=$0; next} p {s=s"\n"$0} END {if (p) print s}' raw_sequences.fasta > filtered_sequences.fasta
 
+# Create a tab-delimited file with gene headers and sequences
+awk '/^>/ {if (seq) print header "\t" seq; header = substr($0,2); seq=""; next} {seq = seq $0} END {print header "\t" seq}' filtered_sequences.fasta > gene_info.tsv
+
 # Verify the results
 total_seqs=$(grep -c "^>" filtered_sequences.fasta)
 acetyltransferase_seqs=$(grep -c "protein=.*acetyltransferase" filtered_sequences.fasta)

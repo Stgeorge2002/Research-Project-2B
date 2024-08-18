@@ -1,5 +1,5 @@
-import argparse
 import re
+import argparse
 from Bio import Entrez, SeqIO
 
 # Set your email for NCBI queries
@@ -43,20 +43,33 @@ def reorganize_results(combined_results):
     
     return reorganized
 
-def parse_fasta(file_path):
+def resolve_gene_names(reorganized):
+    resolved = {}
+    for gene_name, data in reorganized.items():
+        base_name = re.sub(r'_\d+$', '', gene_name)
+        if base_name not in resolved:
+            resolved[base_name] = {'FASTA': [], 'Snippy': [], 'BLAST': []}
+        
+        resolved[base_name]['FASTA'].extend(data['FASTA'])
+        resolved[base_name]['Snippy'].extend(data['Snippy'])
+        resolved[base_name]['BLAST'].extend(data['BLAST'])
+    
+    return resolved
+
+def main(snippy_file, blast_file, fasta_file, output_file):
+    # Read FASTA file for gene descriptions
     fasta_data = {}
-    with open(file_path, "r") as f:
+    with open(fasta_file, "r") as f:
         for line in f:
             if line.startswith(">"):
                 fields = line.strip().split()
                 gene_id = fields[0][1:]  # Remove the '>' character
                 description = " ".join(fields[1:])
                 fasta_data[gene_id] = description
-    return fasta_data
 
-def parse_snippy(file_path):
+    # Read Snippy analysis
     snippy_data = {}
-    with open(file_path, "r") as f:
+    with open(snippy_file, "r") as f:
         current_gene = None
         for line in f:
             line = line.strip()
@@ -66,11 +79,10 @@ def parse_snippy(file_path):
             elif current_gene and ":" in line:
                 key, value = line.split(":", 1)
                 snippy_data[current_gene][key.strip()] = value.strip()
-    return snippy_data
 
-def parse_blast(file_path):
+    # Read BLAST analysis
     blast_data = {}
-    with open(file_path, "r") as f:
+    with open(blast_file, "r") as f:
         current_gene = None
         for line in f:
             line = line.strip()
@@ -80,19 +92,6 @@ def parse_blast(file_path):
             elif current_gene and ":" in line:
                 key, value = line.split(":", 1)
                 blast_data[current_gene][key.strip()] = value.strip()
-    return blast_data
-
-def main():
-    parser = argparse.ArgumentParser(description="Combine Snippy, BLAST, and FASTA results")
-    parser.add_argument("--snippy", required=True, help="Path to Snippy analysis file")
-    parser.add_argument("--blast", required=True, help="Path to BLAST results file")
-    parser.add_argument("--fasta", required=True, help="Path to extracted genes FASTA file")
-    parser.add_argument("--output", required=True, help="Path to output combined analysis file")
-    args = parser.parse_args()
-
-    fasta_data = parse_fasta(args.fasta)
-    snippy_data = parse_snippy(args.snippy)
-    blast_data = parse_blast(args.blast)
 
     # Combine results
     combined_results = {}
@@ -106,10 +105,13 @@ def main():
     # Reorganize results
     reorganized_results = reorganize_results(combined_results)
 
+    # Resolve gene names
+    resolved_results = resolve_gene_names(reorganized_results)
+
     # Output results to a file
-    with open(args.output, "w") as f:
+    with open(output_file, "w") as f:
         f.write("Combined Results:\n\n")
-        for gene_name, data in reorganized_results.items():
+        for gene_name, data in resolved_results.items():
             f.write(f"Gene ID: {gene_name}\n")
             
             for gene_id, fasta_desc in data['FASTA']:
@@ -142,7 +144,14 @@ def main():
             
             f.write("-" * 50 + "\n\n")
 
-    print(f"Results have been written to {args.output}")
+    print(f"Results have been written to {output_file}")
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Combine Snippy, BLAST, and FASTA results")
+    parser.add_argument("--snippy", required=True, help="Path to Snippy analysis file")
+    parser.add_argument("--blast", required=True, help="Path to BLAST analysis file")
+    parser.add_argument("--fasta", required=True, help="Path to extracted genes FASTA file")
+    parser.add_argument("--output", required=True, help="Path to output file")
+    args = parser.parse_args()
+
+    main(args.snippy, args.blast, args.fasta, args.output)

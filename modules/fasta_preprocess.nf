@@ -9,7 +9,7 @@ process FASTA_PREPROCESS {
 
     output:
     tuple val(sampleName), path("${sampleName}_cleaned.fa"), emit: cleaned_fasta
-    path "${sampleName}_qc_report.txt", emit: qc_report
+    tuple val(sampleName), path("${sampleName}_qc_report.txt"), emit: qc_report
 
     script:
     def remove_duplicates = params.fasta_preprocess.remove_duplicates ? "| seqkit rmdup -s" : ""

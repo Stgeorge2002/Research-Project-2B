@@ -1,7 +1,7 @@
 // modules/analyze_blast_results.nf
 process ANALYZE_BLAST_RESULTS {
     tag "Analyzing BLAST results for ${sampleName}"
-    publishDir "${params.outputDir}/Final_results_Blast", mode: 'copy'
+    publishDir "${params.outputDir}/blast_analysis", mode: 'copy'
 
     input:
     tuple val(sampleName), path(blast_results), path(query_fasta)

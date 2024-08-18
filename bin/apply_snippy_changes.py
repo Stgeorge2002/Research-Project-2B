@@ -20,9 +20,10 @@ def parse_snippy_output(snippy_file):
             pos = int(row[1])
             ref = row[3]
             alt = row[4]
-            if chrom not in changes:
-                changes[chrom] = []
-            changes[chrom].append((pos, ref, alt))
+            if len(ref) == len(alt):  # Only consider substitutions
+                if chrom not in changes:
+                    changes[chrom] = []
+                changes[chrom].append((pos, ref, alt))
     return changes
 
 def apply_changes(seq, changes):

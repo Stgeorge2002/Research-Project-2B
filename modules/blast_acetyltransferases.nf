@@ -7,10 +7,11 @@ process BLAST_ACETYLTRANSFERASES {
     path blast_db_files
 
     output:
-    tuple val(sampleName), path("${sampleName}_blast_results.tsv"), emit: blast_results
+    tuple val(sampleName), path("${sampleName}_blast_results_with_seq.tsv"), emit: blast_results
 
     script:
-    def db_name = blast_db_files.first().baseName
+    def db_name = blast_db_files.findAll { it.name.endsWith(".nhr") }.first().baseName
+    def gene_info_tsv = blast_db_files.find { it.name == "gene_info.tsv" }
     """
     blastn -task blastn-short \
            -query ${fasta_file} \
@@ -27,5 +28,20 @@ process BLAST_ACETYLTRANSFERASES {
            -ungapped \
            -num_threads ${task.cpus} \
            -out ${sampleName}_blast_results.tsv
+
+    # Process BLAST results and add corresponding sequences
+    awk -F'\\t' 'NR==FNR {
+        split(\$1, a, " ");
+        header = a[1];
+        seq[header] = \$2;
+        next
+    }
+    {
+        if (\$2 in seq) {
+            print \$0 "\\t" seq[\$2]
+        } else {
+            print \$0 "\\tSequence not found"
+        }
+    }' ${gene_info_tsv} ${sampleName}_blast_results.tsv > ${sampleName}_blast_results_with_seq.tsv
     """
 }

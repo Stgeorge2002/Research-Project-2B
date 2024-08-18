@@ -1,4 +1,3 @@
-// modules/blast_acetyltransferases_non_mutated.nf
 process BLAST_ACETYLTRANSFERASES_NON_MUTATED {
     tag "BLASTing non-mutated acetyltransferases"
     publishDir "${params.outputDir}/blast_results/non_mutated", mode: 'copy'
@@ -8,10 +7,10 @@ process BLAST_ACETYLTRANSFERASES_NON_MUTATED {
     path blast_db_files
 
     output:
-    path "${fasta_file.baseName}_blast_results.tsv", emit: blast_results
+    path "${fasta_file.baseName}_blast_results_with_seq.tsv", emit: blast_results
 
     script:
-    def db_name = blast_db_files.first().baseName
+    def db_name = blast_db_files.findAll { it.name.endsWith(".nhr") }.first().baseName
     """
     blastn -task blastn-short \
            -query ${fasta_file} \
@@ -27,6 +26,6 @@ process BLAST_ACETYLTRANSFERASES_NON_MUTATED {
            -xdrop_gap ${params.blast_xdrop_gap} \
            -ungapped \
            -num_threads ${task.cpus} \
-           -out ${fasta_file.baseName}_blast_results.tsv
+           -out ${fasta_file.baseName}_blast_results_with_seq.tsv
     """
 }

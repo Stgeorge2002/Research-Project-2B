@@ -7,7 +7,7 @@ process ALIGN_KEYWORD_GENES_TO_REFERENCE {
     path pangenome_reference
 
     output:
-    path "acetyltransferases_alignments.txt", emit: alignments
+    path "acetyltransferases_alignments_with_seq.txt", emit: blast_results
 
     script:
     """
@@ -23,6 +23,23 @@ process ALIGN_KEYWORD_GENES_TO_REFERENCE {
            -perc_identity ${params.blast_perc_identity} \
            -max_target_seqs ${params.blast_max_target_seqs} \
            -out acetyltransferases_alignments.txt
+
+    # Process BLAST results and add corresponding sequences
+    awk -F'\\t' 'NR==FNR {
+        if (\$0 ~ /^>/) {
+            header = substr(\$0, 2);
+        } else {
+            seq[header] = seq[header] \$0;
+        }
+        next
+    }
+    {
+        if (\$1 in seq) {
+            print \$0 "\\t" seq[\$1]
+        } else {
+            print \$0 "\\tSequence not found"
+        }
+    }' ${extracted_genes} acetyltransferases_alignments.txt > acetyltransferases_alignments_with_seq.txt
 
     # Clean up
     rm pangenome_db*

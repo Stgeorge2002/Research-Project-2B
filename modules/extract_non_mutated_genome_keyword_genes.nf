@@ -1,5 +1,5 @@
 process EXTRACT_NON_MUTATED_GENOME_KEYWORD_GENES {
-    tag "Extracting genes with keyword from non-mutated results"
+    tag "Extracting genes with keyword from non-mutated results for ${sampleName}"
     publishDir "${params.outputDir}/extracted_genes", mode: 'copy'
 
     input:
@@ -7,7 +7,7 @@ process EXTRACT_NON_MUTATED_GENOME_KEYWORD_GENES {
     val keyword
 
     output:
-    path "${sampleName}_non_mutated_extracted_genes.fasta", emit: extracted_genes
+    tuple val(sampleName), path("${sampleName}_non_mutated_extracted_genes.fasta"), emit: extracted_genes
 
     script:
     """
