@@ -1,0 +1,493 @@
+Number of truncated sequences in custom BLAST DB: 10
+Truncated sequence IDs in custom BLAST DB:
+FEACLHEO_00039
+FEACLHEO_00605
+FEACLHEO_00606
+FEACLHEO_00732
+FEACLHEO_00754
+FEACLHEO_00755
+FEACLHEO_01097
+FEACLHEO_01098
+FEACLHEO_01858
+FEACLHEO_01986
+
+==================================================
+
+BLAST Custom DB Results:
+Query ID: FEACLHEO_00039
+Query Gene Name: oatA
+Query Product: O-acetyltransferase OatA
+Subject ID: lcl|CP035237.1_cds_UKP23004.1_2001
+Identity: 100.000%
+Alignment Length: 1488
+Mismatches: 0
+Gap Opens: 0
+Query Start-End: 1-1488
+Subject Start-End: 1-1488
+E-value: 0.0
+Bit Score: 2950
+Query Length: 1491
+Subject Length: 1818
+Truncation: Yes (difference: 327)
+Subject GenBank Gene Name: EQH43_10275
+Subject GenBank Description: acetyltransferase [Streptococcus pneumoniae]
+
+BLAST Pangenome Reference Results:
+Pangenome Subject ID: oatA
+Pangenome Identity: 99.664%
+Pangenome Alignment Length: 1488
+Pangenome Query Length: 1488
+Pangenome Subject Length: 1488
+Pangenome Mismatches: 5
+Pangenome Gaps: 0
+Pangenome Query Start-End: 1-1488
+Pangenome Subject Start-End: 1-1488
+Pangenome E-value: 0.0
+Pangenome Bit Score: 2721
+Pangenome Truncation: No
+
+Snippy Analysis Results:
+Gene ID: oatA
+Strand: +
+Sequence length: 1818
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 1488, 1815
+Premature stop codons: 1
+
+------------------------------------------------------------
+
+BLAST Custom DB Results:
+Query ID: FEACLHEO_00605
+Query Gene Name: dapH_1
+Query Product: 2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase
+Subject ID: lcl|CP071918.1_cds_UIK82280.1_2089
+Identity: 100.000%
+Alignment Length: 402
+Mismatches: 0
+Gap Opens: 0
+Query Start-End: 1-402
+Subject Start-End: 1-402
+E-value: 0.0
+Bit Score: 797
+Query Length: 405
+Subject Length: 699
+Truncation: Yes (difference: 294)
+Subject GenBank Gene Name: dapD
+Subject GenBank Description: 2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase [Streptococcus pneumoniae]
+
+BLAST Pangenome Reference Results:
+Pangenome Subject ID: dapH
+Pangenome Identity: 99.751%
+Pangenome Alignment Length: 402
+Pangenome Query Length: 402
+Pangenome Subject Length: 402
+Pangenome Mismatches: 1
+Pangenome Gaps: 0
+Pangenome Query Start-End: 1-402
+Pangenome Subject Start-End: 1-402
+Pangenome E-value: 0.0
+Pangenome Bit Score: 737
+Pangenome Truncation: No
+
+Snippy Analysis Results:
+Gene ID: dapH
+Strand: +
+Sequence length: 699
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 402, 696
+Premature stop codons: 1
+
+------------------------------------------------------------
+
+BLAST Custom DB Results:
+Query ID: FEACLHEO_00606
+Query Gene Name: dapH_2
+Query Product: 2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase
+Subject ID: lcl|CP035237.1_cds_UKP23038.1_2039
+Identity: 100.000%
+Alignment Length: 252
+Mismatches: 0
+Gap Opens: 0
+Query Start-End: 1-252
+Subject Start-End: 448-699
+E-value: 1.84e-142
+Bit Score: 500
+Query Length: 252
+Subject Length: 699
+Truncation: Yes (difference: 447)
+Subject GenBank Gene Name: dapD
+Subject GenBank Description: 2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-acetyltransferase [Streptococcus pneumoniae]
+
+BLAST Pangenome Reference Results:
+Pangenome Subject ID: dapH
+Pangenome Identity: 98.810%
+Pangenome Alignment Length: 252
+Pangenome Query Length: 252
+Pangenome Subject Length: 699
+Pangenome Mismatches: 3
+Pangenome Gaps: 0
+Pangenome Query Start-End: 1-252
+Pangenome Subject Start-End: 448-699
+Pangenome E-value: 1.84e-127
+Pangenome Bit Score: 449
+Pangenome Truncation: Yes (difference: 447)
+
+Snippy Analysis Results:
+Gene ID: dapH
+Strand: +
+Sequence length: 699
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 402, 696
+Premature stop codons: 1
+
+------------------------------------------------------------
+
+BLAST Custom DB Results:
+Query ID: FEACLHEO_00732
+Query Gene Name: cysE
+Query Product: Serine acetyltransferase
+Subject ID: lcl|CAJSSG010000012.1_cds_CAG7502583.1_43
+Identity: 100.000%
+Alignment Length: 399
+Mismatches: 0
+Gap Opens: 0
+Query Start-End: 1-399
+Subject Start-End: 1-399
+E-value: 0.0
+Bit Score: 791
+Query Length: 402
+Subject Length: 618
+Truncation: Yes (difference: 216)
+Subject GenBank Gene Name: cysE
+Subject GenBank Description: serine O-acetyltransferase [Streptococcus pneumoniae]
+
+BLAST Pangenome Reference Results:
+Pangenome Subject ID: cysE
+Pangenome Identity: 98.496%
+Pangenome Alignment Length: 399
+Pangenome Query Length: 399
+Pangenome Subject Length: 399
+Pangenome Mismatches: 6
+Pangenome Gaps: 0
+Pangenome Query Start-End: 1-399
+Pangenome Subject Start-End: 1-399
+Pangenome E-value: 0.0
+Pangenome Bit Score: 704
+Pangenome Truncation: No
+
+Snippy Analysis Results:
+Gene ID: cysE
+Strand: +
+Sequence length: 618
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 399, 615
+Premature stop codons: 1
+
+------------------------------------------------------------
+
+BLAST Custom DB Results:
+Query ID: FEACLHEO_00740
+Query Gene Name: paiA
+Query Product: Spermidine/spermine N(1)-acetyltransferase
+Subject ID: lcl|CP071918.1_cds_UIK82935.1_596
+Identity: 100.000%
+Alignment Length: 510
+Mismatches: 0
+Gap Opens: 0
+Query Start-End: 1-510
+Subject Start-End: 1-510
+E-value: 0.0
+Bit Score: 1011
+Query Length: 510
+Subject Length: 510
+Truncation: No
+Subject GenBank Gene Name: J4Q31_03020
+Subject GenBank Description: GNAT family N-acetyltransferase [Streptococcus pneumoniae]
+
+BLAST Pangenome Reference Results:
+Pangenome Subject ID: paiA
+Pangenome Identity: 99.020%
+Pangenome Alignment Length: 510
+Pangenome Query Length: 510
+Pangenome Subject Length: 510
+Pangenome Mismatches: 5
+Pangenome Gaps: 0
+Pangenome Query Start-End: 1-510
+Pangenome Subject Start-End: 1-510
+Pangenome E-value: 0.0
+Pangenome Bit Score: 915
+Pangenome Truncation: No
+
+Snippy Analysis Results:
+Gene ID: paiA
+Strand: +
+Sequence length: 510
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 507
+Premature stop codons: 0
+
+------------------------------------------------------------
+
+BLAST Custom DB Results:
+Query ID: FEACLHEO_00754
+Query Gene Name: pflB_1
+Query Product: Formate acetyltransferase
+Subject ID: lcl|CP035237.1_cds_UKP21683.1_509
+Identity: 100.000%
+Alignment Length: 735
+Mismatches: 0
+Gap Opens: 0
+Query Start-End: 1-735
+Subject Start-End: 1-735
+E-value: 0.0
+Bit Score: 1457
+Query Length: 738
+Subject Length: 2325
+Truncation: Yes (difference: 1587)
+Subject GenBank Gene Name: pflB
+Subject GenBank Description: formate C-acetyltransferase [Streptococcus pneumoniae]
+
+BLAST Pangenome Reference Results:
+Pangenome Subject ID: pflB
+Pangenome Identity: 100.000%
+Pangenome Alignment Length: 735
+Pangenome Query Length: 735
+Pangenome Subject Length: 735
+Pangenome Mismatches: 0
+Pangenome Gaps: 0
+Pangenome Query Start-End: 1-735
+Pangenome Subject Start-End: 1-735
+Pangenome E-value: 0.0
+Pangenome Bit Score: 1358
+Pangenome Truncation: No
+
+Snippy Analysis Results:
+Gene ID: pflB
+Strand: +
+Sequence length: 2325
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 735, 2322
+Premature stop codons: 1
+
+------------------------------------------------------------
+
+BLAST Custom DB Results:
+Query ID: FEACLHEO_00755
+Query Gene Name: pflB_2
+Query Product: Formate acetyltransferase
+Subject ID: lcl|CP035237.1_cds_UKP21683.1_509
+Identity: 100.000%
+Alignment Length: 1548
+Mismatches: 0
+Gap Opens: 0
+Query Start-End: 1-1548
+Subject Start-End: 778-2325
+E-value: 0.0
+Bit Score: 3069
+Query Length: 1548
+Subject Length: 2325
+Truncation: Yes (difference: 777)
+Subject GenBank Gene Name: pflB
+Subject GenBank Description: formate C-acetyltransferase [Streptococcus pneumoniae]
+
+BLAST Pangenome Reference Results:
+Pangenome Subject ID: pflB
+Pangenome Identity: 99.096%
+Pangenome Alignment Length: 1548
+Pangenome Query Length: 1548
+Pangenome Subject Length: 2325
+Pangenome Mismatches: 14
+Pangenome Gaps: 0
+Pangenome Query Start-End: 1-1548
+Pangenome Subject Start-End: 778-2325
+Pangenome E-value: 0.0
+Pangenome Bit Score: 2782
+Pangenome Truncation: Yes (difference: 777)
+
+Snippy Analysis Results:
+Gene ID: pflB
+Strand: +
+Sequence length: 2325
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 735, 2322
+Premature stop codons: 1
+
+------------------------------------------------------------
+
+BLAST Custom DB Results:
+Query ID: FEACLHEO_01097
+Query Gene Name: metAA_1
+Query Product: Homoserine O-acetyltransferase
+Subject ID: lcl|CP071871.1_cds_QTE33154.1_1490
+Identity: 100.000%
+Alignment Length: 306
+Mismatches: 0
+Gap Opens: 0
+Query Start-End: 1-306
+Subject Start-End: 1-306
+E-value: 1.36e-174
+Bit Score: 607
+Query Length: 309
+Subject Length: 945
+Truncation: Yes (difference: 636)
+Subject GenBank Gene Name: metAA
+Subject GenBank Description: Homoserine O-acetyltransferase [Streptococcus pneumoniae]
+
+BLAST Pangenome Reference Results:
+Pangenome Subject ID: metAA
+Pangenome Identity: 100.000%
+Pangenome Alignment Length: 306
+Pangenome Query Length: 306
+Pangenome Subject Length: 306
+Pangenome Mismatches: 0
+Pangenome Gaps: 0
+Pangenome Query Start-End: 1-306
+Pangenome Subject Start-End: 1-306
+Pangenome E-value: 2.18e-162
+Pangenome Bit Score: 566
+Pangenome Truncation: No
+
+Snippy Analysis Results:
+Gene ID: metAA
+Strand: +
+Sequence length: 945
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 306, 942
+Premature stop codons: 1
+
+------------------------------------------------------------
+
+BLAST Custom DB Results:
+Query ID: FEACLHEO_01098
+Query Gene Name: metAA_2
+Query Product: Homoserine O-acetyltransferase
+Subject ID: lcl|CP071871.1_cds_QTE33154.1_1490
+Identity: 99.647%
+Alignment Length: 567
+Mismatches: 2
+Gap Opens: 0
+Query Start-End: 1-567
+Subject Start-End: 379-945
+E-value: 0.0
+Bit Score: 1108
+Query Length: 567
+Subject Length: 945
+Truncation: Yes (difference: 378)
+Subject GenBank Gene Name: metAA
+Subject GenBank Description: Homoserine O-acetyltransferase [Streptococcus pneumoniae]
+
+BLAST Pangenome Reference Results:
+Pangenome Subject ID: metAA
+Pangenome Identity: 99.824%
+Pangenome Alignment Length: 567
+Pangenome Query Length: 567
+Pangenome Subject Length: 945
+Pangenome Mismatches: 1
+Pangenome Gaps: 0
+Pangenome Query Start-End: 1-567
+Pangenome Subject Start-End: 379-945
+Pangenome E-value: 0.0
+Pangenome Bit Score: 1042
+Pangenome Truncation: Yes (difference: 378)
+
+Snippy Analysis Results:
+Gene ID: metAA
+Strand: +
+Sequence length: 945
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 306, 942
+Premature stop codons: 1
+
+------------------------------------------------------------
+
+BLAST Custom DB Results:
+Query ID: FEACLHEO_01858
+Query Gene Name: 
+Query Product: Aminoglycoside N(6')-acetyltransferase type 1
+Subject ID: lcl|CP051650.1_cds_UAU39670.1_961
+Identity: 100.000%
+Alignment Length: 366
+Mismatches: 0
+Gap Opens: 0
+Query Start-End: 1-366
+Subject Start-End: 64-429
+E-value: 0.0
+Bit Score: 726
+Query Length: 366
+Subject Length: 429
+Truncation: Yes (difference: 63)
+Subject GenBank Gene Name: HG605_04870
+Subject GenBank Description: GNAT family N-acetyltransferase [Streptococcus pneumoniae]
+
+BLAST Pangenome Reference Results:
+Pangenome Subject ID: group_393
+Pangenome Identity: 100.000%
+Pangenome Alignment Length: 366
+Pangenome Query Length: 366
+Pangenome Subject Length: 429
+Pangenome Mismatches: 0
+Pangenome Gaps: 0
+Pangenome Query Start-End: 1-366
+Pangenome Subject Start-End: 64-429
+Pangenome E-value: 0.0
+Pangenome Bit Score: 676
+Pangenome Truncation: Yes (difference: 63)
+
+Snippy Analysis Results:
+No Snippy analysis found for this query
+
+------------------------------------------------------------
+
+BLAST Custom DB Results:
+Query ID: FEACLHEO_01986
+Query Gene Name: pta
+Query Product: Phosphate acetyltransferase
+Subject ID: lcl|CP071918.1_cds_UIK83374.1_1088
+Identity: 100.000%
+Alignment Length: 873
+Mismatches: 0
+Gap Opens: 0
+Query Start-End: 1-873
+Subject Start-End: 103-975
+E-value: 0.0
+Bit Score: 1731
+Query Length: 873
+Subject Length: 975
+Truncation: Yes (difference: 102)
+Subject GenBank Gene Name: pta
+Subject GenBank Description: phosphate acetyltransferase [Streptococcus pneumoniae]
+
+BLAST Pangenome Reference Results:
+Pangenome Subject ID: pta
+Pangenome Identity: 98.855%
+Pangenome Alignment Length: 873
+Pangenome Query Length: 873
+Pangenome Subject Length: 975
+Pangenome Mismatches: 10
+Pangenome Gaps: 0
+Pangenome Query Start-End: 1-873
+Pangenome Subject Start-End: 103-975
+Pangenome E-value: 0.0
+Pangenome Bit Score: 1557
+Pangenome Truncation: Yes (difference: 102)
+
+Snippy Analysis Results:
+Gene ID: pta
+Strand: +
+Sequence length: 975
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 30, 972
+Premature stop codons: 1
+
+------------------------------------------------------------
+

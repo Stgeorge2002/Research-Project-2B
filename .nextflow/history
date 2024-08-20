@@ -338,7 +338,7 @@
 2024-08-15 22:38:41	2.8s	goofy_colden	ERR	6812b09a69cb220dbf6ca0d8f40c80ee	d7eee51a-5a3c-4a45-8731-10e2e4c28e37	nextflow run real_reads_analysis.nf -profile real_reads_analysis --runRealReadsAnalysis true --useRealReads false
 2024-08-15 22:39:39	2.6s	amazing_lattes	ERR	6812b09a69cb220dbf6ca0d8f40c80ee	95f34c41-b3ea-4cf8-ae95-100c3e37714c	nextflow run real_reads_analysis.nf -profile real_reads_analysis --runRealReadsAnalysis true --useRealReads false
 2024-08-15 22:42:51	7.7s	prickly_chandrasekhar	ERR	53fb2f8fa457fe80781537b2a5828ccb	2d3e875f-fdb6-453f-8240-0e20df825faf	nextflow run real_reads_analysis.nf -profile real_reads_analysis --runRealReadsAnalysis true --useRealReads false
-2024-08-15 22:47:22	-	exotic_colden	-	28b97b760ca8bf1a788ada7bca88d3a6	25cac97d-070f-49a6-8225-5e8e33f951f3	nextflow run real_reads_analysis.nf -profile real_reads_analysis --runRealReadsAnalysis true --useRealReads false
+2024-08-15 22:47:22	2d 20h 54m 20s	exotic_colden	ERR	28b97b760ca8bf1a788ada7bca88d3a6	25cac97d-070f-49a6-8225-5e8e33f951f3	nextflow run real_reads_analysis.nf -profile real_reads_analysis --runRealReadsAnalysis true --useRealReads false
 2024-08-15 22:49:11	11m 22s	jolly_goldstine	OK	7c36f6e35c4c456436d40d980135e8ff	83dbf0ae-8728-4abf-8885-1fc1fd3761ef	nextflow run core_mutation.nf -profile core_mutation --coreOnly true
 2024-08-15 23:02:57	19m 42s	sick_jones	ERR	28b97b760ca8bf1a788ada7bca88d3a6	4838259a-3944-46be-a9ca-0c3929241b9a	nextflow run real_reads_analysis.nf -profile real_reads_analysis --runRealReadsAnalysis true --useRealReads false
 2024-08-15 23:40:47	3m 14s	fervent_brazil	ERR	28b97b760ca8bf1a788ada7bca88d3a6	4838259a-3944-46be-a9ca-0c3929241b9a	nextflow run real_reads_analysis.nf -profile real_reads_analysis --runRealReadsAnalysis true --useRealReads false -resume
@@ -524,7 +524,7 @@
 2024-08-17 22:17:05	27m 9s	gigantic_rosalind	OK	ca4c82dca36ac743fe6cbb5e2569a106	1acbc32a-d683-450f-8e06-e1803c94945b	nextflow run real_reads_analysis.nf -profile real_reads_analysis
 2024-08-17 22:47:39	51s	serene_fermat	ERR	c06e1380171176a14dc2948eda969deb	1c618e5d-e6eb-486f-9469-835caa829006	nextflow run core_mutation.nf -profile core_mutation --useLocalFiles false
 2024-08-17 22:51:39	11m 16s	reverent_galileo	OK	c06e1380171176a14dc2948eda969deb	1758c72a-0e0e-4efb-8ceb-1d691c29760d	nextflow run core_mutation.nf -profile core_mutation --useLocalFiles false
-2024-08-17 23:04:26	-	friendly_pauling	-	c06e1380171176a14dc2948eda969deb	a64f0bb2-e2d3-4e30-beb2-ec75d7a91597	nextflow run core_mutation.nf -profile core_mutation --useLocalFiles true --coreOnly true
+2024-08-17 23:04:26	20h 37m 13s	friendly_pauling	ERR	c06e1380171176a14dc2948eda969deb	a64f0bb2-e2d3-4e30-beb2-ec75d7a91597	nextflow run core_mutation.nf -profile core_mutation --useLocalFiles true --coreOnly true
 2024-08-17 23:05:11	7m 33s	grave_curry	OK	c06e1380171176a14dc2948eda969deb	1f31f85b-dad3-492c-b7ce-d51f2da35c3c	nextflow run core_mutation.nf -profile core_mutation --useLocalFiles true --coreOnly true
 2024-08-17 23:19:45	24s	backstabbing_sax	ERR	c06e1380171176a14dc2948eda969deb	fae49912-fb0f-44a3-a798-9915e64d61fb	nextflow run core_mutation.nf -profile core_mutation --useLocalFiles true --coreOnly true --resume
 2024-08-17 23:20:24	7m 18s	gloomy_shirley	OK	c06e1380171176a14dc2948eda969deb	3d6db635-c0d7-4b11-9dcc-6c37c969d1b8	nextflow run core_mutation.nf -profile core_mutation --useLocalFiles true --coreOnly true
@@ -564,3 +564,196 @@
 2024-08-18 04:16:48	18.3s	determined_easley	OK	ca4c82dca36ac743fe6cbb5e2569a106	c1c90694-c6cc-4e89-9b2e-4a60dfe52e20	nextflow run real_reads_analysis.nf -profile real_reads_analysis -resume
 2024-08-18 04:22:36	18.9s	infallible_murdock	OK	ca4c82dca36ac743fe6cbb5e2569a106	c1c90694-c6cc-4e89-9b2e-4a60dfe52e20	nextflow run real_reads_analysis.nf -profile real_reads_analysis -resume
 2024-08-18 04:27:24	19.8s	cranky_newton	OK	ca4c82dca36ac743fe6cbb5e2569a106	c1c90694-c6cc-4e89-9b2e-4a60dfe52e20	nextflow run real_reads_analysis.nf -profile real_reads_analysis -resume
+2024-08-18 05:30:34	6m 41s	nauseous_hugle	ERR	b7a5b4ba6665535da8e4d50586d36396	c1c90694-c6cc-4e89-9b2e-4a60dfe52e20	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly false -resume
+2024-08-18 05:38:51	5m 42s	naughty_morse	OK	b7a5b4ba6665535da8e4d50586d36396	c1c90694-c6cc-4e89-9b2e-4a60dfe52e20	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly false -resume
+2024-08-18 05:48:07	11.4s	distraught_bernard	ERR	b7a5b4ba6665535da8e4d50586d36396	c1c90694-c6cc-4e89-9b2e-4a60dfe52e20	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 05:49:14	6m 28s	magical_solvay	OK	b7a5b4ba6665535da8e4d50586d36396	c1c90694-c6cc-4e89-9b2e-4a60dfe52e20	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 06:01:15	5.8s	deadly_euler	OK	b7a5b4ba6665535da8e4d50586d36396	c1c90694-c6cc-4e89-9b2e-4a60dfe52e20	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 06:03:34	13h 38m 5s	serene_laplace	ERR	b7a5b4ba6665535da8e4d50586d36396	6d87361b-67a2-4a44-b9bd-a2694e8d5a6c	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true
+2024-08-18 06:04:05	7m 40s	distracted_joliot	OK	b7a5b4ba6665535da8e4d50586d36396	17eb27e7-34c7-4bc7-810b-b0b2cfcfebe7	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true
+2024-08-18 06:40:09	1m 22s	cranky_snyder	ERR	b7a5b4ba6665535da8e4d50586d36396	76f7544e-7df3-42a4-90c0-a2a8323a7308	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly false
+2024-08-18 13:40:14	4m 37s	nauseous_blackwell	ERR	4528ff1cc09491de530134c5ac04a6ae	cabaec6b-eab6-4c51-875b-cf0dbeb2a997	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly false
+2024-08-18 13:51:25	10.8s	agitated_hugle	ERR	b7a5b4ba6665535da8e4d50586d36396	cabaec6b-eab6-4c51-875b-cf0dbeb2a997	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly false -resume
+2024-08-18 13:51:48	12m	soggy_hodgkin	OK	b7a5b4ba6665535da8e4d50586d36396	0d13f7bd-a391-467c-87d0-ca80ef069551	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly false
+2024-08-18 14:07:39	10.8s	determined_hodgkin	ERR	b7a5b4ba6665535da8e4d50586d36396	976fb3bb-47f0-413e-9c41-c122d865527a	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly false
+2024-08-18 14:08:04	7m 59s	elated_goldstine	OK	b7a5b4ba6665535da8e4d50586d36396	fbcd737b-0084-4d3a-b251-45758d062c0c	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true
+2024-08-18 14:23:27	5.6s	sick_golick	OK	b7a5b4ba6665535da8e4d50586d36396	fbcd737b-0084-4d3a-b251-45758d062c0c	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 14:26:13	6.9s	hopeful_curie	OK	b7a5b4ba6665535da8e4d50586d36396	fbcd737b-0084-4d3a-b251-45758d062c0c	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 14:32:48	5m 20s	lonely_turing	ERR	b7a5b4ba6665535da8e4d50586d36396	fbcd737b-0084-4d3a-b251-45758d062c0c	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 14:39:32	4m	suspicious_euler	OK	b7a5b4ba6665535da8e4d50586d36396	fbcd737b-0084-4d3a-b251-45758d062c0c	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 15:03:18	23m 48s	nostalgic_pasteur	OK	0c6378f7d34306df55bcbf78d9d0f1a6	abbf1e37-501d-4f83-aa4a-162ec8415fc5	nextflow run XtraDetect.nf -profile XtraDetect
+2024-08-18 16:24:35	22.5s	voluminous_stallman	ERR	105a50cef348ddb6cd9f1cfe98409caf	abbf1e37-501d-4f83-aa4a-162ec8415fc5	nextflow run XtraDetect.nf -profile XtraDetect -resume
+2024-08-18 16:27:22	4.1s	grave_rubens	ERR	0c6378f7d34306df55bcbf78d9d0f1a6	abbf1e37-501d-4f83-aa4a-162ec8415fc5	nextflow run XtraDetect.nf -profile XtraDetect -resume
+2024-08-18 16:28:07	4.8s	kickass_booth	ERR	0c6378f7d34306df55bcbf78d9d0f1a6	d8487b96-e674-4c21-85f6-1048dcc33941	nextflow run XtraDetect.nf -profile XtraDetect
+2024-08-18 16:29:05	9.1s	festering_booth	ERR	0c6378f7d34306df55bcbf78d9d0f1a6	175583d9-e220-45cd-96a2-537191a51e85	nextflow run XtraDetect.nf -profile XtraDetect
+2024-08-18 16:32:30	-	cheeky_agnesi	-	f826252bf8ef33ecb32f998d4cedddee	175583d9-e220-45cd-96a2-537191a51e85	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 16:33:09	7m	pedantic_kalam	ERR	f826252bf8ef33ecb32f998d4cedddee	175583d9-e220-45cd-96a2-537191a51e85	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 16:48:42	7m 7s	shrivelled_liskov	ERR	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true
+2024-08-18 17:13:36	8.1s	fabulous_ramanujan	ERR	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:16:55	5.6s	loving_sanger	OK	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:18:59	-	drunk_jones	-	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:19:30	7.2s	kickass_carlsson	ERR	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:21:39	6.5s	curious_hamilton	ERR	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:23:26	6.5s	condescending_mahavira	OK	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:26:11	5.4s	insane_kimura	OK	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:28:15	4.7s	marvelous_coulomb	OK	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:28:54	4.2s	deadly_brahmagupta	OK	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:30:57	5.1s	focused_pike	ERR	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:32:34	4.6s	lonely_volhard	OK	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:33:57	6.1s	nauseous_gauss	OK	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:34:16	3.4s	modest_nightingale	OK	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:35:42	4.9s	high_montalcini	OK	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:37:27	5.5s	fabulous_hoover	OK	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:38:19	5.1s	compassionate_lavoisier	OK	f826252bf8ef33ecb32f998d4cedddee	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:44:01	3.8s	marvelous_miescher	ERR	b3a2b24753f2370a7c5cebb442d914c5	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:44:48	3.8s	goofy_blackwell	ERR	b3a2b24753f2370a7c5cebb442d914c5	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:45:51	4.5s	maniac_archimedes	ERR	a8baccf1b5f4f8cb8ad56799de89b557	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 17:46:42	3.9s	sleepy_wing	ERR	6b4e4ad20f363fc322a01516169cf102	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 22:16:37	3.6s	reverent_dubinsky	ERR	b3a2b24753f2370a7c5cebb442d914c5	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 22:20:01	3.8s	stoic_pauling	ERR	b3a2b24753f2370a7c5cebb442d914c5	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 22:21:38	5.1s	friendly_bohr	OK	2b9000cd934add7054c97302ff9ddc44	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 22:24:08	4.9s	cranky_linnaeus	OK	aee188492e1777ed77f317d9e062a587	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 22:26:47	3.7s	high_leakey	OK	aee188492e1777ed77f317d9e062a587	34145f10-cc64-43fb-af9b-116eb55d7abf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true -resume
+2024-08-18 22:34:06	8m 28s	golden_minsky	OK	aee188492e1777ed77f317d9e062a587	3428dff4-3a7d-409f-a039-e0a36f754edf	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true
+2024-08-18 22:43:58	50m 55s	sad_pesquet	OK	0c6378f7d34306df55bcbf78d9d0f1a6	e3e35deb-0406-4192-8074-9708055ba26d	nextflow run XtraDetect.nf -profile XtraDetect
+2024-08-18 23:59:24	-	hungry_colden	-	67121c3cef321b2244988387d6f6d822	378a7f25-7528-4332-974f-71f4a4dda0cf	nextflow run XtraDetect.nf -profile XtraDetect
+2024-08-19 00:01:22	-	cheesy_spence	-	58913500fd5930539318cd82e9dc35c0	1c180e50-8f6e-4b28-86db-6428b8382dd1	nextflow run XtraDetect.nf -profile XtraDetect
+2024-08-19 00:04:38	3.4s	adoring_leibniz	ERR	698c21967c6e0d43c356348837480123	e3198bf6-7772-44b4-9f37-dafe87849507	nextflow run XtraDetect.nf -profile XtraDetect
+2024-08-19 00:05:39	2m 53s	friendly_shannon	ERR	18a6115065b05d8e2a0ffa29f296bd9c	9058b798-cd14-4060-9048-85c3892269a5	nextflow run XtraDetect.nf -profile XtraDetect
+2024-08-19 00:08:52	3.2s	extravagant_lamport	ERR	49f4cacc1a9dfa2e9b397e9185164b2b	f67e56e2-afe6-4212-9002-3bcb42bbce73	nextflow run XtraDetect.nf -profile XtraDetect
+2024-08-19 00:09:49	2.3s	adoring_mcnulty	ERR	7b8f5c79b02bc40ba251a206e91eb95d	f4b15f8b-f3af-461e-9108-e26abc6a352a	nextflow run XtraDetect.nf -profile XtraDetect
+2024-08-19 00:11:26	2.7s	curious_elion	ERR	2c3580bc4417aed7d3a30690874af318	c26d960d-2229-405e-b651-db317a33e4da	nextflow run XtraDetect.nf -profile XtraDetect
+2024-08-19 00:11:44	22m 55s	spontaneous_williams	OK	e4eb382fd297e5298e9c59db5e5b983f	18d314ce-fc6c-4142-9160-cc40309b4552	nextflow run XtraDetect.nf -profile XtraDetect
+2024-08-19 01:27:59	7.1s	astonishing_boltzmann	ERR	ed9967585c6412dd312fb58d5b4ff438	86581859-0d72-4d43-a157-3803490883c6	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true
+2024-08-19 01:28:13	4.2s	hungry_caravaggio	ERR	ed9967585c6412dd312fb58d5b4ff438	78547153-94bd-4e45-b7fc-f31443638f88	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun false
+2024-08-19 01:34:11	-	loquacious_blackwell	-	ed9967585c6412dd312fb58d5b4ff438	38f3b432-ae95-4279-abb8-8310f3e8f379	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun false
+2024-08-19 01:50:59	6m 28s	nostalgic_pare	ERR	ed9967585c6412dd312fb58d5b4ff438	dae0a4f0-090c-460b-8f3c-cad2cc45f5fc	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 01:58:06	3.8s	hopeful_panini	ERR	ed9967585c6412dd312fb58d5b4ff438	dae0a4f0-090c-460b-8f3c-cad2cc45f5fc	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true -resume
+2024-08-19 01:59:24	3.9s	awesome_marconi	ERR	ed9967585c6412dd312fb58d5b4ff438	dae0a4f0-090c-460b-8f3c-cad2cc45f5fc	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true -resume
+2024-08-19 02:01:35	5.2s	focused_wing	ERR	ed9967585c6412dd312fb58d5b4ff438	dae0a4f0-090c-460b-8f3c-cad2cc45f5fc	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true -resume
+2024-08-19 02:01:59	4.3s	high_pike	OK	ed9967585c6412dd312fb58d5b4ff438	dae0a4f0-090c-460b-8f3c-cad2cc45f5fc	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true -resume
+2024-08-19 02:04:50	4.2s	confident_bhabha	OK	ed9967585c6412dd312fb58d5b4ff438	dae0a4f0-090c-460b-8f3c-cad2cc45f5fc	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true -resume
+2024-08-19 02:05:11	3.7s	fervent_einstein	OK	ed9967585c6412dd312fb58d5b4ff438	dae0a4f0-090c-460b-8f3c-cad2cc45f5fc	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true -resume '[57/6f6345]'
+2024-08-19 02:05:21	6m 32s	desperate_turing	OK	ed9967585c6412dd312fb58d5b4ff438	3657b923-f108-43b4-be74-1915a1c0cdb5	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 02:18:49	6m 26s	nasty_jones	OK	ed9967585c6412dd312fb58d5b4ff438	f90ff6b1-de64-4468-b8c6-51ec16263ca0	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 02:31:27	6m 28s	agitated_venter	OK	ed9967585c6412dd312fb58d5b4ff438	ec38b91b-b025-4c3b-a43d-c3bcef6341c1	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 02:39:21	18m 36s	fabulous_miescher	OK	e4eb382fd297e5298e9c59db5e5b983f	ce23b3c0-aea1-46bf-b40b-833072b8abc2	nextflow run XtraDetect.nf -profile XtraDetect
+2024-08-19 04:23:37	6m 42s	deadly_banach	OK	ed9967585c6412dd312fb58d5b4ff438	b45a4e96-1b6d-4629-bb46-04dfc48f5876	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 04:35:26	4m 32s	thirsty_einstein	ERR	ed9967585c6412dd312fb58d5b4ff438	987f31da-12a6-41eb-a9e7-5d8e1bb45e22	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 04:40:06	3m 6s	curious_ritchie	OK	ed9967585c6412dd312fb58d5b4ff438	987f31da-12a6-41eb-a9e7-5d8e1bb45e22	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true -resume
+2024-08-19 04:45:43	12m 35s	scruffy_caravaggio	ERR	e4eb382fd297e5298e9c59db5e5b983f	471c0da6-2a2a-4b2a-8d2e-f2b701c531a9	nextflow run XtraDetect.nf -profile XtraDetect
+2024-08-19 04:58:49	5.1s	spontaneous_einstein	ERR	e0b07362908a7777f86c04f50c22a710	98032330-cfb4-45db-ad50-75f07f640003	nextflow run XtraDetect.nf -profile XtraDetect --SkipUnicycler true
+2024-08-19 04:58:59	15h 53m 38s	ridiculous_shirley	ERR	e0b07362908a7777f86c04f50c22a710	1e52c87f-50d1-418d-957a-5e1299698649	nextflow run XtraDetect.nf -profile XtraDetect --SkipUnicycler true
+2024-08-19 04:59:15	2.2s	infallible_hugle	ERR	e0b07362908a7777f86c04f50c22a710	ba04b7c4-7496-481c-b653-2fd68e69aee8	nextflow run XtraDetect.nf -profile XtraDetect --skipUnicycler true
+2024-08-19 05:00:02	5s	desperate_carlsson	ERR	b0851fc204ed02b39818a34c5fe12997	7d4825a4-de56-421d-a829-74a063e92678	nextflow run XtraDetect.nf -profile XtraDetect --skipUnicycler true
+2024-08-19 05:00:12	5s	evil_jones	ERR	b0851fc204ed02b39818a34c5fe12997	6ddcf703-5212-4ccf-859b-322cd67cbba5	nextflow run XtraDetect.nf -profile XtraDetect --skipUnicycler false
+2024-08-19 05:00:36	4m 49s	tender_shirley	ERR	b0851fc204ed02b39818a34c5fe12997	fcbd1363-901a-4397-a300-22e5fcddea6f	nextflow run XtraDetect.nf -profile XtraDetect --skipUnicycler true
+2024-08-19 05:05:56	4.3s	furious_cajal	ERR	b0851fc204ed02b39818a34c5fe12997	fcbd1363-901a-4397-a300-22e5fcddea6f	nextflow run XtraDetect.nf -profile XtraDetect --skipUnicycler true -resume
+2024-08-19 05:06:38	21.3s	exotic_goldwasser	OK	b0851fc204ed02b39818a34c5fe12997	fcbd1363-901a-4397-a300-22e5fcddea6f	nextflow run XtraDetect.nf -profile XtraDetect --skipUnicycler true -resume
+2024-08-19 05:13:04	5m 12s	kickass_murdock	OK	b0851fc204ed02b39818a34c5fe12997	104212ad-eed1-403d-97b6-08f6d7bdc8b6	nextflow run XtraDetect.nf -profile XtraDetect --skipUnicycler true
+2024-08-19 05:35:02	5m 8s	maniac_wright	OK	b0851fc204ed02b39818a34c5fe12997	863fca51-dc87-48dc-8416-56d5e37f7ff8	nextflow run XtraDetect.nf -profile XtraDetect --skipUnicycler true
+2024-08-19 05:44:38	3m 6s	clever_rutherford	ERR	b0851fc204ed02b39818a34c5fe12997	cb7a7b2a-925d-4bfc-94a2-4e238d32cfe5	nextflow run XtraDetect.nf -profile XtraDetect --skipUnicycler true
+2024-08-19 05:48:09	17m 35s	prickly_wright	OK	b0851fc204ed02b39818a34c5fe12997	0174af21-1cc2-47e1-a946-efa1843d9368	nextflow run XtraDetect.nf -profile XtraDetect --reads
+2024-08-19 06:08:56	-	soggy_goodall	-	8814da5c0edc93ce7f809514370447ad	7ab5d048-441e-4da6-8080-96cdceb2c407	nextflow run XtraDetect.nf -profile XtraDetect --reads
+2024-08-19 06:09:30	2.7s	chaotic_edison	ERR	c489bb503a81ae5a1fc25ad356e9412c	2fa52c11-126d-49a9-ad02-7c408e0c97a8	nextflow run XtraDetect.nf -profile XtraDetect --reads
+2024-08-19 06:10:24	3.1s	gigantic_kilby	ERR	00be603349366b05c90905892cb85943	5ce9bb29-ef26-4b33-824a-1dc4d1aa479d	nextflow run XtraDetect.nf -profile XtraDetect --reads
+2024-08-19 06:14:25	-	ridiculous_yalow	-	c2b0072987dad48f22e0fe7b7bc0bd69	1997b1bb-7254-48f3-b149-2ef83199d845	nextflow run XtraDetect.nf -profile XtraDetect --reads
+2024-08-19 06:15:03	2.1s	thirsty_ritchie	ERR	e52bcd88ccc357bd13310d6c81d19688	61de7f26-34e6-4109-9c30-b731c5732368	nextflow run XtraDetect.nf -profile XtraDetect --reads
+2024-08-19 06:16:13	2.4s	evil_khorana	ERR	f704ca705cbf75cf88de21722d2f63ac	d60941ef-2bb7-4a6a-b42c-7dd4c1105005	nextflow run XtraDetect.nf -profile XtraDetect --reads
+2024-08-19 06:16:36	2.5s	loving_banach	ERR	f704ca705cbf75cf88de21722d2f63ac	31d50a55-a830-4bbd-a4f2-b7fd9bc5ce51	nextflow run XtraDetect.nf -profile XtraDetect --reads true
+2024-08-19 06:17:38	3.1s	admiring_jang	ERR	f704ca705cbf75cf88de21722d2f63ac	9a54efad-07af-42c1-ab5d-1b26a734da16	nextflow run XtraDetect.nf -profile XtraDetect --reads true
+2024-08-19 06:17:50	2.1s	reverent_albattani	ERR	f704ca705cbf75cf88de21722d2f63ac	fdef61a2-bf6e-4105-bc4e-68ba05da7a8d	nextflow run XtraDetect.nf -profile XtraDetect --reads
+2024-08-19 06:19:05	2.2s	mad_hodgkin	ERR	f704ca705cbf75cf88de21722d2f63ac	a2e5bd7a-5117-4b88-b589-40d87bd3bb11	nextflow run XtraDetect.nf -profile XtraDetect --reads true
+2024-08-19 06:20:05	3.2s	tiny_williams	ERR	74657abb8087f5609b8e25e540d19a6f	afb99e9d-debc-4ce0-8c7d-787bd056a0ed	nextflow run XtraDetect.nf -profile XtraDetect --reads
+2024-08-19 06:21:35	-	tender_church	-	9058520801cb640f9212bbb263d22b2a	e500fbde-b0ac-46c0-9669-1daf72d1fa53	nextflow run XtraDetect.nf -profile XtraDetect --reads
+2024-08-19 06:22:15	2.2s	disturbed_hodgkin	ERR	acdae4cf9ed2de8a1ee218ea94f7d452	9a5c3de3-501e-4317-8c5e-ef52b9e91879	nextflow run XtraDetect.nf -profile XtraDetect --reads
+2024-08-19 06:23:02	2.7s	angry_sanger	ERR	acdae4cf9ed2de8a1ee218ea94f7d452	a5c077ee-a9c1-44b0-898d-9ac26a5dda17	nextflow run XtraDetect.nf -profile XtraDetect --reads
+2024-08-19 06:23:44	15m 6s	prickly_pauling	OK	afb2b6c552a595db692e818cf3a5a9e8	2eaa6b31-148e-4dce-bd04-c5a9fb61e84b	nextflow run XtraDetect.nf -profile XtraDetect --reads
+2024-08-19 16:02:57	2.7s	modest_euclid	ERR	afb2b6c552a595db692e818cf3a5a9e8	88ed4522-72ae-4b04-a407-c9052be6f54f	nextflow run XtraDetect.nf -profile XtraDetect --fa
+2024-08-19 16:04:40	4h 47m 57s	voluminous_mccarthy	ERR	afb2b6c552a595db692e818cf3a5a9e8	a8be7bae-6be2-4c70-8267-b4392a0e99ea	nextflow run XtraDetect.nf -profile XtraDetect --fa
+2024-08-19 16:07:23	4h 45m 14s	nauseous_lichterman	ERR	afb2b6c552a595db692e818cf3a5a9e8	ba2176c8-ea3f-42af-9507-1db80835a0ac	nextflow run XtraDetect.nf -profile XtraDetect --fa --skipUnicyler true
+2024-08-19 16:07:39	5m 10s	sharp_mccarthy	OK	afb2b6c552a595db692e818cf3a5a9e8	b808fbbe-feba-4489-b967-101ad2dd974a	nextflow run XtraDetect.nf -profile XtraDetect --fa --skipUnicycler true
+2024-08-19 17:12:57	-	golden_thompson	-	ed9967585c6412dd312fb58d5b4ff438	5bd42cd0-8172-4b3f-bb4a-f09ed5d5439a	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 17:14:12	-	adoring_kilby	-	ed9967585c6412dd312fb58d5b4ff438	6f4f81f1-5c0e-403a-96d6-c31989547d50	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 17:18:32	3h 34m 4s	prickly_lalande	ERR	ed9967585c6412dd312fb58d5b4ff438	bdd388bc-978a-422b-8f09-a8307d947588	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 17:21:12	10s	tender_meninsky	ERR	ed9967585c6412dd312fb58d5b4ff438	90c8076d-dbc2-42a0-921e-b9b80933d958	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 17:23:02	12.1s	cranky_jones	ERR	ed9967585c6412dd312fb58d5b4ff438	6bfc25ee-c258-40a2-a0e5-067bdc638723	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 17:24:29	12.4s	sad_bell	ERR	ed9967585c6412dd312fb58d5b4ff438	0539fbd1-3ad7-462b-9c46-f1c241e998fd	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 17:24:47	10.3s	stupefied_poisson	ERR	ed9967585c6412dd312fb58d5b4ff438	0746c198-a013-4643-9d3a-984e18150c13	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 19:01:06	42.1s	elegant_easley	ERR	ed9967585c6412dd312fb58d5b4ff438	661ee7b6-0b7b-4b12-ba40-88c7c3b0b3c8	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 19:01:55	6m 57s	ridiculous_ardinghelli	OK	ed9967585c6412dd312fb58d5b4ff438	407e2058-23e3-4005-9185-105a2983b69b	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 20:00:03	26.7s	romantic_almeida	ERR	ed9967585c6412dd312fb58d5b4ff438	1aeff15b-a7a8-4b63-840d-a870b2513925	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 20:01:45	2m 55s	gigantic_meucci	ERR	ed9967585c6412dd312fb58d5b4ff438	10be27c9-1df6-4287-b322-22285ebe59c4	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 20:04:47	16.9s	clever_rubens	ERR	ed9967585c6412dd312fb58d5b4ff438	c6962cc1-93de-43e2-9bbe-317c81073748	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 20:06:34	21.5s	sad_poitras	ERR	ed9967585c6412dd312fb58d5b4ff438	0bd9f7ca-2a8d-4758-8af4-e65ad3f9dcae	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 20:36:25	21.4s	pensive_tesla	ERR	ed9967585c6412dd312fb58d5b4ff438	80a79874-4c48-48ce-a114-4decdd9fae65	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 20:38:06	12.4s	trusting_goldberg	ERR	ed9967585c6412dd312fb58d5b4ff438	4974a917-fbf6-483e-b48f-c0ac16365712	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 20:41:05	10.5s	mighty_celsius	ERR	ed9967585c6412dd312fb58d5b4ff438	390425b7-8135-4e53-85be-b1097d6b0564	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 20:43:01	6.7s	admiring_stallman	ERR	ed9967585c6412dd312fb58d5b4ff438	d4191cce-f2ef-453f-98ee-fb6ae0b39044	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 20:43:16	9.3s	friendly_planck	ERR	ed9967585c6412dd312fb58d5b4ff438	76eab58a-09a5-4157-9555-f2edcd3e2e01	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 20:53:02	3.7s	magical_heyrovsky	ERR	7d5a6d5d642d86b7c74d44e817021e61	e2321e2d-abf6-48af-aad3-085541715850	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 20:55:02	-	maniac_darwin	-	7d5a6d5d642d86b7c74d44e817021e61	40c79b5b-1a9d-487e-ab8c-02425ff915a2	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 20:56:10	14.5s	nostalgic_sammet	ERR	ed9967585c6412dd312fb58d5b4ff438	16814fd2-8b60-4768-9438-3ccaf33b9f89	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 20:57:33	9s	irreverent_avogadro	ERR	ed9967585c6412dd312fb58d5b4ff438	b246efd8-79fb-45ec-acfe-cbe4786b6dbb	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 20:59:35	1m 53s	soggy_noyce	ERR	ed9967585c6412dd312fb58d5b4ff438	533429a1-afb6-45f5-af05-67757e91d10f	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 21:03:17	11.3s	distraught_solvay	ERR	ed9967585c6412dd312fb58d5b4ff438	29988f92-cc86-4ef0-9eb0-4f4791fd4f66	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 21:05:47	52.1s	ecstatic_payne	ERR	ed9967585c6412dd312fb58d5b4ff438	b0b66ad7-48b7-4ea9-9ebb-870755d9e456	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 21:07:32	1m 41s	clever_jones	ERR	ed9967585c6412dd312fb58d5b4ff438	092219ab-1d8e-4a03-b1ba-ce5054b64863	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 21:14:12	2m 35s	cheesy_gates	ERR	ed9967585c6412dd312fb58d5b4ff438	2ca5a388-0d7e-4abf-9d03-70b068763300	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 21:17:29	1m 13s	loquacious_faraday	ERR	ed9967585c6412dd312fb58d5b4ff438	314f35cd-0d23-47df-a5c6-610b9783392d	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 21:20:21	1m 26s	golden_hoover	ERR	ed9967585c6412dd312fb58d5b4ff438	fd797e52-fbb2-426f-9950-5f1753dafb59	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 21:21:53	7m 14s	evil_noether	OK	ed9967585c6412dd312fb58d5b4ff438	8b579fd9-4e7a-4036-b676-5358a67ed3a8	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 21:33:22	9m	zen_lattes	OK	ed9967585c6412dd312fb58d5b4ff438	5e659d9b-0007-4b31-96d1-fb7503d267ea	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 21:57:57	7m 58s	agitated_gautier	OK	ed9967585c6412dd312fb58d5b4ff438	5af134a3-fa7d-4310-8ff7-a7314cfe48ca	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 22:11:16	8m 57s	tiny_franklin	OK	ed9967585c6412dd312fb58d5b4ff438	bdd2e738-e079-47de-8bd3-e319e2e2fffb	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 23:51:41	6.2s	mad_sax	ERR	ed9967585c6412dd312fb58d5b4ff438	e9a94199-b664-4c40-90fc-52c064dc3728	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 23:52:09	17.2s	naughty_feynman	ERR	ed9967585c6412dd312fb58d5b4ff438	13a2d4b7-75aa-4dcb-834b-ca8a90748e7b	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-19 23:56:09	6m 49s	nice_hugle	OK	ed9967585c6412dd312fb58d5b4ff438	3fc9b2e8-31dd-435b-89b9-0ef178ec3a56	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 00:10:28	6m 40s	ridiculous_celsius	OK	ed9967585c6412dd312fb58d5b4ff438	41a48565-5a75-4439-bd1f-a0ac398669c3	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 09:18:47	57.5s	nauseous_woese	ERR	ed9967585c6412dd312fb58d5b4ff438	35deb752-b207-496a-9f3d-c752d8c961a6	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 09:20:13	6m 28s	infallible_cray	OK	ed9967585c6412dd312fb58d5b4ff438	5307af57-d11c-4857-aeb8-fa2acfb204f7	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 09:33:29	6m 28s	nauseous_saha	OK	ed9967585c6412dd312fb58d5b4ff438	896609df-980b-49fd-9428-a4311eab8180	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 09:45:47	-	pedantic_galileo	-	ed9967585c6412dd312fb58d5b4ff438	7befbfa6-11a1-4218-9c29-d7b893edae4f	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 09:47:28	9.2s	nasty_mahavira	ERR	ed9967585c6412dd312fb58d5b4ff438	c7652b41-7356-4f95-912c-4f2e3390b6b6	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 10:15:19	1m	happy_brattain	ERR	ed9967585c6412dd312fb58d5b4ff438	8ba5b8e5-00de-4de8-b148-030db6ae465b	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 10:17:21	2m 39s	suspicious_leavitt	ERR	ed9967585c6412dd312fb58d5b4ff438	6860e858-b5ff-48e0-9399-88a386bef66c	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 10:23:28	3m 27s	gigantic_murdock	ERR	ed9967585c6412dd312fb58d5b4ff438	6f488151-2a58-4f8c-a4ee-c3f0c3be9391	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 10:27:49	5m 18s	nasty_mercator	ERR	ed9967585c6412dd312fb58d5b4ff438	fdc7ee3a-cee7-4745-ae82-2d1ab58fceab	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 10:33:11	5m 15s	crazy_kalam	ERR	ed9967585c6412dd312fb58d5b4ff438	c965394e-7a46-40c9-a53e-42030c74f3ea	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 10:38:33	2m 38s	condescending_goodall	ERR	ed9967585c6412dd312fb58d5b4ff438	fe0af321-dfb8-4593-901d-fc2a6bdfeec1	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 10:43:55	5m 16s	prickly_dijkstra	ERR	ed9967585c6412dd312fb58d5b4ff438	1536a696-dd55-4007-a06c-9d70eb4c735c	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 10:49:15	1m 55s	ridiculous_brenner	ERR	ed9967585c6412dd312fb58d5b4ff438	58f1300f-9d54-4d4f-abf7-f4c8b54b8506	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 10:52:47	2m 13s	happy_knuth	ERR	ed9967585c6412dd312fb58d5b4ff438	22a862e7-5015-405e-afe5-7477642c52e0	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 11:02:04	3m 28s	wise_jones	ERR	ed9967585c6412dd312fb58d5b4ff438	975328dc-c4d5-43e2-a0ca-eb207397fc6c	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 11:07:27	6m 53s	backstabbing_hodgkin	OK	ed9967585c6412dd312fb58d5b4ff438	26d33788-7264-49b1-8a38-36368f537f32	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 11:57:47	6m 42s	ridiculous_lamport	OK	ed9967585c6412dd312fb58d5b4ff438	8d80f518-aac6-46ff-a417-efd4367b6b83	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 12:04:51	2m 48s	big_bhabha	ERR	ed9967585c6412dd312fb58d5b4ff438	3029197a-ac74-41c8-83a2-dfb848691a68	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 12:08:22	6m 43s	hungry_sax	OK	003ad7b807800993b107535652b99bee	361cd745-8af0-43c4-b228-3827446a81f4	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles false --coreOnly true --exTrun true
+2024-08-20 12:39:33	6m 36s	desperate_church	OK	003ad7b807800993b107535652b99bee	706c9f15-fffe-44c6-876d-7ac668e3ed07	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true
+2024-08-20 13:21:19	9m 14s	clever_bhaskara	OK	003ad7b807800993b107535652b99bee	dad43640-08d5-4acc-8f5f-536f6dfb9e9c	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true
+2024-08-20 13:52:23	6m 42s	confident_mendel	OK	003ad7b807800993b107535652b99bee	809f16a2-1751-444f-960c-56f739012eb8	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true
+2024-08-20 14:18:07	6m 36s	boring_leakey	OK	003ad7b807800993b107535652b99bee	7e4e9a1f-6db1-4a76-9c96-a95b282f75aa	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true
+2024-08-20 14:42:09	4.2s	determined_yonath	OK	97ebfbd72d3d2065fb2c08df2177e49e	7e4e9a1f-6db1-4a76-9c96-a95b282f75aa	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true -resume
+2024-08-20 14:43:18	3s	compassionate_woese	OK	97ebfbd72d3d2065fb2c08df2177e49e	7e4e9a1f-6db1-4a76-9c96-a95b282f75aa	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true -resume
+2024-08-20 14:44:52	4.2s	evil_torvalds	OK	97ebfbd72d3d2065fb2c08df2177e49e	7e4e9a1f-6db1-4a76-9c96-a95b282f75aa	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true -resume
+2024-08-20 14:47:30	4.3s	intergalactic_spence	OK	97ebfbd72d3d2065fb2c08df2177e49e	7e4e9a1f-6db1-4a76-9c96-a95b282f75aa	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true -resume
+2024-08-20 14:48:26	4.2s	elated_venter	OK	97ebfbd72d3d2065fb2c08df2177e49e	7e4e9a1f-6db1-4a76-9c96-a95b282f75aa	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true -resume
+2024-08-20 14:49:22	3.6s	tiny_fermat	OK	97ebfbd72d3d2065fb2c08df2177e49e	7e4e9a1f-6db1-4a76-9c96-a95b282f75aa	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true -resume
+2024-08-20 14:51:59	4.9s	cheeky_meninsky	OK	97ebfbd72d3d2065fb2c08df2177e49e	7e4e9a1f-6db1-4a76-9c96-a95b282f75aa	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true -resume
+2024-08-20 14:55:36	4.7s	adoring_minsky	OK	97ebfbd72d3d2065fb2c08df2177e49e	7e4e9a1f-6db1-4a76-9c96-a95b282f75aa	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true -resume
+2024-08-20 14:57:46	4.8s	agitated_bernard	OK	97ebfbd72d3d2065fb2c08df2177e49e	7e4e9a1f-6db1-4a76-9c96-a95b282f75aa	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true -resume
+2024-08-20 15:00:17	4.1s	evil_bhaskara	OK	97ebfbd72d3d2065fb2c08df2177e49e	7e4e9a1f-6db1-4a76-9c96-a95b282f75aa	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true -resume
+2024-08-20 15:02:51	4.5s	clever_marconi	OK	97ebfbd72d3d2065fb2c08df2177e49e	7e4e9a1f-6db1-4a76-9c96-a95b282f75aa	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true -resume
+2024-08-20 15:05:37	4.6s	distracted_golick	OK	97ebfbd72d3d2065fb2c08df2177e49e	7e4e9a1f-6db1-4a76-9c96-a95b282f75aa	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true -resume
+2024-08-20 15:07:30	8.7s	crazy_lumiere	OK	3c23825df39b646fef5b9e31da4a0d2d	7e4e9a1f-6db1-4a76-9c96-a95b282f75aa	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true -resume
+2024-08-20 15:13:59	3.2s	clever_colden	OK	003ad7b807800993b107535652b99bee	7e4e9a1f-6db1-4a76-9c96-a95b282f75aa	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true -resume
+2024-08-20 15:14:18	6m 30s	jolly_rutherford	OK	003ad7b807800993b107535652b99bee	c46978e1-661e-40a0-b5fb-d011aaa34fa8	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true
+2024-08-20 15:44:51	6m 39s	zen_watson	OK	e982e0146cee64807cdc8af8a443c19d	8800c7d5-4c30-4799-bae5-a439c39a6248	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true
+2024-08-20 16:01:38	6m 44s	festering_curry	OK	e982e0146cee64807cdc8af8a443c19d	e3db0840-0193-47c1-bfd7-0612fabaf58c	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true
+2024-08-20 16:12:23	6m 45s	hungry_kirch	OK	e982e0146cee64807cdc8af8a443c19d	27e929b1-9d83-4871-bf4a-6c0bfc419fb8	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true
+2024-08-20 17:26:43	6m 47s	crazy_aryabhata	OK	e982e0146cee64807cdc8af8a443c19d	fb8a9f05-4387-45c8-b833-b01964fffeae	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true
+2024-08-20 17:36:53	3.7s	nice_stone	OK	e982e0146cee64807cdc8af8a443c19d	fb8a9f05-4387-45c8-b833-b01964fffeae	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true -resume
+2024-08-20 17:39:53	6m 20s	fabulous_heisenberg	OK	e982e0146cee64807cdc8af8a443c19d	aa430e70-4aae-4e99-ae12-609fd696971b	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true
+2024-08-20 18:15:50	5m 29s	irreverent_mccarthy	OK	afb2b6c552a595db692e818cf3a5a9e8	c7750959-2695-4aef-9410-6b41bddfd492	nextflow run XtraDetect.nf -profile XtraDetect --fa --skipUnicycler true
+2024-08-20 18:23:09	6m 58s	high_ampere	OK	e982e0146cee64807cdc8af8a443c19d	73eedb28-5b04-4edb-b995-37170741d36b	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true
+2024-08-20 19:22:22	6m 21s	jolly_becquerel	ERR	e982e0146cee64807cdc8af8a443c19d	f39229af-91cc-42bf-9e15-ecf733ae5f17	nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true

@@ -1,0 +1,155 @@
+Aug-20 18:15:48.441 [main] DEBUG nextflow.cli.Launcher - $> nextflow run XtraDetect.nf -profile XtraDetect --fa --skipUnicycler true
+Aug-20 18:15:48.775 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.3
+Aug-20 18:15:48.802 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/tbea20/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2-patch1,nf-tower@1.9.1,nf-wave@1.4.2
+Aug-20 18:15:48.821 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Aug-20 18:15:48.823 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Aug-20 18:15:48.827 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
+Aug-20 18:15:48.847 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Aug-20 18:15:48.875 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/tbea20/Research-Project-2B-Final/nextflow.config
+Aug-20 18:15:48.879 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/tbea20/Research-Project-2B-Final/nextflow.config
+Aug-20 18:15:48.916 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/tbea20/.nextflow/secrets/store.json
+Aug-20 18:15:48.920 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@3aefae67] - activable => nextflow.secret.LocalSecretsProvider@3aefae67
+Aug-20 18:15:48.936 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `XtraDetect`
+Aug-20 18:15:49.964 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [PanG_DB, XtraDetect]
+Aug-20 18:15:50.015 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Aug-20 18:15:50.038 [main] DEBUG nextflow.cli.CmdRun - Launching `XtraDetect.nf` [irreverent_mccarthy] DSL2 - revision: afb2b6c552
+Aug-20 18:15:50.040 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Aug-20 18:15:50.041 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Aug-20 18:15:50.111 [main] DEBUG nextflow.Session - Session UUID: c7750959-2695-4aef-9410-6b41bddfd492
+Aug-20 18:15:50.111 [main] DEBUG nextflow.Session - Run name: irreverent_mccarthy
+Aug-20 18:15:50.112 [main] DEBUG nextflow.Session - Executor pool size: 12
+Aug-20 18:15:50.122 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Aug-20 18:15:50.165 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.04.3 build 5916
+  Created: 09-07-2024 19:35 UTC (20:35 BST)
+  System: Linux 5.15.153.1-microsoft-standard-WSL2
+  Runtime: Groovy 4.0.21 on OpenJDK 64-Bit Server VM 22.0.1-internal-adhoc.conda.src
+  Encoding: UTF-8 (UTF-8)
+  Process: 1379807@TheoTop [127.0.1.1]
+  CPUs: 12 - Mem: 15.2 GB (10.9 GB) - Swap: 4 GB (4 GB) - Virtual threads ON
+Aug-20 18:15:50.197 [main] DEBUG nextflow.Session - Work-dir: /home/tbea20/Research-Project-2B-Final/work [ext2/ext3]
+Aug-20 18:15:50.234 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Aug-20 18:15:50.266 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Aug-20 18:15:50.339 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Aug-20 18:15:50.354 [main] DEBUG nextflow.util.CustomPoolFactory - Creating virtual thread pool
+Aug-20 18:15:50.449 [main] DEBUG nextflow.Session - Session start
+Aug-20 18:15:50.454 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/tbea20/Research-Project-2B-Final/results/pipeline_trace.txt
+Aug-20 18:15:50.828 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Aug-20 18:15:51.627 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:DWGSIM_NON_MUTATED` matches process PROCESS_SAMPLE:DWGSIM_NON_MUTATED
+Aug-20 18:15:51.640 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:15:51.641 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:15:51.650 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Aug-20 18:15:51.658 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=15.2 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Aug-20 18:15:51.661 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Aug-20 18:15:51.719 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:FASTP` matches process PROCESS_SAMPLE:FASTP
+Aug-20 18:15:51.721 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:15:51.722 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:15:51.731 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:PROKKA` matches process PROCESS_SAMPLE:PROKKA_ASSEMBLED
+Aug-20 18:15:51.734 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:15:51.734 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:15:51.746 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:EXTRACT_ACETYLTRANSFERASE_GENES_GFF_REAL` matches process PROCESS_SAMPLE:EXTRACT_ACETYLTRANSFERASE_GENES_GFF_REAL
+Aug-20 18:15:51.748 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:15:51.748 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:15:51.757 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:EXTRACT_KEYWORD_GENES` matches process PROCESS_SAMPLE:EXTRACT_KEYWORD_GENES
+Aug-20 18:15:51.759 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:15:51.759 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:15:51.777 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:15:51.777 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:15:51.799 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SNIPPY_REAL_READS` matches process PROCESS_SAMPLE:SNIPPY_REAL_READS
+Aug-20 18:15:51.803 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:15:51.803 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:15:51.810 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:APPLY_SNIPPY_CHANGES_REAL` matches process PROCESS_SAMPLE:APPLY_SNIPPY_CHANGES_REAL
+Aug-20 18:15:51.814 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:15:51.814 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:15:51.822 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:ANALYZE_PREMATURE_STOPS_REAL` matches process PROCESS_SAMPLE:ANALYZE_PREMATURE_STOPS_REAL
+Aug-20 18:15:51.824 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:15:51.824 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:15:51.838 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:BLAST_ACETYLTRANSFERASES_REAL` matches process PROCESS_SAMPLE:BLAST_ACETYLTRANSFERASES_REAL
+Aug-20 18:15:51.841 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:15:51.841 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:15:51.852 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:GATHER_TOP_BLAST_INFO_AND_ANNOTATIONS` matches process PROCESS_SAMPLE:GATHER_TOP_BLAST_INFO_AND_ANNOTATIONS_READS
+Aug-20 18:15:51.854 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:15:51.854 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:15:51.859 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: PROCESS_SAMPLE:SNIPPY_REAL_READS, ANALYZE_PREMATURE_STOPS_PREASSEMBLED, BLAST_ACETYLTRANSFERASES, BLAST_ACETYLTRANSFERASES_REAL, PROCESS_SAMPLE:BLAST_ACETYLTRANSFERASES_REAL, PROCESS_SAMPLE:DWGSIM_NON_MUTATED, PROCESS_SAMPLE:EXTRACT_KEYWORD_GENES, PROCESS_SAMPLE:ANALYZE_PREMATURE_STOPS_REAL, FASTP, ANALYZE_PREMATURE_STOPS_REAL, PROCESS_SAMPLE:FASTP, EXTRACT_ACETYLTRANSFERASE_GENES_GFF_REAL, PROCESS_SAMPLE:APPLY_SNIPPY_CHANGES_REAL, FASTA_PREPROCESS_ASSEMBLED, ALIGN_ACETYLTRANSFERASES_TO_PANGENOME, PROCESS_SAMPLE:ALIGN_ACETYLTRANSFERASES_TO_PANGENOME, PROKKA_ASSEMBLED, GATHER_TOP_BLAST_INFO_AND_ANNOTATIONS_ASSEMBLE, PROKKA, GATHER_TOP_BLAST_INFO_AND_ANNOTATIONS, BLAST_ACETYLTRANSFERASES_PREASSEMBLED, DWGSIM_NON_MUTATED, PROCESS_SAMPLE:EXTRACT_ACETYLTRANSFERASE_GENES_GFF_REAL, UNICYCLER_ASSEMBLY, SNIPPY_REAL_READS, EXTRACT_ACETYLTRANSFERASE_GENES_GFF, FASTA_PREPROCESS, EXTRACT_KEYWORD_GENES, ANALYZE_PREMATURE_STOPS_ASSEMBLED, PROCESS_SAMPLE:PROKKA_ASSEMBLED, GATHER_TOP_BLAST_INFO_AND_ANNOTATIONS_READS, EXTRACT_ACETYLTRANSFERASE_GENES_GFF_ASSEMBLED, PROCESS_SAMPLE:GATHER_TOP_BLAST_INFO_AND_ANNOTATIONS_READS, APPLY_SNIPPY_CHANGES_REAL, ALIGN_KEYWORD_GENES_TO_REFERENCE
+Aug-20 18:15:51.865 [main] DEBUG nextflow.Session - Igniting dataflow network (14)
+Aug-20 18:15:51.872 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /home/tbea20/Research-Project-2B-Final/further_analysis/; pattern: *.fa; options: [:]
+Aug-20 18:15:51.873 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_SAMPLE:DWGSIM_NON_MUTATED
+Aug-20 18:15:51.874 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_SAMPLE:FASTP
+Aug-20 18:15:51.875 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_SAMPLE:PROKKA_ASSEMBLED
+Aug-20 18:15:51.875 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_SAMPLE:EXTRACT_ACETYLTRANSFERASE_GENES_GFF_REAL
+Aug-20 18:15:51.876 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_SAMPLE:EXTRACT_KEYWORD_GENES
+Aug-20 18:15:51.877 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_SAMPLE:ALIGN_ACETYLTRANSFERASES_TO_PANGENOME
+Aug-20 18:15:51.877 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_SAMPLE:SNIPPY_REAL_READS
+Aug-20 18:15:51.878 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_SAMPLE:APPLY_SNIPPY_CHANGES_REAL
+Aug-20 18:15:51.878 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_SAMPLE:ANALYZE_PREMATURE_STOPS_REAL
+Aug-20 18:15:51.879 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_SAMPLE:BLAST_ACETYLTRANSFERASES_REAL
+Aug-20 18:15:51.879 [PathVisitor-3] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /home/tbea20/Research-Project-2B-Final/results/Custom_BLAST_DB/; pattern: *; options: [:]
+Aug-20 18:15:51.879 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_SAMPLE:GATHER_TOP_BLAST_INFO_AND_ANNOTATIONS_READS
+Aug-20 18:15:51.881 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_8446205110e80deb: /home/tbea20/Research-Project-2B-Final/./modules/blast_acetyltransferases.nf
+  Script_a35f7741efc5bda6: /home/tbea20/Research-Project-2B-Final/./modules/snippy_real_reads.nf
+  Script_085a20df25a4740d: /home/tbea20/Research-Project-2B-Final/./modules/gather_top_blast_info_and_annotations.nf
+  Script_5b5feaca710ed2b4: /home/tbea20/Research-Project-2B-Final/./modules/fasta_preprocess.nf
+  Script_f042b5c6093e94c8: /home/tbea20/Research-Project-2B-Final/XtraDetect.nf
+  Script_c425b9f4ef220d08: /home/tbea20/Research-Project-2B-Final/./modules/extract_acetyltransferase_genes_gff.nf
+  Script_595ae439b5458999: /home/tbea20/Research-Project-2B-Final/./modules/prokka.nf
+  Script_961e4d54bfee6829: /home/tbea20/Research-Project-2B-Final/./modules/unicycler_assembly.nf
+  Script_45f442066e323e1e: /home/tbea20/Research-Project-2B-Final/./modules/analyze_premature_stops_assembled.nf
+  Script_fc679084ee09990b: /home/tbea20/Research-Project-2B-Final/./modules/fastp.nf
+  Script_47766eca600128e6: /home/tbea20/Research-Project-2B-Final/./modules/dwgsim_non_mutated.nf
+  Script_aeda62a1b37ca375: /home/tbea20/Research-Project-2B-Final/./modules/extract_keyword_genes.nf
+  Script_83dadcb03be38f2e: /home/tbea20/Research-Project-2B-Final/./modules/apply_snippy_changes_real.nf
+  Script_85a0a0f507e06a0f: /home/tbea20/Research-Project-2B-Final/./modules/align_keyword_genes_to_reference.nf
+Aug-20 18:15:51.881 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Aug-20 18:15:51.881 [main] DEBUG nextflow.Session - Session await
+Aug-20 18:15:52.116 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:15:52.119 [Task submitter] INFO  nextflow.Session - [80/42de57] Submitted process > PROCESS_SAMPLE:EXTRACT_KEYWORD_GENES (Extracting genes matching acetyltransferase)
+Aug-20 18:15:52.137 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:15:52.138 [Task submitter] INFO  nextflow.Session - [a1/07281a] Submitted process > PROCESS_SAMPLE:PROKKA_ASSEMBLED (PROKKA on 11511_7#13)
+Aug-20 18:15:52.151 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:15:52.152 [Task submitter] INFO  nextflow.Session - [47/91cf98] Submitted process > PROCESS_SAMPLE:DWGSIM_NON_MUTATED (DWGSIM_NON_MUTATED on 11511_7#13)
+Aug-20 18:15:54.367 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: PROCESS_SAMPLE:EXTRACT_KEYWORD_GENES (Extracting genes matching acetyltransferase); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/80/42de57d116fea5c09932493ae21d0f]
+Aug-20 18:18:28.217 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: PROCESS_SAMPLE:DWGSIM_NON_MUTATED (DWGSIM_NON_MUTATED on 11511_7#13); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/47/91cf9803c54201e90d905e881f2324]
+Aug-20 18:18:28.351 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:18:28.352 [Task submitter] INFO  nextflow.Session - [b8/9a5ed4] Submitted process > PROCESS_SAMPLE:FASTP (Preprocess 11511_7#13)
+Aug-20 18:18:48.270 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: PROCESS_SAMPLE:FASTP (Preprocess 11511_7#13); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/b8/9a5ed42f1fd41f461e009ad0ab8e26]
+Aug-20 18:18:48.297 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:18:48.298 [Task submitter] INFO  nextflow.Session - [97/716e9f] Submitted process > PROCESS_SAMPLE:SNIPPY_REAL_READS (Snippy on 11511_7#13)
+Aug-20 18:19:35.419 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: PROCESS_SAMPLE:PROKKA_ASSEMBLED (PROKKA on 11511_7#13); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/a1/07281a137f05b11b65cb4edd19e5e9]
+Aug-20 18:19:35.439 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:19:35.439 [Task submitter] INFO  nextflow.Session - [5a/2b8595] Submitted process > PROCESS_SAMPLE:EXTRACT_ACETYLTRANSFERASE_GENES_GFF_REAL (Extract genes from 11511_7#13)
+Aug-20 18:19:37.292 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: PROCESS_SAMPLE:EXTRACT_ACETYLTRANSFERASE_GENES_GFF_REAL (Extract genes from 11511_7#13); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/5a/2b8595f840696437219ed7356421ed]
+Aug-20 18:19:37.313 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:19:37.314 [Task submitter] INFO  nextflow.Session - [16/2e2a3f] Submitted process > PROCESS_SAMPLE:ANALYZE_PREMATURE_STOPS_REAL (Analyzing premature stops in 11511_7#13)
+Aug-20 18:19:37.349 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:19:37.349 [Task submitter] INFO  nextflow.Session - [ed/7fff76] Submitted process > PROCESS_SAMPLE:ALIGN_ACETYLTRANSFERASES_TO_PANGENOME (Aligning individual acetyltransferases to pangenome reference)
+Aug-20 18:19:37.402 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:19:37.402 [Task submitter] INFO  nextflow.Session - [78/a9f223] Submitted process > PROCESS_SAMPLE:BLAST_ACETYLTRANSFERASES_REAL (BLASTing acetyltransferases for 11511_7#13)
+Aug-20 18:19:38.434 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: PROCESS_SAMPLE:ALIGN_ACETYLTRANSFERASES_TO_PANGENOME (Aligning individual acetyltransferases to pangenome reference); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/ed/7fff76c1d033a4f565ec14fbca5e38]
+Aug-20 18:19:38.667 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: PROCESS_SAMPLE:ANALYZE_PREMATURE_STOPS_REAL (Analyzing premature stops in 11511_7#13); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/16/2e2a3fb61a1b248566856094e7d3b7]
+Aug-20 18:19:40.070 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: PROCESS_SAMPLE:BLAST_ACETYLTRANSFERASES_REAL (BLASTing acetyltransferases for 11511_7#13); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/78/a9f22367f985bc5d3c587833b66a97]
+Aug-20 18:20:51.773 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 5; name: PROCESS_SAMPLE:SNIPPY_REAL_READS (Snippy on 11511_7#13); status: RUNNING; exit: -; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/97/716e9f7ab108958d50a545601df00d]
+Aug-20 18:20:59.404 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: PROCESS_SAMPLE:SNIPPY_REAL_READS (Snippy on 11511_7#13); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/97/716e9f7ab108958d50a545601df00d]
+Aug-20 18:20:59.421 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:20:59.421 [Task submitter] INFO  nextflow.Session - [14/a31240] Submitted process > PROCESS_SAMPLE:APPLY_SNIPPY_CHANGES_REAL (Applying Snippy changes and analyzing premature stops for 11511_7#13)
+Aug-20 18:21:00.978 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: PROCESS_SAMPLE:APPLY_SNIPPY_CHANGES_REAL (Applying Snippy changes and analyzing premature stops for 11511_7#13); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/14/a31240306acb0b98da9ff47076a487]
+Aug-20 18:21:00.989 [Actor Thread 127] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `email` -- Initialise it to a default value eg. `params.email = some_value`
+Aug-20 18:21:01.007 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:21:01.008 [Task submitter] INFO  nextflow.Session - [85/146ecb] Submitted process > PROCESS_SAMPLE:GATHER_TOP_BLAST_INFO_AND_ANNOTATIONS_READS (Gathering top BLAST info and annotations for 11511_7#13)
+Aug-20 18:21:18.043 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 11; name: PROCESS_SAMPLE:GATHER_TOP_BLAST_INFO_AND_ANNOTATIONS_READS (Gathering top BLAST info and annotations for 11511_7#13); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/85/146ecb2738d5d47b45dc962288ee68]
+Aug-20 18:21:18.047 [main] DEBUG nextflow.Session - Session await > all processes finished
+Aug-20 18:21:18.144 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Aug-20 18:21:18.145 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Aug-20 18:21:18.149 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Aug-20 18:21:18.149 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Aug-20 18:21:18.152 [main] INFO  nextflow.Nextflow - Pipeline completed at: 2024-08-20T18:21:18.150288674+01:00
+Aug-20 18:21:18.152 [main] INFO  nextflow.Nextflow - Execution status: OK
+Aug-20 18:21:18.153 [main] INFO  nextflow.Nextflow - Execution duration: 5m 28s
+Aug-20 18:21:18.158 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=11; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=9m 6s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=4; peakCpus=4; peakMemory=0; ]
+Aug-20 18:21:18.158 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Aug-20 18:21:18.160 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Aug-20 18:21:18.581 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Aug-20 18:21:18.851 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Aug-20 18:21:18.920 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Aug-20 18:21:18.921 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

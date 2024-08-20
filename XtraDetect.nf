@@ -24,26 +24,73 @@ include { DWGSIM_NON_MUTATED } from './modules/dwgsim_non_mutated'
 // Main workflow
 workflow {
     // Create channels for input files
-    if (params.inputfa) {
+    if (params.fa) {
         input_ch = Channel.fromPath(params.inputfa)
             .map { fa -> tuple(fa.simpleName, fa) }
+    } else if (params.reads != null) {
+        def patterns = [
+            "*_{1,2}.{fastq,fq}.{gz,bz2}",
+            "*_R{1,2}.{fastq,fq}.{gz,bz2}",
+            "*_{1,2}.{fastq,fq}",
+            "*_R{1,2}.{fastq,fq}",
+            "*.{1,2}.{fastq,fq}.{gz,bz2}",
+            "*.R{1,2}.{fastq,fq}.{gz,bz2}",
+            "*.{1,2}.{fastq,fq}",
+            "*.R{1,2}.{fastq,fq}",
+            "*#*_{1,2}.fastq.gz"
+        ]
         
-        // Run DWGSIM on .fa files
-        DWGSIM_NON_MUTATED(input_ch)
-        real_reads_ch = DWGSIM_NON_MUTATED.out.simulated_reads
-    } else if (params.inputreads) {
-        real_reads_ch = Channel.fromFilePairs("${params.inputreads}/*.bwa.read{1,2}.fastq.gz", checkIfExists: true)
-            .map { sample_id, reads -> tuple(sample_id, reads[0], reads[1]) }
+        input_ch = Channel.empty()
+        for (pattern in patterns) {
+            def files = file("${params.inputreads}/${pattern}")
+            if (files) {
+                input_ch = Channel.fromFilePairs("${params.inputreads}/${pattern}", checkIfExists: true)
+                    .map { sample_id, reads -> tuple(sample_id, reads[0], reads[1]) }
+                break
+            }
+        }
+        
+        input_ch.ifEmpty { error "No files match any of the patterns in directory: ${params.inputreads}" }
     } else {
-        error "Either 'inputfa' or 'inputreads' must be specified in the configuration."
+        error "Either '--fa' or '--reads' must be specified."
+    }
+
+    // Process each sample
+    input_ch.each { sample ->
+        PROCESS_SAMPLE(sample)
+    }
+}
+
+// Sub-workflow to process a single sample
+workflow PROCESS_SAMPLE {
+    take:
+    sample
+
+    main:
+    if (params.fa) {
+        // Run DWGSIM on .fa files
+        DWGSIM_NON_MUTATED(sample)
+        real_reads_ch = DWGSIM_NON_MUTATED.out.simulated_reads
+        input_fa = sample
+    } else if (params.reads) {
+        real_reads_ch = sample
+        input_fa = Channel.empty()
+    } else {
+        error "Neither 'fa' nor 'reads' parameter is set. Please provide either --fa or --reads."
     }
 
     // Real reads analysis
     FASTP(real_reads_ch)
     cleaned_reads = FASTP.out.cleaned_reads
     
-    UNICYCLER_ASSEMBLY(cleaned_reads)
-    PROKKA_ASSEMBLED(UNICYCLER_ASSEMBLY.out.assembly)
+    if (!params.skipUnicycler) {
+        UNICYCLER_ASSEMBLY(cleaned_reads)
+        assembly_ch = UNICYCLER_ASSEMBLY.out.assembly
+    } else {
+        assembly_ch = input_fa
+    }
+    
+    PROKKA_ASSEMBLED(assembly_ch)
     
     EXTRACT_ACETYLTRANSFERASE_GENES_GFF_REAL(
         PROKKA_ASSEMBLED.out.prokka_results
@@ -71,7 +118,7 @@ workflow {
     SNIPPY_REAL_READS(snippy_input)
 
     APPLY_SNIPPY_CHANGES_REAL(SNIPPY_REAL_READS.out.snippy_results)
-    
+
     ANALYZE_PREMATURE_STOPS_REAL(EXTRACT_ACETYLTRANSFERASE_GENES_GFF_REAL.out.extracted_genes)
     
     custom_db = Channel.fromPath("${params.outputDir}/Custom_BLAST_DB/*")

@@ -1,0 +1,187 @@
+Aug-20 18:23:08.331 [main] DEBUG nextflow.cli.Launcher - $> nextflow run PanG_DB.nf -profile PanG_DB --useLocalFiles true --coreOnly true --exTrun true
+Aug-20 18:23:08.671 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.3
+Aug-20 18:23:08.693 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/tbea20/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2-patch1,nf-tower@1.9.1,nf-wave@1.4.2
+Aug-20 18:23:08.707 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Aug-20 18:23:08.708 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Aug-20 18:23:08.711 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
+Aug-20 18:23:08.729 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Aug-20 18:23:08.754 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/tbea20/Research-Project-2B-Final/nextflow.config
+Aug-20 18:23:08.757 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/tbea20/Research-Project-2B-Final/nextflow.config
+Aug-20 18:23:08.787 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/tbea20/.nextflow/secrets/store.json
+Aug-20 18:23:08.792 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@6719a5b8] - activable => nextflow.secret.LocalSecretsProvider@6719a5b8
+Aug-20 18:23:08.808 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `PanG_DB`
+Aug-20 18:23:09.778 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [PanG_DB, XtraDetect]
+Aug-20 18:23:09.823 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Aug-20 18:23:09.837 [main] DEBUG nextflow.cli.CmdRun - Launching `PanG_DB.nf` [high_ampere] DSL2 - revision: e982e0146c
+Aug-20 18:23:09.839 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Aug-20 18:23:09.840 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Aug-20 18:23:09.903 [main] DEBUG nextflow.Session - Session UUID: 73eedb28-5b04-4edb-b995-37170741d36b
+Aug-20 18:23:09.903 [main] DEBUG nextflow.Session - Run name: high_ampere
+Aug-20 18:23:09.904 [main] DEBUG nextflow.Session - Executor pool size: 12
+Aug-20 18:23:09.916 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Aug-20 18:23:09.946 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.04.3 build 5916
+  Created: 09-07-2024 19:35 UTC (20:35 BST)
+  System: Linux 5.15.153.1-microsoft-standard-WSL2
+  Runtime: Groovy 4.0.21 on OpenJDK 64-Bit Server VM 22.0.1-internal-adhoc.conda.src
+  Encoding: UTF-8 (UTF-8)
+  Process: 1407723@TheoTop [127.0.1.1]
+  CPUs: 12 - Mem: 15.2 GB (10.1 GB) - Swap: 4 GB (4 GB) - Virtual threads ON
+Aug-20 18:23:09.990 [main] DEBUG nextflow.Session - Work-dir: /home/tbea20/Research-Project-2B-Final/work [ext2/ext3]
+Aug-20 18:23:10.025 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Aug-20 18:23:10.040 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Aug-20 18:23:10.111 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Aug-20 18:23:10.123 [main] DEBUG nextflow.util.CustomPoolFactory - Creating virtual thread pool
+Aug-20 18:23:10.196 [main] DEBUG nextflow.Session - Session start
+Aug-20 18:23:10.200 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/tbea20/Research-Project-2B-Final/results/pipeline_trace.txt
+Aug-20 18:23:10.609 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Aug-20 18:23:11.378 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:PROCESS_LOCAL_FILES` matches process PROCESS_LOCAL_FILES
+Aug-20 18:23:11.390 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:23:11.390 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:23:11.398 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Aug-20 18:23:11.407 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=15.2 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Aug-20 18:23:11.411 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Aug-20 18:23:11.510 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:FASTA_PREPROCESS` matches process FASTA_PREPROCESS_INITIAL
+Aug-20 18:23:11.531 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:23:11.531 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:23:11.549 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:PROKKA` matches process PROKKA_INITIAL
+Aug-20 18:23:11.552 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:23:11.553 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:23:11.572 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:PANAROO_NON_MUTATED` matches process PANAROO_NON_MUTATED
+Aug-20 18:23:11.575 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:23:11.575 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:23:11.583 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:EXTRACT_ALL_KEYWORD_GENES_NON_MUTATED` matches process EXTRACT_ALL_KEYWORD_GENES_NON_MUTATED
+Aug-20 18:23:11.584 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:23:11.585 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:23:11.594 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:ALIGN_KEYWORD_GENES_TO_REFERENCE` matches process ALIGN_KEYWORD_GENES_TO_REFERENCE
+Aug-20 18:23:11.595 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:23:11.596 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:23:11.604 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CREATE_CUSTOM_ACETYLTRANSFERASE_DB` matches process CREATE_CUSTOM_ACETYLTRANSFERASE_DB
+Aug-20 18:23:11.606 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:23:11.607 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:23:11.615 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:BLAST_ACETYLTRANSFERASES_NON_MUTATED` matches process BLAST_ALL_KEYWORD_GENES_NON_MUTATED
+Aug-20 18:23:11.618 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:23:11.619 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:23:11.632 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:COMPARE_BLAST_AND_GENE_INFO` matches process COMPARE_BLAST_AND_GENE_INFO_NON_MUTATED
+Aug-20 18:23:11.634 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:23:11.634 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:23:11.641 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:ANALYZE_NON_MUTATED_GENES` matches process ANALYZE_NON_MUTATED_GENES
+Aug-20 18:23:11.643 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:23:11.644 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:23:11.656 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SEARCH_TRUNCATED_GFF` matches process SEARCH_TRUNCATED_GFF
+Aug-20 18:23:11.658 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-20 18:23:11.658 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-20 18:23:11.664 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: DWGSIM_NON_MUTATED, PROKKA_INITIAL, BLAST_ALL_KEYWORD_GENES_NON_MUTATED, PROKKA_MUTATED, COMPARE_BLAST_AND_GENE_INFO, DOWNLOAD_FOLDER, ANALYZE_NON_MUTATED_GENES, FASTA_PREPROCESS, MUTATE_GENES, SEARCH_TRUNCATED_GFF, PANAROO_NON_MUTATED, PROCESS_LOCAL_FILES, CREATE_CUSTOM_ACETYLTRANSFERASE_DB, FASTA_PREPROCESS_INITIAL, COMPARE_BLAST_AND_GENE_INFO_NON_MUTATED, PROKKA, EXTRACT_ALL_KEYWORD_GENES_NON_MUTATED, ALIGN_KEYWORD_GENES_TO_REFERENCE, DWGSIM_MUTATED, BLAST_ACETYLTRANSFERASES_NON_MUTATED
+Aug-20 18:23:11.678 [main] WARN  nextflow.Session - There's no process matching config selector: EXTRACT_UNIQUE_GENES
+Aug-20 18:23:11.681 [main] DEBUG nextflow.Session - Igniting dataflow network (12)
+Aug-20 18:23:11.688 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROCESS_LOCAL_FILES
+Aug-20 18:23:11.690 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > FASTA_PREPROCESS_INITIAL
+Aug-20 18:23:11.690 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /home/tbea20/Research-Project-2B-Final/local_genomes/; pattern: *.{fa,fasta,fna,contigs_velvet.fa}; options: [:]
+Aug-20 18:23:11.691 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PROKKA_INITIAL
+Aug-20 18:23:11.691 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PANAROO_NON_MUTATED
+Aug-20 18:23:11.692 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > EXTRACT_ALL_KEYWORD_GENES_NON_MUTATED
+Aug-20 18:23:11.693 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ALIGN_KEYWORD_GENES_TO_REFERENCE
+Aug-20 18:23:11.693 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CREATE_CUSTOM_ACETYLTRANSFERASE_DB
+Aug-20 18:23:11.694 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BLAST_ALL_KEYWORD_GENES_NON_MUTATED
+Aug-20 18:23:11.694 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > COMPARE_BLAST_AND_GENE_INFO_NON_MUTATED
+Aug-20 18:23:11.695 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ANALYZE_NON_MUTATED_GENES
+Aug-20 18:23:11.695 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SEARCH_TRUNCATED_GFF
+Aug-20 18:23:11.696 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_c4a066175e1ff3a5: /home/tbea20/Research-Project-2B-Final/./modules/analyze_non_mutated_genes.nf
+  Script_d1e4ec7410b9819f: /home/tbea20/Research-Project-2B-Final/./modules/compare_blast_and_gene_info.nf
+  Script_460bb26ee3db21ae: /home/tbea20/Research-Project-2B-Final/./modules/download_folder.nf
+  Script_391a677b79be9520: /home/tbea20/Research-Project-2B-Final/./modules/dwgsim_mutated.nf
+  Script_5b5feaca710ed2b4: /home/tbea20/Research-Project-2B-Final/./modules/fasta_preprocess.nf
+  Script_1bfcf9eb8b9dcd5a: /home/tbea20/Research-Project-2B-Final/PanG_DB.nf
+  Script_d0fe4e2b131d71a3: /home/tbea20/Research-Project-2B-Final/./modules/search_truncated_gff.nf
+  Script_ddb537184b388777: /home/tbea20/Research-Project-2B-Final/./modules/panaroo_non_mutated.nf
+  Script_595ae439b5458999: /home/tbea20/Research-Project-2B-Final/./modules/prokka.nf
+  Script_1d09c3498407c324: /home/tbea20/Research-Project-2B-Final/./modules/mutate_genes.nf
+  Script_9963e3df9f148e4a: /home/tbea20/Research-Project-2B-Final/./modules/extract_all_keyword_genes_non_mutated.nf
+  Script_5f5cddaadee948e8: /home/tbea20/Research-Project-2B-Final/./modules/create_custom_acetyltransferase_db.nf
+  Script_47766eca600128e6: /home/tbea20/Research-Project-2B-Final/./modules/dwgsim_non_mutated.nf
+  Script_fe459ce2adb25992: /home/tbea20/Research-Project-2B-Final/./modules/process_local_files.nf
+  Script_85a0a0f507e06a0f: /home/tbea20/Research-Project-2B-Final/./modules/align_keyword_genes_to_reference.nf
+  Script_465f617058b88b76: /home/tbea20/Research-Project-2B-Final/./modules/blast_acetyltransferases_non_mutated.nf
+Aug-20 18:23:11.696 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Aug-20 18:23:11.696 [main] DEBUG nextflow.Session - Session await
+Aug-20 18:23:11.896 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:23:11.899 [Task submitter] INFO  nextflow.Session - [6b/121b79] Submitted process > PROCESS_LOCAL_FILES
+Aug-20 18:23:11.915 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:23:11.915 [Task submitter] INFO  nextflow.Session - [13/eaeb40] Submitted process > CREATE_CUSTOM_ACETYLTRANSFERASE_DB
+Aug-20 18:23:13.026 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: PROCESS_LOCAL_FILES; status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/6b/121b791e50c5f576fc2081f41519e2]
+Aug-20 18:23:13.104 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:23:13.105 [Task submitter] INFO  nextflow.Session - [90/317eab] Submitted process > FASTA_PREPROCESS_INITIAL (Preprocess 11658_1#15)
+Aug-20 18:23:13.113 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:23:13.115 [Task submitter] INFO  nextflow.Session - [c1/626f7b] Submitted process > FASTA_PREPROCESS_INITIAL (Preprocess 11511_7#13)
+Aug-20 18:23:13.126 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:23:13.127 [Task submitter] INFO  nextflow.Session - [be/e1dddf] Submitted process > FASTA_PREPROCESS_INITIAL (Preprocess 11657_2#28)
+Aug-20 18:23:13.138 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:23:13.142 [Task submitter] INFO  nextflow.Session - [bb/1d7d9d] Submitted process > FASTA_PREPROCESS_INITIAL (Preprocess 11826_1#30)
+Aug-20 18:23:13.160 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:23:13.161 [Task submitter] INFO  nextflow.Session - [58/cd699a] Submitted process > FASTA_PREPROCESS_INITIAL (Preprocess 11657_2#27)
+Aug-20 18:23:13.171 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:23:13.173 [Task submitter] INFO  nextflow.Session - [9d/c10fc5] Submitted process > FASTA_PREPROCESS_INITIAL (Preprocess 9950_2#65)
+Aug-20 18:23:15.149 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: FASTA_PREPROCESS_INITIAL (Preprocess 11658_1#15); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/90/317eabb379f999f8f81e403fe3526e]
+Aug-20 18:23:15.206 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:23:15.207 [Task submitter] INFO  nextflow.Session - [b3/1d6dfb] Submitted process > PROKKA_INITIAL (PROKKA on 11658_1#15)
+Aug-20 18:23:15.384 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: FASTA_PREPROCESS_INITIAL (Preprocess 11511_7#13); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/c1/626f7b6c3328393d39766cadc52741]
+Aug-20 18:23:15.422 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:23:15.424 [Task submitter] INFO  nextflow.Session - [f5/981193] Submitted process > PROKKA_INITIAL (PROKKA on 11511_7#13)
+Aug-20 18:23:15.519 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: FASTA_PREPROCESS_INITIAL (Preprocess 11657_2#27); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/58/cd699ad7251b2a1508b5289d457c0d]
+Aug-20 18:23:15.545 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:23:15.545 [Task submitter] INFO  nextflow.Session - [5f/2ec8b1] Submitted process > PROKKA_INITIAL (PROKKA on 11657_2#27)
+Aug-20 18:23:16.286 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: FASTA_PREPROCESS_INITIAL (Preprocess 9950_2#65); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/9d/c10fc5b9fba38b650cfaa0c94e4e45]
+Aug-20 18:23:16.309 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:23:16.310 [Task submitter] INFO  nextflow.Session - [05/3fc8c8] Submitted process > PROKKA_INITIAL (PROKKA on 9950_2#65)
+Aug-20 18:23:16.449 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: FASTA_PREPROCESS_INITIAL (Preprocess 11657_2#28); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/be/e1dddf04f42c9233fffccdaeb2fb17]
+Aug-20 18:23:16.468 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:23:16.469 [Task submitter] INFO  nextflow.Session - [71/67c261] Submitted process > PROKKA_INITIAL (PROKKA on 11657_2#28)
+Aug-20 18:23:16.603 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: FASTA_PREPROCESS_INITIAL (Preprocess 11826_1#30); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/bb/1d7d9d2cf2e17cb9df7e5216a5e729]
+Aug-20 18:23:16.628 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:23:16.629 [Task submitter] INFO  nextflow.Session - [5d/285c15] Submitted process > PROKKA_INITIAL (PROKKA on 11826_1#30)
+Aug-20 18:26:54.362 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: CREATE_CUSTOM_ACETYLTRANSFERASE_DB; status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/13/eaeb406680374d30d1a8db94dba205]
+Aug-20 18:27:34.808 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: PROKKA_INITIAL (PROKKA on 11657_2#28); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/71/67c261f245e27b6fd9172a0d4f75d5]
+Aug-20 18:27:38.181 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: PROKKA_INITIAL (PROKKA on 11511_7#13); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/f5/98119324a2f93fd70d11bc84b611eb]
+Aug-20 18:27:39.423 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: PROKKA_INITIAL (PROKKA on 9950_2#65); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/05/3fc8c8cf042fd6737a8f14c4e0449d]
+Aug-20 18:27:39.753 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: PROKKA_INITIAL (PROKKA on 11658_1#15); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/b3/1d6dfb3c90d0916d9201b4adca139d]
+Aug-20 18:27:44.020 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 11; name: PROKKA_INITIAL (PROKKA on 11657_2#27); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/5f/2ec8b10daee9657d7ca2ac1b2011b5]
+Aug-20 18:27:44.177 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 14; name: PROKKA_INITIAL (PROKKA on 11826_1#30); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/5d/285c15c21aa3cd9dfae803999cc12d]
+Aug-20 18:27:44.215 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:27:44.216 [Task submitter] INFO  nextflow.Session - [30/e5eee4] Submitted process > PANAROO_NON_MUTATED (PANAROO on non-mutated genomes)
+Aug-20 18:28:11.564 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 15; name: PANAROO_NON_MUTATED (PANAROO on non-mutated genomes); status: RUNNING; exit: -; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/30/e5eee4d7f3e5bebdce04cbc05d19d5]
+Aug-20 18:29:55.453 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 15; name: PANAROO_NON_MUTATED (PANAROO on non-mutated genomes); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/30/e5eee4d7f3e5bebdce04cbc05d19d5]
+Aug-20 18:29:55.471 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:29:55.471 [Task submitter] INFO  nextflow.Session - [69/aaeba6] Submitted process > EXTRACT_ALL_KEYWORD_GENES_NON_MUTATED (Extracting all genes with keyword from non-mutated results)
+Aug-20 18:29:56.876 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 16; name: EXTRACT_ALL_KEYWORD_GENES_NON_MUTATED (Extracting all genes with keyword from non-mutated results); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/69/aaeba6d5023aabadbb84a9ec5d6dbb]
+Aug-20 18:29:56.889 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:29:56.890 [Task submitter] INFO  nextflow.Session - [ca/a13789] Submitted process > ANALYZE_NON_MUTATED_GENES (Analyzing non-mutated genes)
+Aug-20 18:29:56.911 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:29:56.911 [Task submitter] INFO  nextflow.Session - [2b/9e19da] Submitted process > ALIGN_KEYWORD_GENES_TO_REFERENCE (Aligning individual acetyltransferases to pangenome reference)
+Aug-20 18:29:56.935 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:29:56.936 [Task submitter] INFO  nextflow.Session - [92/e695be] Submitted process > BLAST_ALL_KEYWORD_GENES_NON_MUTATED (BLASTing non-mutated acetyltransferases)
+Aug-20 18:29:58.247 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 18; name: ANALYZE_NON_MUTATED_GENES (Analyzing non-mutated genes); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/ca/a13789c69f655c76c3496e3512b4b1]
+Aug-20 18:30:02.432 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 19; name: ALIGN_KEYWORD_GENES_TO_REFERENCE (Aligning individual acetyltransferases to pangenome reference); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/2b/9e19dac1a4b73cb20b512e7d23d579]
+Aug-20 18:30:02.986 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 17; name: BLAST_ALL_KEYWORD_GENES_NON_MUTATED (BLASTing non-mutated acetyltransferases); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/92/e695be2515bec088a726b18f4e0e25]
+Aug-20 18:30:03.004 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:30:03.004 [Task submitter] INFO  nextflow.Session - [8c/76db42] Submitted process > COMPARE_BLAST_AND_GENE_INFO_NON_MUTATED (Comparing BLAST results with gene info and reference alignments)
+Aug-20 18:30:04.655 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 20; name: COMPARE_BLAST_AND_GENE_INFO_NON_MUTATED (Comparing BLAST results with gene info and reference alignments); status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/8c/76db428344b829403ef01d9a733b56]
+Aug-20 18:30:04.667 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-20 18:30:04.668 [Task submitter] INFO  nextflow.Session - [c0/00ae13] Submitted process > SEARCH_TRUNCATED_GFF
+Aug-20 18:30:05.722 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 21; name: SEARCH_TRUNCATED_GFF; status: COMPLETED; exit: 0; error: -; workDir: /home/tbea20/Research-Project-2B-Final/work/c0/00ae1336cec98351be44b91bfa4099]
+Aug-20 18:30:05.729 [main] DEBUG nextflow.Session - Session await > all processes finished
+Aug-20 18:30:05.823 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Aug-20 18:30:05.824 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Aug-20 18:30:05.827 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Aug-20 18:30:05.827 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Aug-20 18:30:05.829 [main] INFO  nextflow.Nextflow - Pipeline completed at: 2024-08-20T18:30:05.827835680+01:00
+Aug-20 18:30:05.830 [main] INFO  nextflow.Nextflow - Execution status: OK
+Aug-20 18:30:05.830 [main] INFO  nextflow.Nextflow - Execution duration: 6m 56s
+Aug-20 18:30:05.834 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=21; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=32m 14s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=7; peakCpus=7; peakMemory=0; ]
+Aug-20 18:30:05.834 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Aug-20 18:30:05.836 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Aug-20 18:30:06.319 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Aug-20 18:30:06.503 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Aug-20 18:30:06.578 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Aug-20 18:30:06.579 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
