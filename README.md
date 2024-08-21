@@ -21,7 +21,7 @@ This run command has parameters onlyCore = true/false and exTrun = true/false, o
 
 After running this, it is here that the genenomes selected in the /">your run name<_further_analysis" and the output data in /">your run name<_PanG_DB_Output", (see /example_outputs/Mutated_Output_PanG_DB_Example.txt), and review the genomes for selection. /example/Mutated_Output_PanG_DB_Example). 
 
-Here, I would also recommend removing the input files (if done locally) that have the same naming as the selected trucated detected, and then re run this first step -profile PanG_DB --profile PanGDB --useLocalFiles true --exTrun false --outputdir >different your run name<. (see /example_outputs/Non_Mutated_Output_PanG_DB_Example.txt) as this will give better results for the pangenome reference alignment in the second step, but will not affect the NCBI reference alignment or SNIPPY results/detection. 
+Here, I would also recommend removing the input files (if done locally) that have the same naming as the selected trucated detected, and then re run this first step -profile PanG_DB --profile PanGDB --useLocalFiles true --exTrun false --outputdir >different your run name<. (see /example_outputs/Non_Mutated_Output_PanG_DB_Example.txt) as this will give better results for the BLAST pangenome alignment in the second step, but will not affect the BLAST NCBI reference alignment or SNIPPY results/detection. 
 
 ### Second stage (XtraDetect) 
 
