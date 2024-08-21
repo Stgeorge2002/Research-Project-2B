@@ -1,14 +1,14 @@
-# PanReadPipe.
+# PanReadPipe
 
-## Workflow process.
+## Workflow process
 
 ![image](https://github.com/user-attachments/assets/1f246edd-45b2-410e-a6c2-4bad5ebb0c97)
 
-# To run the pipeline
+# To run the pipeline:
 
 PanReadPipe is a two-stage process, note all custom Docker Images are pushed to my Dockerhub account 'tabath123'
 
-## First stage (PanG_DB)
+## First stage (PanG_DB):
 
 note, the / indicates 'either'
 
@@ -22,7 +22,7 @@ After running this, it is here that the genenomes selected in the /">your run na
 
 Here, I would also recommend removing the input files (if done locally) that have the same naming as the selected trucated detected, and then re run this first step -profile PanG_DB --profile PanGDB --useLocalFiles true --exTrun false --outputdir >different your run name<. (see /example_outputs/Non_Mutated_Output_PanG_DB_Example.txt) as this will give better results for the BLAST pangenome alignment in the second step, but will not affect the BLAST NCBI reference alignment or SNIPPY results/detection. 
 
-## Second stage (XtraDetect) 
+## Second stage (XtraDetect):
 
 Now for the second step Use 'nextflow run XtraDetect.nf -profile XtraDetec --reads/fa --outputDir >the same different run name<' 
 
