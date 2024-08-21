@@ -6,7 +6,7 @@
 
 # To run the pipeline
 
-All custom Docker Images are posted to my Dockerhub account 'tabath123'
+PanReadPipe is a two-stage process, note all custom Docker Images are pushed to my Dockerhub account 'tabath123'
 
 ### First stage (PanG_DB)
 
