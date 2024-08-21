@@ -1,6 +1,6 @@
 # PanReadPipe
 
-## Workflow process
+## Diagram of the whole pipeline:
 
 ![image](https://github.com/user-attachments/assets/1f246edd-45b2-410e-a6c2-4bad5ebb0c97)
 
@@ -14,6 +14,7 @@ note, the / indicates 'either'
 
 Use 'nextflow run PanG_DB.nf -profile PanG_DB --profile PanGDB --useLocalFiles true/false --outputdir >your run name<' for the main process.
 
+### Diagram of PanG_DB
 ![image](https://github.com/user-attachments/assets/e456019f-51cb-48dd-a387-53d23de4a6b1)
 
 This run command has parameters onlyCore = true/false and exTrun = true/false, of which both are set default true, as this bypasses the positive control generation of mutated genomes and also allows for the automatic grabbing of the detected genomes with truncated genes of interest. Here the parameter --search_term >your search-term< to target genes of interest. 
@@ -24,9 +25,11 @@ Here, I would also recommend removing the input files (if done locally) that hav
 
 ## Second stage (XtraDetect):
 
-Now for the second step Use 'nextflow run XtraDetect.nf -profile XtraDetec --reads/fa --outputDir >the same different run name<' 
+Now for the second step Use 'nextflow run XtraDetect.nf -profile XtraDetect --reads/fa --outputDir >the same different run name<' 
 
+### Diagram of XtraDetect
 ![image](https://github.com/user-attachments/assets/a7f84e63-495a-4b3f-bf76-a3ca9d35bb24)
+
 
 --fa uses all of the genomes located in >your run name<_further_analysis<, ## PLEASE NOTE ##, when using --fa. Reads can also be used if nessecary, and they must be paired and located in the /real_reals directory unless parameterized otherwise. ## PLEASE NOTE ## when using --reads please set --skipUnicycler false (this will be set to default soon)
 
