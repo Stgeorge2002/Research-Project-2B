@@ -4,8 +4,7 @@
 
 ![image](https://github.com/user-attachments/assets/1f246edd-45b2-410e-a6c2-4bad5ebb0c97)
 
-# Commands:
-### To run the pipeline
+# To run the pipeline
 
 All custom Docker Images are posted to my Dockerhub account 'tabath123'
 
