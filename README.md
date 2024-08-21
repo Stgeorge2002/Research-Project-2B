@@ -19,7 +19,7 @@ Use "nextflow run PanG_DB.nf -profile PanG_DB --profile PanGDB --useLocalFiles t
 
 This run command has parameters "onlyCore = true/false" and "exTrun = true/false", of which both are set default true, as this bypasses the positive control generation of mutated genomes and also allows for the automatic grabbing of the detected genomes with truncated genes of interest. Here the parameter "--search_term >your search-term<" to target genes of interest. 
 
-After running this, it is here that the genenomes selected in the /">your run name<_further_analysis" and the output data in /">your run name<_PanG_DB_Output", ### please see /example_outputs/Mutated_Output_PanG_DB_Example.txt ##, and review the genomes for selection. 
+After running this, it is here that the genenomes selected in the /">your run name<_further_analysis" and the output data in /">your run name<_PanG_DB_Output", ### please see /example_outputs/Mutated_Output_PanG_DB_Example.txt ###, should be thoroughly reviewed for genomes to analyse further. 
 
 Here, I would also recommend removing the input files (if done locally) that have the same naming as the selected trucated detected, and then re run this first step "nextflow run PanG_DB.nf --profile PanG_GB --useLocalFiles true --exTrun false --outputdir >different your run name<" ### please see /example_outputs/Non_Mutated_Output_PanG_DB_Example.txt ### as this will give better results for the BLAST pangenome alignment in the second step, but will not affect the BLAST NCBI reference alignment or SNIPPY results/detection. 
 
