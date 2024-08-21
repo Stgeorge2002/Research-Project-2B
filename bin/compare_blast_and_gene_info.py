@@ -5,12 +5,18 @@ import re
 import sys
 from Bio import SeqIO
 
-# Get command-line arguments
+# Check if all required arguments are provided
+if len(sys.argv) != 7:
+    print(f"Usage: {sys.argv[0]} <blast_results> <gene_info> <reference_alignments> <gene_data_csv> <pangenome_reference> <extracted_genes_file>")
+    sys.exit(1)
+
+# Assign command-line arguments to variables
 blast_results = sys.argv[1]
 gene_info = sys.argv[2]
 reference_alignments = sys.argv[3]
 gene_data_csv = sys.argv[4]
-pangenome_reference = sys.argv[5]  # New input
+pangenome_reference = sys.argv[5]
+extracted_genes_file = sys.argv[6]
 
 # Define the truncation buffer
 TRUNCATION_BUFFER = 30

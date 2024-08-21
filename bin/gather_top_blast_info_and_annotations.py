@@ -16,6 +16,7 @@ pangenome_alignment_results = sys.argv[4]
 snippy_analysis = sys.argv[5]
 query_gff = sys.argv[6]
 email = sys.argv[7]
+pangenome_reference = sys.argv[8]  # New argument for pangenome reference file
 
 # Set your email for NCBI queries
 Entrez.email = email
@@ -100,6 +101,16 @@ def parse_snippy_analysis(analysis_file):
 def is_truncated(query_length, subject_length):
     return abs(query_length - subject_length) > TRUNCATION_BUFFER
 
+# New function to parse pangenome reference sequences
+def parse_pangenome_reference(fasta_file):
+    pangenome_sequences = {}
+    for record in SeqIO.parse(fasta_file, "fasta"):
+        pangenome_sequences[record.id] = str(record.seq)
+        # Also add entries for each individual gene name
+        for gene in record.id.split('~~~'):
+            pangenome_sequences[gene] = str(record.seq)
+    return pangenome_sequences
+
 print("Parsing extracted genes...")
 extracted_genes = parse_extracted_genes(extracted_genes)
 
@@ -111,6 +122,9 @@ pangenome_alignments = parse_pangenome_alignment(pangenome_alignment_results)
 
 print("Parsing Snippy analysis results...")
 snippy_data = parse_snippy_analysis(snippy_analysis)
+
+print("Parsing pangenome reference sequences...")
+pangenome_sequences = parse_pangenome_reference(pangenome_reference)
 
 print("Processing BLAST results...")
 top_hits = []
@@ -186,7 +200,11 @@ with open(f"{sampleName}_top_blast_info_and_annotations.tsv", 'w') as out_f:
             out_f.write(f"Pangenome Identity: {pan_align['pangenome_identity']}%\n")
             out_f.write(f"Pangenome Alignment Length: {pan_align['pangenome_alignment_length']}\n")
             out_f.write(f"Pangenome Query Length: {pan_align['pangenome_qlen']}\n")
-            out_f.write(f"Pangenome Subject Length: {pan_align['pangenome_send']}\n")  # Use 'pangenome_send' for subject length
+            
+            # Use actual subject length from pangenome reference
+            pangenome_subject_length = len(pangenome_sequences.get(pangenome_subject_id, ""))
+            out_f.write(f"Pangenome Subject Length: {pangenome_subject_length}\n")
+            
             out_f.write(f"Pangenome Mismatches: {pan_align['pangenome_mismatches']}\n")
             out_f.write(f"Pangenome Gaps: {pan_align['pangenome_gaps']}\n")
             out_f.write(f"Pangenome Query Start-End: {pan_align['pangenome_qstart']}-{pan_align['pangenome_qend']}\n")
@@ -196,9 +214,8 @@ with open(f"{sampleName}_top_blast_info_and_annotations.tsv", 'w') as out_f:
             
             # Add truncation information for pangenome alignment
             pan_query_length = int(pan_align['pangenome_qlen'])
-            pan_subject_length = int(pan_align['pangenome_send'])
-            if is_truncated(pan_query_length, pan_subject_length):
-                out_f.write(f"Pangenome Truncation: Yes (difference: {abs(pan_query_length - pan_subject_length)})\n")
+            if is_truncated(pan_query_length, pangenome_subject_length):
+                out_f.write(f"Pangenome Truncation: Yes (difference: {abs(pan_query_length - pangenome_subject_length)})\n")
             else:
                 out_f.write("Pangenome Truncation: No\n")
         else:

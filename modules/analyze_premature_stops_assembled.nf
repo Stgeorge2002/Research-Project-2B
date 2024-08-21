@@ -1,6 +1,6 @@
 process ANALYZE_PREMATURE_STOPS_ASSEMBLED {
     tag "Analyzing premature stops in ${sampleName}"
-    publishDir "${params.outputDir}/Final_results_Analysis_Reads", mode: 'copy'
+    publishDir "${params.outputDir}/Analyze_Premature_Stops", mode: 'copy'
 
     input:
     tuple val(sampleName), path(assembled_genome)

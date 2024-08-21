@@ -1,6 +1,6 @@
 process ANALYZE_NON_MUTATED_GENES {
     tag "Analyzing non-mutated genes"
-    publishDir "${params.outputDir}/Final_results_Analysis", mode: 'copy'
+    publishDir "${params.outputDir}/FAnalyze_Premature_Stops_NM", mode: 'copy'
 
     input:
     path fasta_file

@@ -2,7 +2,7 @@
 
 process COMPARE_BLAST_AND_GENE_INFO {
     tag "Comparing BLAST results with gene info and reference alignments"
-    publishDir "${projectDir}/PanG_DB_Output", mode: 'copy'
+    publishDir "${params.outputDir}/${params.outputDir}_PanG_DB_Output", mode: 'copy'
 
     input:
     path blast_results
@@ -10,6 +10,7 @@ process COMPARE_BLAST_AND_GENE_INFO {
     path reference_alignments
     path gene_data_csv
     path pangenome_reference
+    path extracted_genes
 
     output:
     path "${blast_results.baseName}_with_gene_info_and_reference.txt", emit: comparison_results
@@ -17,6 +18,6 @@ process COMPARE_BLAST_AND_GENE_INFO {
 
     script:
     """
-    python3 ${projectDir}/bin/compare_blast_and_gene_info.py ${blast_results} ${gene_info} ${reference_alignments} ${gene_data_csv} ${pangenome_reference}
+    python3 ${projectDir}/bin/compare_blast_and_gene_info.py ${blast_results} ${gene_info} ${reference_alignments} ${gene_data_csv} ${pangenome_reference} ${extracted_genes}
     """
 }

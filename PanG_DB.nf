@@ -77,7 +77,8 @@ workflow {
         CREATE_CUSTOM_ACETYLTRANSFERASE_DB.out.gene_info,
         ALIGN_KEYWORD_GENES_TO_REFERENCE.out.blast_results,
         PANAROO_NON_MUTATED.out.panaroo_results.map { it -> file("${it}/gene_data.csv") },
-        PANAROO_NON_MUTATED.out.panaroo_results.map { it -> file("${it}/pan_genome_reference.fa") }
+        PANAROO_NON_MUTATED.out.panaroo_results.map { it -> file("${it}/pan_genome_reference.fa") },
+        EXTRACT_ALL_KEYWORD_GENES_NON_MUTATED.out.extracted_genes
     )
     
     ANALYZE_NON_MUTATED_GENES(EXTRACT_ALL_KEYWORD_GENES_NON_MUTATED.out.extracted_genes)

@@ -1,5 +1,5 @@
 process SEARCH_TRUNCATED_GFF {
-    publishDir "${projectDir}/further_analysis", mode: 'copy'
+    publishDir "${projectDir}/${params.outputDir}_further_analysis", mode: 'copy'
 
     input:
     path truncated_genes
