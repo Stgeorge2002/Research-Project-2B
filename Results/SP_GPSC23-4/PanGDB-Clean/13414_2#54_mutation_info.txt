@@ -1,0 +1,80 @@
+Gene: rimI
+Contig: gnl|Prokka|PBFIFIEO_3
+Position: 229
+Strand: +
+Original Codon: GGA
+Mutated Codon: TAA
+
+
+Gene: oatA
+Contig: gnl|Prokka|PBFIFIEO_6
+Position: 1270
+Strand: -
+Original Codon: AAA
+Mutated Codon: TAA
+
+
+Gene: NA
+Contig: gnl|Prokka|PBFIFIEO_8
+Position: 259
+Strand: -
+Original Codon: ATT
+Mutated Codon: TAA
+
+
+Gene: NA
+Contig: gnl|Prokka|PBFIFIEO_16
+Position: 364
+Strand: -
+Original Codon: CAA
+Mutated Codon: TAA
+
+
+Gene: aaaT
+Contig: gnl|Prokka|PBFIFIEO_10
+Position: 250
+Strand: -
+Original Codon: GAG
+Mutated Codon: TAA
+
+
+Gene: ydaF
+Contig: gnl|Prokka|PBFIFIEO_2
+Position: 241
+Strand: -
+Original Codon: TAA
+Mutated Codon: TAA
+
+
+Gene: mshD_2
+Contig: gnl|Prokka|PBFIFIEO_7
+Position: 202
+Strand: -
+Original Codon: TCC
+Mutated Codon: TAA
+
+
+Gene: cysE
+Contig: gnl|Prokka|PBFIFIEO_4
+Position: 100
+Strand: +
+Original Codon: TTG
+Mutated Codon: TAA
+
+
+Gene: metAA
+Contig: gnl|Prokka|PBFIFIEO_2
+Position: 382
+Strand: -
+Original Codon: TAC
+Mutated Codon: TAA
+
+
+Gene: pflB
+Contig: gnl|Prokka|PBFIFIEO_19
+Position: 793
+Strand: +
+Original Codon: GTG
+Mutated Codon: TAA
+
+

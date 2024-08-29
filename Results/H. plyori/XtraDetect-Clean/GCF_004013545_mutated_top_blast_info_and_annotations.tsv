@@ -1,0 +1,8584 @@
+Number of truncated sequences in custom BLAST DB: 1
+Truncated sequence IDs in custom BLAST DB:
+GMDGPPPN_00201
+
+Number of truncated sequences in pangenome alignments: 2
+Truncated sequence IDs in pangenome alignments:
+GMDGPPPN_00070
+GMDGPPPN_00192
+
+Number of genes with premature stop codons: 10
+Genes with premature stop codons:
+hsdM
+wbnK
+rnhB
+cynT
+fliP
+dpnA
+eptA
+recD2
+smc
+ftsW
+
+==================================================
+
+BLAST Custom DB Results:
+Query ID: GMDGPPPN_00201
+Query Gene Name: Unknown
+Query Product: No annotation found
+Subject ID: lcl|CP079517.1_cds_WRG29887.1_98
+Identity: 98.684%
+Alignment Length: 228
+Mismatches: 3
+Gap Opens: 0
+Query Start-End: 1-228
+Subject Start-End: 1-228
+E-value: 1.44e-120
+Bit Score: 428
+Query Length: 231
+Subject Length: 780
+Truncation: Yes (difference: 549)
+
+BLAST Pangenome Reference Results:
+No pangenome alignment found for this query
+
+Snippy Analysis Results:
+No Snippy analysis found for this query
+
+------------------------------------------------------------
+
+
+==================================================
+
+Unmatched alignments and analyses:
+
+Unmatched pangenome alignments:
+Query ID: GMDGPPPN_00070
+Pangenome Subject ID: ftsW
+Pangenome Identity: 97.039%
+Pangenome Alignment Length: 912
+Pangenome Query Length: 912
+Pangenome Subject Length: 1167
+Pangenome Mismatches: 27
+Pangenome Gaps: 0
+Pangenome Query Start-End: 1-912
+Pangenome Subject Start-End: 256-1167
+Pangenome E-value: 0.0
+Pangenome Bit Score: 1598
+
+Query ID: GMDGPPPN_00192
+Pangenome Subject ID: wbnK
+Pangenome Identity: 97.464%
+Pangenome Alignment Length: 276
+Pangenome Query Length: 276
+Pangenome Subject Length: 741
+Pangenome Mismatches: 7
+Pangenome Gaps: 0
+Pangenome Query Start-End: 1-276
+Pangenome Subject Start-End: 466-741
+Pangenome E-value: 3.79e-140
+Pangenome Bit Score: 490
+
+------------------------------------------------------------
+
+Unmatched Snippy analyses:
+Query ID: gpsA
+Gene ID: gpsA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 939
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 936
+
+Query ID: vapD
+Gene ID: vapD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 285
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 282
+
+Query ID: speE
+Gene ID: speE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 789
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 786
+
+Query ID: dapD
+Gene ID: dapD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1206
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1203
+
+Query ID: hypE
+Gene ID: hypE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 999
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 996
+
+Query ID: glmS
+Gene ID: glmS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1794
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1791
+
+Query ID: rocC
+Gene ID: rocC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1428
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1425
+
+Query ID: comM
+Gene ID: comM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1521
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1518
+
+Query ID: ispE
+Gene ID: ispE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 822
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 819
+
+Query ID: rplO
+Gene ID: rplO
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 402
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 399
+
+Query ID: hspR
+Gene ID: hspR
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 372
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 369
+
+Query ID: rocE
+Gene ID: rocE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1443
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1440
+
+Query ID: ribBA
+Gene ID: ribBA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1035
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1032
+
+Query ID: ruvB
+Gene ID: ruvB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1011
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1008
+
+Query ID: cntI
+Gene ID: cntI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 897
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 894
+
+Query ID: flgI
+Gene ID: flgI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1029
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1026
+
+Query ID: tonB
+Gene ID: tonB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 870
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 867
+
+Query ID: guaA
+Gene ID: guaA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1527
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1524
+
+Query ID: rpoN
+Gene ID: rpoN
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1245
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1242
+
+Query ID: valS
+Gene ID: valS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2625
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2622
+
+Query ID: ppsA
+Gene ID: ppsA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2439
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2436
+
+Query ID: rsmI
+Gene ID: rsmI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 864
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 861
+
+Query ID: murF
+Gene ID: murF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1482
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1479
+
+Query ID: flgH
+Gene ID: flgH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 714
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 711
+
+Query ID: dnaG~~~dnaG
+Gene ID: dnaG~~~dnaG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1680
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1677
+
+Query ID: rplK
+Gene ID: rplK
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 426
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 423
+
+Query ID: pctB~~~pctB
+Gene ID: pctB~~~pctB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2022
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2019
+
+Query ID: surE
+Gene ID: surE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 804
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 801
+
+Query ID: rho
+Gene ID: rho
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1317
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1314
+
+Query ID: asd
+Gene ID: asd
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1041
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1038
+
+Query ID: pcm
+Gene ID: pcm
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 630
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 627
+
+Query ID: yejB
+Gene ID: yejB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1047
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1044
+
+Query ID: ssb
+Gene ID: ssb
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 546
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 543
+
+Query ID: vapD~~~vapD
+Gene ID: vapD~~~vapD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 288
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 285
+
+Query ID: aroB
+Gene ID: aroB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1032
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1029
+
+Query ID: virC1
+Gene ID: virC1
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 657
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 654
+
+Query ID: nusB
+Gene ID: nusB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 417
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 414
+
+Query ID: prmC~~~prmC
+Gene ID: prmC~~~prmC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 831
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 828
+
+Query ID: aplIM
+Gene ID: aplIM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1257
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1254
+
+Query ID: accC
+Gene ID: accC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1377
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1374
+
+Query ID: flhB
+Gene ID: flhB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1077
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1074
+
+Query ID: gmk
+Gene ID: gmk
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 621
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 618
+
+Query ID: cheV
+Gene ID: cheV
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 966
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 963
+
+Query ID: glyQ
+Gene ID: glyQ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 897
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 894
+
+Query ID: ligA
+Gene ID: ligA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1971
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1968
+
+Query ID: ribF
+Gene ID: ribF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 843
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 840
+
+Query ID: rnhB
+Gene ID: rnhB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 645
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 612, 642
+
+Query ID: fabH
+Gene ID: fabH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 996
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 993
+
+Query ID: rpsL
+Gene ID: rpsL
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 408
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 405
+
+Query ID: COQ2
+Gene ID: COQ2
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 885
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 882
+
+Query ID: kdsD
+Gene ID: kdsD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 990
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 987
+
+Query ID: dpnA
+Gene ID: dpnA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1080
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 999, 1077
+
+Query ID: purD
+Gene ID: purD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1275
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1272
+
+Query ID: thyX
+Gene ID: thyX
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 627
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 624
+
+Query ID: rnc
+Gene ID: rnc
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 723
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 720
+
+Query ID: exbD
+Gene ID: exbD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 402
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 399
+
+Query ID: lon
+Gene ID: lon
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2505
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2502
+
+Query ID: nuoN
+Gene ID: nuoN
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1479
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1476
+
+Query ID: glpE
+Gene ID: glpE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 342
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 339
+
+Query ID: flgC
+Gene ID: flgC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 486
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 483
+
+Query ID: murJ
+Gene ID: murJ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1461
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1458
+
+Query ID: nadK
+Gene ID: nadK
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 939
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 936
+
+Query ID: cptA
+Gene ID: cptA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 879
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 876
+
+Query ID: corA
+Gene ID: corA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 957
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 954
+
+Query ID: ttcA
+Gene ID: ttcA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 762
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 759
+
+Query ID: hypC
+Gene ID: hypC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 237
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 234
+
+Query ID: esiB
+Gene ID: esiB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 771
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 768
+
+Query ID: ftnA
+Gene ID: ftnA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 504
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 501
+
+Query ID: lysC
+Gene ID: lysC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1218
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1215
+
+Query ID: mutY
+Gene ID: mutY
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 987
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 984
+
+Query ID: acpP
+Gene ID: acpP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 237
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 234
+
+Query ID: trxA
+Gene ID: trxA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 321
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 318
+
+Query ID: bspRIM~~~ydiO
+Gene ID: bspRIM~~~ydiO
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1446
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1443
+
+Query ID: group
+Gene ID: group
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 9582
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 9579
+
+Query ID: rpsB
+Gene ID: rpsB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 795
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 792
+
+Query ID: cobB
+Gene ID: cobB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 690
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 687
+
+Query ID: cysE
+Gene ID: cysE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 516
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 513
+
+Query ID: hybD
+Gene ID: hybD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 537
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 534
+
+Query ID: ispDF
+Gene ID: ispDF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1221
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1218
+
+Query ID: dcuA
+Gene ID: dcuA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1332
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1329
+
+Query ID: metB
+Gene ID: metB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1143
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1140
+
+Query ID: bicA~~~dauA
+Gene ID: bicA~~~dauA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1158
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1155
+
+Query ID: yjiA
+Gene ID: yjiA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 966
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 963
+
+Query ID: nadE
+Gene ID: nadE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 783
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 780
+
+Query ID: glyA
+Gene ID: glyA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1251
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1248
+
+Query ID: tatA
+Gene ID: tatA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 240
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 237
+
+Query ID: ureG
+Gene ID: ureG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 600
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 597
+
+Query ID: ribH
+Gene ID: ribH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 471
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 468
+
+Query ID: rpsJ
+Gene ID: rpsJ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 315
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 312
+
+Query ID: smc~~~smc
+Gene ID: smc~~~smc
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 825
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 822
+
+Query ID: smc
+Gene ID: smc
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 888
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 570, 885
+
+Query ID: mqnC
+Gene ID: mqnC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1062
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1059
+
+Query ID: ygiC
+Gene ID: ygiC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1173
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1170
+
+Query ID: rdxA
+Gene ID: rdxA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 633
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 630
+
+Query ID: parB
+Gene ID: parB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 873
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 870
+
+Query ID: eno
+Gene ID: eno
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1281
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1278
+
+Query ID: ttdT
+Gene ID: ttdT
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1449
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1446
+
+Query ID: gatC
+Gene ID: gatC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 282
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 279
+
+Query ID: trpE
+Gene ID: trpE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1503
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1500
+
+Query ID: petA
+Gene ID: petA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 504
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 501
+
+Query ID: fliD
+Gene ID: fliD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2058
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2055
+
+Query ID: ccoN1
+Gene ID: ccoN1
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1467
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1464
+
+Query ID: rpsR
+Gene ID: rpsR
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 258
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 255
+
+Query ID: fabF
+Gene ID: fabF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1239
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1236
+
+Query ID: rlpA
+Gene ID: rlpA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 948
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 945
+
+Query ID: fliF
+Gene ID: fliF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1704
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1701
+
+Query ID: tpx
+Gene ID: tpx
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 501
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 498
+
+Query ID: rplW
+Gene ID: rplW
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 282
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 279
+
+Query ID: cdh
+Gene ID: cdh
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 735
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 732
+
+Query ID: mog
+Gene ID: mog
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 531
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 528
+
+Query ID: mfd
+Gene ID: mfd
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 3000
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2997
+
+Query ID: hsdM
+Gene ID: hsdM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2463
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 555, 2460
+
+Query ID: aspS
+Gene ID: aspS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1734
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1731
+
+Query ID: lpxP
+Gene ID: lpxP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 987
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 984
+
+Query ID: alaS
+Gene ID: alaS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2544
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2541
+
+Query ID: acxB
+Gene ID: acxB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2298
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2295
+
+Query ID: secA
+Gene ID: secA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2598
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2595
+
+Query ID: sdcS
+Gene ID: sdcS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1662
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1659
+
+Query ID: lptA
+Gene ID: lptA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 558
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 555
+
+Query ID: rplX
+Gene ID: rplX
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 222
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 219
+
+Query ID: rimP
+Gene ID: rimP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 441
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 438
+
+Query ID: gdh
+Gene ID: gdh
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1353
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1350
+
+Query ID: obg
+Gene ID: obg
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1083
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1080
+
+Query ID: pyrG
+Gene ID: pyrG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1617
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1614
+
+Query ID: relA
+Gene ID: relA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2328
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2325
+
+Query ID: fabG
+Gene ID: fabG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 744
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 741
+
+Query ID: panD
+Gene ID: panD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 354
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 351
+
+Query ID: aroQ
+Gene ID: aroQ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 504
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 501
+
+Query ID: nupX
+Gene ID: nupX
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1257
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1254
+
+Query ID: gmhB
+Gene ID: gmhB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 525
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 522
+
+Query ID: fmt
+Gene ID: fmt
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 918
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 915
+
+Query ID: rplJ
+Gene ID: rplJ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 495
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 492
+
+Query ID: tlyA
+Gene ID: tlyA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 708
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 705
+
+Query ID: recD2
+Gene ID: recD2
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1248
+Total ORF stop codons: 3
+Premature stop codons: 2
+ORF stop codon positions: 684, 912, 1245
+
+Query ID: dgkA
+Gene ID: dgkA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 387
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 384
+
+Query ID: gltX1
+Gene ID: gltX1
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1392
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1389
+
+Query ID: plsY
+Gene ID: plsY
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 663
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 660
+
+Query ID: flgB
+Gene ID: flgB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 423
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 420
+
+Query ID: patA
+Gene ID: patA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1587
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1584
+
+Query ID: dppC
+Gene ID: dppC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 858
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 855
+
+Query ID: ispH
+Gene ID: ispH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 825
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 822
+
+Query ID: murA
+Gene ID: murA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1269
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1266
+
+Query ID: rpsU
+Gene ID: rpsU
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 213
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 210
+
+Query ID: mlaE
+Gene ID: mlaE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1134
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1131
+
+Query ID: lolE
+Gene ID: lolE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1233
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1230
+
+Query ID: argS
+Gene ID: argS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1626
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1623
+
+Query ID: flgE
+Gene ID: flgE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2157
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2154
+
+Query ID: serS
+Gene ID: serS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1248
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1245
+
+Query ID: ispG
+Gene ID: ispG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1080
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1077
+
+Query ID: pepA
+Gene ID: pepA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1491
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1488
+
+Query ID: hypF
+Gene ID: hypF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2274
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2271
+
+Query ID: hom
+Gene ID: hom
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1266
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1263
+
+Query ID: atpD
+Gene ID: atpD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1401
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1398
+
+Query ID: rplP
+Gene ID: rplP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 426
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 423
+
+Query ID: rpmE
+Gene ID: rpmE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 204
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 201
+
+Query ID: lspA
+Gene ID: lspA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 474
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 471
+
+Query ID: ispB
+Gene ID: ispB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 924
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 921
+
+Query ID: lolD
+Gene ID: lolD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 642
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 639
+
+Query ID: glmU
+Gene ID: glmU
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1302
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1299
+
+Query ID: ftsY
+Gene ID: ftsY
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 882
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 879
+
+Query ID: traG
+Gene ID: traG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2265
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2262
+
+Query ID: accD
+Gene ID: accD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 870
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 867
+
+Query ID: mgtA
+Gene ID: mgtA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1170
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1167
+
+Query ID: flgD
+Gene ID: flgD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1026
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1023
+
+Query ID: bioF
+Gene ID: bioF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1122
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1119
+
+Query ID: xerH~~~xerH
+Gene ID: xerH~~~xerH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1092
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1089
+
+Query ID: ybgC
+Gene ID: ybgC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 402
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 399
+
+Query ID: gtaB
+Gene ID: gtaB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 822
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 819
+
+Query ID: gapB
+Gene ID: gapB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 993
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 990
+
+Query ID: hugZ
+Gene ID: hugZ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 759
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 756
+
+Query ID: fliP
+Gene ID: fliP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 801
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 18, 798
+
+Query ID: pyrH
+Gene ID: pyrH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 723
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 720
+
+Query ID: hemA
+Gene ID: hemA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1350
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1347
+
+Query ID: xni
+Gene ID: xni
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 837
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 834
+
+Query ID: uvrD
+Gene ID: uvrD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2037
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2034
+
+Query ID: rpsA
+Gene ID: rpsA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1671
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1668
+
+Query ID: atoE
+Gene ID: atoE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1365
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1362
+
+Query ID: ftsE
+Gene ID: ftsE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 672
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 669
+
+Query ID: yfbR
+Gene ID: yfbR
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1221
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1218
+
+Query ID: topA
+Gene ID: topA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2211
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2208
+
+Query ID: ruvA
+Gene ID: ruvA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 552
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 549
+
+Query ID: fliA
+Gene ID: fliA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 744
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 741
+
+Query ID: iolS
+Gene ID: iolS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 990
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 987
+
+Query ID: atpF
+Gene ID: atpF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 516
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 513
+
+Query ID: hpn
+Gene ID: hpn
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 183
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 180
+
+Query ID: fbp
+Gene ID: fbp
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 873
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 870
+
+Query ID: hydA
+Gene ID: hydA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1155
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1152
+
+Query ID: grpE
+Gene ID: grpE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 576
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 573
+
+Query ID: hbpA
+Gene ID: hbpA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1650
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1647
+
+Query ID: aroE
+Gene ID: aroE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 792
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 789
+
+Query ID: fenF
+Gene ID: fenF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 930
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 927
+
+Query ID: apbC
+Gene ID: apbC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1107
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1104
+
+Query ID: dapE
+Gene ID: dapE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1182
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1179
+
+Query ID: fliN
+Gene ID: fliN
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 372
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 369
+
+Query ID: cysM
+Gene ID: cysM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 918
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 915
+
+Query ID: hcpC
+Gene ID: hcpC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1068
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1065
+
+Query ID: tolQ
+Gene ID: tolQ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 453
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 450
+
+Query ID: dnaJ
+Gene ID: dnaJ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1110
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1107
+
+Query ID: apt
+Gene ID: apt
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 540
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 537
+
+Query ID: ydfG
+Gene ID: ydfG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 762
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 759
+
+Query ID: carA
+Gene ID: carA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1128
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1125
+
+Query ID: yajC
+Gene ID: yajC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 384
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 381
+
+Query ID: hcpD
+Gene ID: hcpD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1059
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1056
+
+Query ID: algC
+Gene ID: algC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1380
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1377
+
+Query ID: fliR
+Gene ID: fliR
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 768
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 765
+
+Query ID: rocA
+Gene ID: rocA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 3558
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 3555
+
+Query ID: mtaB
+Gene ID: mtaB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1257
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1254
+
+Query ID: rpsK
+Gene ID: rpsK
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 396
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 393
+
+Query ID: aroC
+Gene ID: aroC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1098
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1095
+
+Query ID: serA
+Gene ID: serA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1575
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1572
+
+Query ID: algA
+Gene ID: algA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1419
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1416
+
+Query ID: aroH
+Gene ID: aroH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1350
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1347
+
+Query ID: kgtP
+Gene ID: kgtP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1299
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1296
+
+Query ID: tgt
+Gene ID: tgt
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1116
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1113
+
+Query ID: copA
+Gene ID: copA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2367
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2364
+
+Query ID: cynT
+Gene ID: cynT
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 681
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 663, 678
+
+Query ID: moaE
+Gene ID: moaE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 438
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 435
+
+Query ID: queC
+Gene ID: queC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 687
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 684
+
+Query ID: proS
+Gene ID: proS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1734
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1731
+
+Query ID: pdxA
+Gene ID: pdxA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 924
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 921
+
+Query ID: pdxJ
+Gene ID: pdxJ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 789
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 786
+
+Query ID: acsA
+Gene ID: acsA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1989
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1986
+
+Query ID: trpGD
+Gene ID: trpGD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1008
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1005
+
+Query ID: waaA
+Gene ID: waaA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1182
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1179
+
+Query ID: minD
+Gene ID: minD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 807
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 804
+
+Query ID: accB
+Gene ID: accB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 486
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 483
+
+Query ID: ndhA
+Gene ID: ndhA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 990
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 987
+
+Query ID: recA
+Gene ID: recA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1044
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1041
+
+Query ID: nuoA
+Gene ID: nuoA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 402
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 399
+
+Query ID: purU
+Gene ID: purU
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 882
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 879
+
+Query ID: xseA
+Gene ID: xseA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1266
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1263
+
+Query ID: flgG
+Gene ID: flgG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 810
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 807
+
+Query ID: fecA
+Gene ID: fecA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2577
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2574
+
+Query ID: gmd
+Gene ID: gmd
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1146
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1143
+
+Query ID: queE
+Gene ID: queE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 756
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 753
+
+Query ID: tolB
+Gene ID: tolB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1254
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1251
+
+Query ID: nrdB
+Gene ID: nrdB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1026
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1023
+
+Query ID: atpG
+Gene ID: atpG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 906
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 903
+
+Query ID: wbpB
+Gene ID: wbpB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 948
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 945
+
+Query ID: panB
+Gene ID: panB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 813
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 810
+
+Query ID: rsmD
+Gene ID: rsmD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 603
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 600
+
+Query ID: infB
+Gene ID: infB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2853
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2850
+
+Query ID: dxr
+Gene ID: dxr
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1107
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1104
+
+Query ID: hemH
+Gene ID: hemH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1008
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1005
+
+Query ID: degP
+Gene ID: degP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1431
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1428
+
+Query ID: iscS
+Gene ID: iscS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1323
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1320
+
+Query ID: ileS
+Gene ID: ileS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2856
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2853
+
+Query ID: rplA
+Gene ID: rplA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 705
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 702
+
+Query ID: motB
+Gene ID: motB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 774
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 771
+
+Query ID: ggt
+Gene ID: ggt
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1704
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1701
+
+Query ID: tenA
+Gene ID: tenA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 654
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 651
+
+Query ID: SERB
+Gene ID: SERB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 624
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 621
+
+Query ID: rplL
+Gene ID: rplL
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 378
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 375
+
+Query ID: cusA
+Gene ID: cusA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 3108
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 3105
+
+Query ID: nth
+Gene ID: nth
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 657
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 654
+
+Query ID: ptlH
+Gene ID: ptlH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 945
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 942
+
+Query ID: uppS
+Gene ID: uppS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 705
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 702
+
+Query ID: queF
+Gene ID: queF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 447
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 444
+
+Query ID: potA
+Gene ID: potA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 798
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 795
+
+Query ID: rplV
+Gene ID: rplV
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 369
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 366
+
+Query ID: dusB
+Gene ID: dusB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 987
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 984
+
+Query ID: tpiA
+Gene ID: tpiA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 705
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 702
+
+Query ID: hemN
+Gene ID: hemN
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1374
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1371
+
+Query ID: porA
+Gene ID: porA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1224
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1221
+
+Query ID: wbnK
+Gene ID: wbnK
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 906
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 741, 903
+
+Query ID: dnaA
+Gene ID: dnaA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1374
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1371
+
+Query ID: rppH
+Gene ID: rppH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 468
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 465
+
+Query ID: ribE
+Gene ID: ribE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 621
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 618
+
+Query ID: groS
+Gene ID: groS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 363
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 360
+
+Query ID: lptD
+Gene ID: lptD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2262
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2259
+
+Query ID: rsrIM~~~bamHIM
+Gene ID: rsrIM~~~bamHIM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 864
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 861
+
+Query ID: bamD
+Gene ID: bamD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 663
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 660
+
+Query ID: fliW2
+Gene ID: fliW2
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 390
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 387
+
+Query ID: infA
+Gene ID: infA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 219
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 216
+
+Query ID: sdaC
+Gene ID: sdaC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1242
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1239
+
+Query ID: sdaA
+Gene ID: sdaA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1368
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1365
+
+Query ID: ureI
+Gene ID: ureI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 588
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 585
+
+Query ID: selA
+Gene ID: selA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1173
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1170
+
+Query ID: pldA
+Gene ID: pldA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1068
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1065
+
+Query ID: bcp
+Gene ID: bcp
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 459
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 456
+
+Query ID: icd
+Gene ID: icd
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1278
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1275
+
+Query ID: nuoI
+Gene ID: nuoI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 663
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 660
+
+Query ID: ndk
+Gene ID: ndk
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 414
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 411
+
+Query ID: exoA
+Gene ID: exoA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 753
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 750
+
+Query ID: pnoA
+Gene ID: pnoA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1092
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1089
+
+Query ID: gyrB
+Gene ID: gyrB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2322
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2319
+
+Query ID: galE
+Gene ID: galE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1035
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1032
+
+Query ID: cmoA
+Gene ID: cmoA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 732
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 729
+
+Query ID: acnB
+Gene ID: acnB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2667
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2664
+
+Query ID: flhA
+Gene ID: flhA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2202
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2199
+
+Query ID: fabZ
+Gene ID: fabZ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 480
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 477
+
+Query ID: rplY
+Gene ID: rplY
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 537
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 534
+
+Query ID: ftsI
+Gene ID: ftsI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1848
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1845
+
+Query ID: mltG
+Gene ID: mltG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 951
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 948
+
+Query ID: secF
+Gene ID: secF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 972
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 969
+
+Query ID: alr1
+Gene ID: alr1
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1134
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1131
+
+Query ID: btuB
+Gene ID: btuB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2640
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2637
+
+Query ID: nuoL
+Gene ID: nuoL
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1839
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1836
+
+Query ID: clsC
+Gene ID: clsC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1509
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1506
+
+Query ID: rplU
+Gene ID: rplU
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 315
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 312
+
+Query ID: lutB
+Gene ID: lutB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1446
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1443
+
+Query ID: cagA
+Gene ID: cagA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 3567
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 3564
+
+Query ID: cusB
+Gene ID: cusB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1026
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1023
+
+Query ID: rplQ
+Gene ID: rplQ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 351
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 348
+
+Query ID: proC
+Gene ID: proC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 774
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 771
+
+Query ID: lgt
+Gene ID: lgt
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 855
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 852
+
+Query ID: dapA
+Gene ID: dapA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 906
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 903
+
+Query ID: trxB
+Gene ID: trxB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 936
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 933
+
+Query ID: hemB
+Gene ID: hemB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 972
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 969
+
+Query ID: cca
+Gene ID: cca
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1209
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1206
+
+Query ID: clpX
+Gene ID: clpX
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1347
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1344
+
+Query ID: fliM
+Gene ID: fliM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1065
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1062
+
+Query ID: lpxD
+Gene ID: lpxD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1011
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1008
+
+Query ID: glnA
+Gene ID: glnA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1446
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1443
+
+Query ID: rimO
+Gene ID: rimO
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1320
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1317
+
+Query ID: dnaB
+Gene ID: dnaB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1467
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1464
+
+Query ID: infC
+Gene ID: infC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 612
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 609
+
+Query ID: lysS
+Gene ID: lysS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1506
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1503
+
+Query ID: priA
+Gene ID: priA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1860
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1857
+
+Query ID: arlR
+Gene ID: arlR
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 678
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 675
+
+Query ID: porC
+Gene ID: porC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 561
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 558
+
+Query ID: mltD
+Gene ID: mltD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1125
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1122
+
+Query ID: glpC
+Gene ID: glpC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1302
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1299
+
+Query ID: mepM
+Gene ID: mepM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1221
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1218
+
+Query ID: tmk
+Gene ID: tmk
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 576
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 573
+
+Query ID: tatB
+Gene ID: tatB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 498
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 495
+
+Query ID: clpS
+Gene ID: clpS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 288
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 285
+
+Query ID: ffh
+Gene ID: ffh
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1347
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1344
+
+Query ID: sotB
+Gene ID: sotB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1176
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1173
+
+Query ID: pseC
+Gene ID: pseC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1161
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1158
+
+Query ID: adeQ
+Gene ID: adeQ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1308
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1305
+
+Query ID: argO
+Gene ID: argO
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 633
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 630
+
+Query ID: bioD
+Gene ID: bioD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 657
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 654
+
+Query ID: groL
+Gene ID: groL
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1641
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1638
+
+Query ID: hypD
+Gene ID: hypD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1113
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1110
+
+Query ID: lepA
+Gene ID: lepA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1815
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1812
+
+Query ID: thiM
+Gene ID: thiM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 780
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 777
+
+Query ID: hmuU
+Gene ID: hmuU
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 981
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 978
+
+Query ID: rimM
+Gene ID: rimM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 555
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 552
+
+Query ID: murE
+Gene ID: murE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1344
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1341
+
+Query ID: metI
+Gene ID: metI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 648
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 645
+
+Query ID: mscS
+Gene ID: mscS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 825
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 822
+
+Query ID: trpS
+Gene ID: trpS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 981
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 978
+
+Query ID: vspIM
+Gene ID: vspIM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1638
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1635
+
+Query ID: tkt
+Gene ID: tkt
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1926
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1923
+
+Query ID: pgk
+Gene ID: pgk
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1209
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1206
+
+Query ID: yidC
+Gene ID: yidC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1647
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1644
+
+Query ID: rnr
+Gene ID: rnr
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1935
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1932
+
+Query ID: pyrB
+Gene ID: pyrB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 933
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 930
+
+Query ID: dut
+Gene ID: dut
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 438
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 435
+
+Query ID: aspA
+Gene ID: aspA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1407
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1404
+
+Query ID: fliE
+Gene ID: fliE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 330
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 327
+
+Query ID: fba
+Gene ID: fba
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 924
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 921
+
+Query ID: ybiT
+Gene ID: ybiT
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1617
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1614
+
+Query ID: rpoA
+Gene ID: rpoA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1038
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1035
+
+Query ID: hydC
+Gene ID: hydC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 675
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 672
+
+Query ID: gapA~~~gap1
+Gene ID: gapA~~~gap1
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 999
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 996
+
+Query ID: pyrE
+Gene ID: pyrE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 606
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 603
+
+Query ID: prfB
+Gene ID: prfB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1092
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1089
+
+Query ID: nuoD
+Gene ID: nuoD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1230
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1227
+
+Query ID: hldD
+Gene ID: hldD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 993
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 990
+
+Query ID: mutS2
+Gene ID: mutS2
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2256
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2253
+
+Query ID: neuA
+Gene ID: neuA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 690
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 687
+
+Query ID: vacA
+Gene ID: vacA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 3942
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 3939
+
+Query ID: nhaA
+Gene ID: nhaA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1317
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1314
+
+Query ID: rplR
+Gene ID: rplR
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 357
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 354
+
+Query ID: pgpB
+Gene ID: pgpB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 687
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 684
+
+Query ID: ureA
+Gene ID: ureA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 717
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 714
+
+Query ID: fliI
+Gene ID: fliI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1305
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1302
+
+Query ID: hemC
+Gene ID: hemC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 921
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 918
+
+Query ID: tcyB~~~tcyB
+Gene ID: tcyB~~~tcyB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 714
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 711
+
+Query ID: pgpA
+Gene ID: pgpA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 477
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 474
+
+Query ID: birA
+Gene ID: birA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 639
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 636
+
+Query ID: salL
+Gene ID: salL
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 903
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 900
+
+Query ID: glnH
+Gene ID: glnH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 834
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 831
+
+Query ID: ybeY
+Gene ID: ybeY
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 423
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 420
+
+Query ID: hemW
+Gene ID: hemW
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1038
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1035
+
+Query ID: efp
+Gene ID: efp
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 564
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 561
+
+Query ID: mraY
+Gene ID: mraY
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1083
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1080
+
+Query ID: lutA
+Gene ID: lutA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 858
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 855
+
+Query ID: dsbB
+Gene ID: dsbB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1473
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1470
+
+Query ID: rbfA
+Gene ID: rbfA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 336
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 333
+
+Query ID: hemE
+Gene ID: hemE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1020
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1017
+
+Query ID: ribD
+Gene ID: ribD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1035
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1032
+
+Query ID: rqcH
+Gene ID: rqcH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1308
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1305
+
+Query ID: rpsS
+Gene ID: rpsS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 282
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 279
+
+Query ID: mnmG
+Gene ID: mnmG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1866
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1863
+
+Query ID: dnaK
+Gene ID: dnaK
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1863
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1860
+
+Query ID: lpxB
+Gene ID: lpxB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1083
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1080
+
+Query ID: amiF
+Gene ID: amiF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1005
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1002
+
+Query ID: pseH
+Gene ID: pseH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 543
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 540
+
+Query ID: flaB
+Gene ID: flaB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1545
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1542
+
+Query ID: mqnE
+Gene ID: mqnE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1125
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1122
+
+Query ID: dapB
+Gene ID: dapB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 765
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 762
+
+Query ID: guaC
+Gene ID: guaC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1008
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1005
+
+Query ID: tyrS
+Gene ID: tyrS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1209
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1206
+
+Query ID: fliS
+Gene ID: fliS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 381
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 378
+
+Query ID: rplM
+Gene ID: rplM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 426
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 423
+
+Query ID: pctB
+Gene ID: pctB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2028
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2025
+
+Query ID: slyD
+Gene ID: slyD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 558
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 555
+
+Query ID: frdC
+Gene ID: frdC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 768
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 765
+
+Query ID: minE
+Gene ID: minE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 234
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 231
+
+Query ID: ecoRIR
+Gene ID: ecoRIR
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 855
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 852
+
+Query ID: ccpA
+Gene ID: ccpA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1053
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1050
+
+Query ID: ald2~~~ald
+Gene ID: ald2~~~ald
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1143
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1140
+
+Query ID: dnaN
+Gene ID: dnaN
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1125
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1122
+
+Query ID: thiD
+Gene ID: thiD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 810
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 807
+
+Query ID: yidD
+Gene ID: yidD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 357
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 354
+
+Query ID: fliG
+Gene ID: fliG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1032
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1029
+
+Query ID: pseB
+Gene ID: pseB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1002
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 999
+
+Query ID: yccA
+Gene ID: yccA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 693
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 690
+
+Query ID: purA
+Gene ID: purA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1236
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1233
+
+Query ID: rpoD
+Gene ID: rpoD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2091
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2088
+
+Query ID: yqgF
+Gene ID: yqgF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 405
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 402
+
+Query ID: ureB
+Gene ID: ureB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1710
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1707
+
+Query ID: plsX
+Gene ID: plsX
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1020
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1017
+
+Query ID: ahpC
+Gene ID: ahpC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 597
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 594
+
+Query ID: rpsP
+Gene ID: rpsP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 231
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 228
+
+Query ID: rhpA
+Gene ID: rhpA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1479
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1476
+
+Query ID: rpoBC
+Gene ID: rpoBC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 8673
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 8670
+
+Query ID: glmM
+Gene ID: glmM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1338
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1335
+
+Query ID: sftA
+Gene ID: sftA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2418
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2415
+
+Query ID: kdsC
+Gene ID: kdsC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 495
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 492
+
+Query ID: dppB
+Gene ID: dppB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1005
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1002
+
+Query ID: rluB
+Gene ID: rluB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 774
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 771
+
+Query ID: dxs
+Gene ID: dxs
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1851
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1848
+
+Query ID: dapF
+Gene ID: dapF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 822
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 819
+
+Query ID: ppx
+Gene ID: ppx
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1455
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1452
+
+Query ID: lysA
+Gene ID: lysA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1218
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1215
+
+Query ID: rpsE
+Gene ID: rpsE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 444
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 441
+
+Query ID: ybhR~~~ybhS
+Gene ID: ybhR~~~ybhS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1131
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1128
+
+Query ID: deoD
+Gene ID: deoD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 702
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 699
+
+Query ID: porB
+Gene ID: porB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 945
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 942
+
+Query ID: murD
+Gene ID: murD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1269
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1266
+
+Query ID: recN
+Gene ID: recN
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1575
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1572
+
+Query ID: rnhA
+Gene ID: rnhA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 432
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 429
+
+Query ID: pyrC
+Gene ID: pyrC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1137
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1134
+
+Query ID: pal
+Gene ID: pal
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 540
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 537
+
+Query ID: putP
+Gene ID: putP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1491
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1488
+
+Query ID: mboIIR
+Gene ID: mboIIR
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1272
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1269
+
+Query ID: artM
+Gene ID: artM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 747
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 744
+
+Query ID: coaBC
+Gene ID: coaBC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1278
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1275
+
+Query ID: hup
+Gene ID: hup
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 285
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 282
+
+Query ID: dpnM
+Gene ID: dpnM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 906
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 903
+
+Query ID: lpxK
+Gene ID: lpxK
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 939
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 936
+
+Query ID: crcB
+Gene ID: crcB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 393
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 390
+
+Query ID: recB
+Gene ID: recB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2856
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2853
+
+Query ID: ogt
+Gene ID: ogt
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 507
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 504
+
+Query ID: virB8
+Gene ID: virB8
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 744
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 741
+
+Query ID: htpX
+Gene ID: htpX
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1224
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1221
+
+Query ID: prmA
+Gene ID: prmA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 990
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 987
+
+Query ID: ureF
+Gene ID: ureF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 753
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 750
+
+Query ID: nadC
+Gene ID: nadC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 822
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 819
+
+Query ID: recF
+Gene ID: recF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2472
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2469
+
+Query ID: thlA
+Gene ID: thlA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1176
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1173
+
+Query ID: rplF
+Gene ID: rplF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 537
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 534
+
+Query ID: fliW1
+Gene ID: fliW1
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 408
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 405
+
+Query ID: yejF
+Gene ID: yejF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1551
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1548
+
+Query ID: pgl
+Gene ID: pgl
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 684
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 681
+
+Query ID: rpsI
+Gene ID: rpsI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 390
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 387
+
+Query ID: rplE
+Gene ID: rplE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 546
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 543
+
+Query ID: korB
+Gene ID: korB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 822
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 819
+
+Query ID: rpsH
+Gene ID: rpsH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 396
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 393
+
+Query ID: srpA
+Gene ID: srpA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 945
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 942
+
+Query ID: virB4
+Gene ID: virB4
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2946
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2943
+
+Query ID: atpC
+Gene ID: atpC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 372
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 369
+
+Query ID: mepA
+Gene ID: mepA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1380
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1377
+
+Query ID: typA
+Gene ID: typA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1803
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1800
+
+Query ID: rpsT
+Gene ID: rpsT
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 270
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 267
+
+Query ID: lpxE
+Gene ID: lpxE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 597
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 594
+
+Query ID: rplI
+Gene ID: rplI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 450
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 447
+
+Query ID: murB
+Gene ID: murB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 780
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 777
+
+Query ID: rsmE
+Gene ID: rsmE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 681
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 678
+
+Query ID: ygaZ
+Gene ID: ygaZ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 687
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 684
+
+Query ID: fic
+Gene ID: fic
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 705
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 702
+
+Query ID: btuF
+Gene ID: btuF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1008
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1005
+
+Query ID: cah
+Gene ID: cah
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 744
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 741
+
+Query ID: pta~~~pta
+Gene ID: pta~~~pta
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1539
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1536
+
+Query ID: cheA
+Gene ID: cheA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2439
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2436
+
+Query ID: flaA
+Gene ID: flaA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1533
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1530
+
+Query ID: pncC
+Gene ID: pncC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 657
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 654
+
+Query ID: dcd
+Gene ID: dcd
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 567
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 564
+
+Query ID: mmpA
+Gene ID: mmpA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1053
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1050
+
+Query ID: oppF
+Gene ID: oppF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 807
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 804
+
+Query ID: opuBA
+Gene ID: opuBA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 651
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 648
+
+Query ID: pnp
+Gene ID: pnp
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2067
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2064
+
+Query ID: truD
+Gene ID: truD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1146
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1143
+
+Query ID: pheT
+Gene ID: pheT
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2295
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2292
+
+Query ID: coaE
+Gene ID: coaE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 606
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 603
+
+Query ID: ycfH
+Gene ID: ycfH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 765
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 762
+
+Query ID: mdaB
+Gene ID: mdaB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 585
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 582
+
+Query ID: cagT
+Gene ID: cagT
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 843
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 840
+
+Query ID: soj
+Gene ID: soj
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 795
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 792
+
+Query ID: dapL
+Gene ID: dapL
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1128
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1125
+
+Query ID: miaB
+Gene ID: miaB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1314
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1311
+
+Query ID: ribA
+Gene ID: ribA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 579
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 576
+
+Query ID: rplT
+Gene ID: rplT
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 351
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 348
+
+Query ID: pth
+Gene ID: pth
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 561
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 558
+
+Query ID: uvrA
+Gene ID: uvrA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2826
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2823
+
+Query ID: moeA
+Gene ID: moeA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1176
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1173
+
+Query ID: leuS
+Gene ID: leuS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2421
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2418
+
+Query ID: hisS
+Gene ID: hisS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1329
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1326
+
+Query ID: tcdA
+Gene ID: tcdA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 708
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 705
+
+Query ID: tyrC
+Gene ID: tyrC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 828
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 825
+
+Query ID: cmoB
+Gene ID: cmoB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 798
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 795
+
+Query ID: sppA
+Gene ID: sppA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 879
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 876
+
+Query ID: ftsH
+Gene ID: ftsH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1899
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1896
+
+Query ID: exbB
+Gene ID: exbB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 570
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 567
+
+Query ID: acxC
+Gene ID: acxC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 501
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 498
+
+Query ID: miaA
+Gene ID: miaA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 846
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 843
+
+Query ID: menG
+Gene ID: menG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 741
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 738
+
+Query ID: frdB
+Gene ID: frdB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 738
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 735
+
+Query ID: pomA
+Gene ID: pomA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 774
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 771
+
+Query ID: atpA
+Gene ID: atpA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1512
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1509
+
+Query ID: recR
+Gene ID: recR
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 582
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 579
+
+Query ID: nrdA
+Gene ID: nrdA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2367
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2364
+
+Query ID: rclC
+Gene ID: rclC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 648
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 645
+
+Query ID: amiA~~~amiC
+Gene ID: amiA~~~amiC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1353
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1350
+
+Query ID: dps
+Gene ID: dps
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 435
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 432
+
+Query ID: rsfS
+Gene ID: rsfS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 342
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 339
+
+Query ID: moaA
+Gene ID: moaA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 966
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 963
+
+Query ID: nfuA
+Gene ID: nfuA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 981
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 978
+
+Query ID: pepF1
+Gene ID: pepF1
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1737
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1734
+
+Query ID: mqnD
+Gene ID: mqnD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 864
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 861
+
+Query ID: colC
+Gene ID: colC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 933
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 930
+
+Query ID: rpsQ
+Gene ID: rpsQ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 261
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 258
+
+Query ID: ubiD
+Gene ID: ubiD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1851
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1848
+
+Query ID: Hgd
+Gene ID: Hgd
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 858
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 855
+
+Query ID: kdsB
+Gene ID: kdsB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 732
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 729
+
+Query ID: ydiO
+Gene ID: ydiO
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1056
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1053
+
+Query ID: pgsA
+Gene ID: pgsA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 540
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 537
+
+Query ID: ansA
+Gene ID: ansA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1053
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1050
+
+Query ID: rpmG2
+Gene ID: rpmG2
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 159
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 156
+
+Query ID: ddl
+Gene ID: ddl
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1071
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1068
+
+Query ID: bioA
+Gene ID: bioA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1362
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1359
+
+Query ID: yafQ
+Gene ID: yafQ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 288
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 285
+
+Query ID: ppa
+Gene ID: ppa
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 522
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 519
+
+Query ID: yeeO
+Gene ID: yeeO
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1254
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1251
+
+Query ID: recJ
+Gene ID: recJ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1551
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1548
+
+Query ID: era
+Gene ID: era
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1887
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1884
+
+Query ID: rpsD
+Gene ID: rpsD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 627
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 624
+
+Query ID: tsf
+Gene ID: tsf
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1068
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1065
+
+Query ID: prfA
+Gene ID: prfA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1059
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1056
+
+Query ID: mdoB
+Gene ID: mdoB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2082
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2079
+
+Query ID: ftsW
+Gene ID: ftsW
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1167
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 192, 1164
+
+Query ID: moaC
+Gene ID: moaC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 477
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 474
+
+Query ID: ilvC
+Gene ID: ilvC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 993
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 990
+
+Query ID: czcA
+Gene ID: czcA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 3060
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 3057
+
+Query ID: pseI
+Gene ID: pseI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1023
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1020
+
+Query ID: smpB
+Gene ID: smpB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 459
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 456
+
+Query ID: rpsC
+Gene ID: rpsC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 705
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 702
+
+Query ID: glnP
+Gene ID: glnP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 672
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 669
+
+Query ID: cheY
+Gene ID: cheY
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 375
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 372
+
+Query ID: oppD
+Gene ID: oppD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 864
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 861
+
+Query ID: folD
+Gene ID: folD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 894
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 891
+
+Query ID: yhdJ
+Gene ID: yhdJ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1119
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1116
+
+Query ID: mnmA
+Gene ID: mnmA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1083
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1080
+
+Query ID: rpsG
+Gene ID: rpsG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 468
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 465
+
+Query ID: fur
+Gene ID: fur
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 453
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 450
+
+Query ID: radA
+Gene ID: radA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1347
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1344
+
+Query ID: dppE
+Gene ID: dppE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1788
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1785
+
+Query ID: pheS
+Gene ID: pheS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 987
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 984
+
+Query ID: clpY
+Gene ID: clpY
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1332
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1329
+
+Query ID: fabL
+Gene ID: fabL
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 789
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 786
+
+Query ID: msbA
+Gene ID: msbA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1782
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1779
+
+Query ID: tam
+Gene ID: tam
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 753
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 750
+
+Query ID: gph
+Gene ID: gph
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 669
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 666
+
+Query ID: gspA
+Gene ID: gspA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1107
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1104
+
+Query ID: hemL
+Gene ID: hemL
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1293
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1290
+
+Query ID: pgbB
+Gene ID: pgbB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1677
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1674
+
+Query ID: ftsA
+Gene ID: ftsA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1482
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1479
+
+Query ID: cusR
+Gene ID: cusR
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 672
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 669
+
+Query ID: ppk
+Gene ID: ppk
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2028
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2025
+
+Query ID: rpe
+Gene ID: rpe
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 654
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 651
+
+Query ID: trpA
+Gene ID: trpA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 789
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 786
+
+Query ID: socA
+Gene ID: socA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 438
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 435
+
+Query ID: gyrA
+Gene ID: gyrA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2496
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2493
+
+Query ID: minC
+Gene ID: minC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 588
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 585
+
+Query ID: katA
+Gene ID: katA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1518
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1515
+
+Query ID: dipZ
+Gene ID: dipZ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 720
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 717
+
+Query ID: dprA
+Gene ID: dprA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 801
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 798
+
+Query ID: accA
+Gene ID: accA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 939
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 936
+
+Query ID: petB
+Gene ID: petB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1239
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1236
+
+Query ID: feoB
+Gene ID: feoB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1929
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1926
+
+Query ID: secD
+Gene ID: secD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1581
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1578
+
+Query ID: alsT
+Gene ID: alsT
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1353
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1350
+
+Query ID: ilvE
+Gene ID: ilvE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1023
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1020
+
+Query ID: hsdR
+Gene ID: hsdR
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 3138
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 3135
+
+Query ID: msrAB
+Gene ID: msrAB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1023
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1020
+
+Query ID: rsmH
+Gene ID: rsmH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 927
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 924
+
+Query ID: cbpA
+Gene ID: cbpA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 867
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 864
+
+Query ID: sasA~~~senX3
+Gene ID: sasA~~~senX3
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1134
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1131
+
+Query ID: tufA
+Gene ID: tufA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1200
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1197
+
+Query ID: fusA
+Gene ID: fusA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2079
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2076
+
+Query ID: rpsF
+Gene ID: rpsF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 429
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 426
+
+Query ID: nusG
+Gene ID: nusG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 528
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 525
+
+Query ID: thrZ
+Gene ID: thrZ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1839
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1836
+
+Query ID: cheW
+Gene ID: cheW
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 498
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 495
+
+Query ID: ywiE
+Gene ID: ywiE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 543
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 540
+
+Query ID: mboIIM
+Gene ID: mboIIM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1836
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1833
+
+Query ID: rfaC
+Gene ID: rfaC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1029
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1026
+
+Query ID: fliQ
+Gene ID: fliQ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 267
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 264
+
+Query ID: sodB
+Gene ID: sodB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 642
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 639
+
+Query ID: lepB
+Gene ID: lepB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 873
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 870
+
+Query ID: eda
+Gene ID: eda
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 627
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 624
+
+Query ID: clpA
+Gene ID: clpA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2226
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2223
+
+Query ID: atpB
+Gene ID: atpB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 681
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 678
+
+Query ID: hhaIM
+Gene ID: hhaIM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1107
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1104
+
+Query ID: metK
+Gene ID: metK
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1158
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1155
+
+Query ID: nspC
+Gene ID: nspC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1218
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1215
+
+Query ID: ackA
+Gene ID: ackA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 885
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 882
+
+Query ID: cfa
+Gene ID: cfa
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1170
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1167
+
+Query ID: mrcA~~~pbpF
+Gene ID: mrcA~~~pbpF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1983
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1980
+
+Query ID: atpE
+Gene ID: atpE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 318
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 315
+
+Query ID: hydB
+Gene ID: hydB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1737
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1734
+
+Query ID: hcpA
+Gene ID: hcpA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 753
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 750
+
+Query ID: rplC
+Gene ID: rplC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 576
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 573
+
+Query ID: kefC
+Gene ID: kefC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1254
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1251
+
+Query ID: ptlC
+Gene ID: ptlC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2424
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2421
+
+Query ID: lldP
+Gene ID: lldP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1656
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1653
+
+Query ID: scoB
+Gene ID: scoB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 624
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 621
+
+Query ID: fokIM
+Gene ID: fokIM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1062
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1059
+
+Query ID: pyrF
+Gene ID: pyrF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 684
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 681
+
+Query ID: mqnB
+Gene ID: mqnB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 543
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 540
+
+Query ID: bspRIM
+Gene ID: bspRIM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1218
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1215
+
+Query ID: trmD
+Gene ID: trmD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 690
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 687
+
+Query ID: rpoZ
+Gene ID: rpoZ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 225
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 222
+
+Query ID: ywlF
+Gene ID: ywlF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 462
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 459
+
+Query ID: fldA
+Gene ID: fldA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 495
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 492
+
+Query ID: yejE
+Gene ID: yejE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1017
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1014
+
+Query ID: gltA
+Gene ID: gltA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1281
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1278
+
+Query ID: fumC
+Gene ID: fumC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1392
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1389
+
+Query ID: gmhA1
+Gene ID: gmhA1
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 579
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 576
+
+Query ID: rsmA
+Gene ID: rsmA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 816
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 813
+
+Query ID: lnt
+Gene ID: lnt
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1278
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1275
+
+Query ID: mobA
+Gene ID: mobA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 606
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 603
+
+Query ID: yxdL
+Gene ID: yxdL
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 702
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 699
+
+Query ID: cstA
+Gene ID: cstA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2064
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2061
+
+Query ID: mqnA
+Gene ID: mqnA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 684
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 681
+
+Query ID: mreB
+Gene ID: mreB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1044
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1041
+
+Query ID: atoS
+Gene ID: atoS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1146
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1143
+
+Query ID: queH
+Gene ID: queH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1107
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1104
+
+Query ID: uvrB
+Gene ID: uvrB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1977
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1974
+
+Query ID: coaD
+Gene ID: coaD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 474
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 471
+
+Query ID: ureH
+Gene ID: ureH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 798
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 795
+
+Query ID: ychF
+Gene ID: ychF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1101
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1098
+
+Query ID: qseB~~~arlR
+Gene ID: qseB~~~arlR
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 642
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 639
+
+Query ID: surA
+Gene ID: surA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1263
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1260
+
+Query ID: modA
+Gene ID: modA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 849
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 846
+
+Query ID: gatB
+Gene ID: gatB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1425
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1422
+
+Query ID: tsaE
+Gene ID: tsaE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 402
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 399
+
+Query ID: yfkO
+Gene ID: yfkO
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 690
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 687
+
+Query ID: yfkN
+Gene ID: yfkN
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1746
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1743
+
+Query ID: metQ
+Gene ID: metQ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 816
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 813
+
+Query ID: der
+Gene ID: der
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2340
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2337
+
+Query ID: czcB
+Gene ID: czcB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 675
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 672
+
+Query ID: map
+Gene ID: map
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 762
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 759
+
+Query ID: ccoP
+Gene ID: ccoP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 879
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 876
+
+Query ID: nudK
+Gene ID: nudK
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 639
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 636
+
+Query ID: metG
+Gene ID: metG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1980
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1977
+
+Query ID: rplS
+Gene ID: rplS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 357
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 354
+
+Query ID: uvrC
+Gene ID: uvrC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1785
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1782
+
+Query ID: lapB
+Gene ID: lapB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1020
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1017
+
+Query ID: haeIIIM
+Gene ID: haeIIIM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 984
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 981
+
+Query ID: polA
+Gene ID: polA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2694
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2691
+
+Query ID: trpC
+Gene ID: trpC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1359
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1356
+
+Query ID: kdsA
+Gene ID: kdsA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 831
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 828
+
+Query ID: tatC
+Gene ID: tatC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 750
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 747
+
+Query ID: polC
+Gene ID: polC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 864
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 861
+
+Query ID: korA
+Gene ID: korA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1128
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1125
+
+Query ID: mcp4
+Gene ID: mcp4
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1695
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1692
+
+Query ID: folK
+Gene ID: folK
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 489
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 486
+
+Query ID: bamA
+Gene ID: bamA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2796
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2793
+
+Query ID: dadA
+Gene ID: dadA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1233
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1230
+
+Query ID: coaX
+Gene ID: coaX
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 672
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 669
+
+Query ID: aroA1
+Gene ID: aroA1
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1290
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1287
+
+Query ID: frdA
+Gene ID: frdA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2145
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2142
+
+Query ID: xerH
+Gene ID: xerH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1074
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1071
+
+Query ID: trpB
+Gene ID: trpB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1182
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1179
+
+Query ID: rpmI
+Gene ID: rpmI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 195
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 192
+
+Query ID: htpG
+Gene ID: htpG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1866
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1863
+
+Query ID: yceI
+Gene ID: yceI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 549
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 546
+
+Query ID: virB4~~~virB4
+Gene ID: virB4~~~virB4
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2364
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2361
+
+Query ID: nqo6
+Gene ID: nqo6
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 480
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 477
+
+Query ID: adhA
+Gene ID: adhA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1047
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1044
+
+Query ID: lptB
+Gene ID: lptB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 723
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 720
+
+Query ID: rplD
+Gene ID: rplD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 648
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 645
+
+Query ID: rnpA
+Gene ID: rnpA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 486
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 483
+
+Query ID: bcgIB
+Gene ID: bcgIB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1206
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1203
+
+Query ID: deoB
+Gene ID: deoB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1242
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1239
+
+Query ID: flhF
+Gene ID: flhF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1377
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1374
+
+Query ID: gatA
+Gene ID: gatA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1362
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1359
+
+Query ID: glyS
+Gene ID: glyS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2106
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2103
+
+Query ID: thrB
+Gene ID: thrB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 882
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 879
+
+Query ID: rplB
+Gene ID: rplB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 831
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 828
+
+Query ID: pgdA
+Gene ID: pgdA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 882
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 879
+
+Query ID: rlmH
+Gene ID: rlmH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 453
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 450
+
+Query ID: ccsA
+Gene ID: ccsA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2811
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2808
+
+Query ID: rpmC
+Gene ID: rpmC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 201
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 198
+
+Query ID: tal
+Gene ID: tal
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 951
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 948
+
+Query ID: hssS~~~pfeS
+Gene ID: hssS~~~pfeS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1332
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1329
+
+Query ID: dnaX~~~ruvB
+Gene ID: dnaX~~~ruvB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1809
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1806
+
+Query ID: def1~~~def
+Gene ID: def1~~~def
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 528
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 525
+
+Query ID: prs
+Gene ID: prs
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 957
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 954
+
+Query ID: tig
+Gene ID: tig
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1356
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1353
+
+Query ID: cagS
+Gene ID: cagS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 600
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 597
+
+Query ID: sufS
+Gene ID: sufS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1323
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1320
+
+Query ID: carB
+Gene ID: carB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 3258
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 3255
+
+Query ID: thrC
+Gene ID: thrC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1461
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1458
+
+Query ID: metN2
+Gene ID: metN2
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 786
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 783
+
+Query ID: menH
+Gene ID: menH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 726
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 723
+
+Query ID: atoC
+Gene ID: atoC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1146
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1143
+
+Query ID: fabI
+Gene ID: fabI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 834
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 831
+
+Query ID: lpxG
+Gene ID: lpxG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1116
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1113
+
+Query ID: pgi
+Gene ID: pgi
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1638
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1635
+
+Query ID: ftsZ
+Gene ID: ftsZ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1158
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1155
+
+Query ID: hflC
+Gene ID: hflC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1089
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1086
+
+Query ID: rsgA~~~era
+Gene ID: rsgA~~~era
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 564
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 561
+
+Query ID: copP
+Gene ID: copP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 204
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 201
+
+Query ID: psd
+Gene ID: psd
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 804
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 801
+
+Query ID: bcgIA~~~bcgIA
+Gene ID: bcgIA~~~bcgIA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2040
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2037
+
+Query ID: ung
+Gene ID: ung
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 702
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 699
+
+Query ID: bcgIA
+Gene ID: bcgIA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2280
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2277
+
+Query ID: opuCC
+Gene ID: opuCC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1662
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1659
+
+Query ID: lpxA
+Gene ID: lpxA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 813
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 810
+
+Query ID: clpP
+Gene ID: clpP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 588
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 585
+
+Query ID: thiE
+Gene ID: thiE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 672
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 669
+
+Query ID: rplN
+Gene ID: rplN
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 369
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 366
+
+Query ID: mqo
+Gene ID: mqo
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1353
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1350
+
+Query ID: cpoB
+Gene ID: cpoB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 996
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 993
+
+Query ID: pcrA
+Gene ID: pcrA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2049
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2046
+
+Query ID: truA
+Gene ID: truA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 729
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 726
+
+Query ID: ppiB
+Gene ID: ppiB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 492
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 489
+
+Query ID: speA
+Gene ID: speA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1848
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1845
+
+Query ID: yafV
+Gene ID: yafV
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 885
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 882
+
+Query ID: rnj~~~rnaJ
+Gene ID: rnj~~~rnaJ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2085
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2082
+
+Query ID: fucT
+Gene ID: fucT
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1239
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1236
+
+Query ID: nuoK
+Gene ID: nuoK
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 303
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 300
+
+Query ID: rfaF
+Gene ID: rfaF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1050
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1047
+
+Query ID: tsaD
+Gene ID: tsaD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1023
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1020
+
+Query ID: ecoRVR
+Gene ID: ecoRVR
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 843
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 840
+
+Query ID: murC
+Gene ID: murC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1350
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1347
+
+Query ID: glk
+Gene ID: glk
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1011
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1008
+
+Query ID: dnaE
+Gene ID: dnaE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 3636
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 3633
+
+Query ID: lex1
+Gene ID: lex1
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 822
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 819
+
+Query ID: acxA
+Gene ID: acxA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2142
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2139
+
+Query ID: zwf
+Gene ID: zwf
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1278
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1275
+
+Query ID: hypB
+Gene ID: hypB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 729
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 726
+
+Query ID: rluD
+Gene ID: rluD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 984
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 981
+
+Query ID: sfrA
+Gene ID: sfrA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2565
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2562
+
+Query ID: mdtC
+Gene ID: mdtC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 3087
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 3084
+
+Query ID: folE
+Gene ID: folE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 543
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 540
+
+Query ID: hldE
+Gene ID: hldE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1392
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1389
+
+Query ID: engB
+Gene ID: engB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 627
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 624
+
+Query ID: nuoJ
+Gene ID: nuoJ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 549
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 546
+
+Query ID: ndhD1~~~nuoM
+Gene ID: ndhD1~~~nuoM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1539
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1536
+
+Query ID: kch
+Gene ID: kch
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1137
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1134
+
+Query ID: aguA
+Gene ID: aguA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 993
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 990
+
+Query ID: nixA
+Gene ID: nixA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 996
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 993
+
+Query ID: feoA
+Gene ID: feoA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 237
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 234
+
+Query ID: recG
+Gene ID: recG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1872
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1869
+
+Query ID: cadA
+Gene ID: cadA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2061
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2058
+
+Query ID: ndhJ
+Gene ID: ndhJ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 798
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 795
+
+Query ID: rpsO
+Gene ID: rpsO
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 273
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 270
+
+Query ID: rocF
+Gene ID: rocF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 969
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 966
+
+Query ID: hslV
+Gene ID: hslV
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 543
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 540
+
+Query ID: tagO
+Gene ID: tagO
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 939
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 936
+
+Query ID: nusA
+Gene ID: nusA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1188
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1185
+
+Query ID: zipA
+Gene ID: zipA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 810
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 807
+
+Query ID: queA
+Gene ID: queA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1038
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1035
+
+Query ID: lpxH
+Gene ID: lpxH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 762
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 759
+
+Query ID: yfiC
+Gene ID: yfiC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 717
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 714
+
+Query ID: murG
+Gene ID: murG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1062
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1059
+
+Query ID: pabB
+Gene ID: pabB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1680
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1677
+
+Query ID: secY
+Gene ID: secY
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1263
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1260
+
+Query ID: trmB
+Gene ID: trmB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1182
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1179
+
+Query ID: clpB
+Gene ID: clpB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2571
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2568
+
+Query ID: porD
+Gene ID: porD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 393
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 390
+
+Query ID: rlhA
+Gene ID: rlhA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1290
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1287
+
+Query ID: fdx
+Gene ID: fdx
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 255
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 252
+
+Query ID: djlA
+Gene ID: djlA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 768
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 765
+
+Query ID: lpxC
+Gene ID: lpxC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 888
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 885
+
+Query ID: eptA
+Gene ID: eptA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1566
+Total ORF stop codons: 2
+Premature stop codons: 1
+ORF stop codon positions: 1560, 1563
+
+Query ID: folC
+Gene ID: folC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1176
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1173
+
+Query ID: yajR
+Gene ID: yajR
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1332
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1329
+
+Query ID: rpmB
+Gene ID: rpmB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 189
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 186
+
+Query ID: yohD
+Gene ID: yohD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 582
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 579
+
+Query ID: luxS
+Gene ID: luxS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 468
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 465
+
+Query ID: dorA
+Gene ID: dorA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2391
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2388
+
+Query ID: murI
+Gene ID: murI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 768
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 765
+
+Query ID: ureE
+Gene ID: ureE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 513
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 510
+
+Query ID: rpmF
+Gene ID: rpmF
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 147
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 144
+
+Query ID: moeZ
+Gene ID: moeZ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 768
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 765
+
+Query ID: nnr
+Gene ID: nnr
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1401
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1398
+
+Query ID: csrA
+Gene ID: csrA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 231
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 228
+
+Query ID: greA
+Gene ID: greA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 495
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 492
+
+Query ID: frr
+Gene ID: frr
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 558
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 555
+
+Query ID: mnmE
+Gene ID: mnmE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1353
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1350
+
+Query ID: ubiX
+Gene ID: ubiX
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 564
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 561
+
+Query ID: xseB
+Gene ID: xseB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 270
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 267
+
+Query ID: nadD
+Gene ID: nadD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 516
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 513
+
+Query ID: amiE
+Gene ID: amiE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1020
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1017
+
+Query ID: guaB
+Gene ID: guaB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1446
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1443
+
+Query ID: rlmN
+Gene ID: rlmN
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1074
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1071
+
+Query ID: folP
+Gene ID: folP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1143
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1140
+
+Query ID: pqqE
+Gene ID: pqqE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 873
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 870
+
+Query ID: scoA
+Gene ID: scoA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 699
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 696
+
+Query ID: spoIIIE
+Gene ID: spoIIIE
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 2604
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 2601
+
+Query ID: proP
+Gene ID: proP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1383
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1380
+
+Query ID: gltS
+Gene ID: gltS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1227
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1224
+
+Query ID: trpG
+Gene ID: trpG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 585
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 582
+
+Query ID: mtnN
+Gene ID: mtnN
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 714
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 711
+
+Query ID: pnuC
+Gene ID: pnuC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 663
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 660
+
+Query ID: yabJ
+Gene ID: yabJ
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 378
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 375
+
+Query ID: hypA
+Gene ID: hypA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 354
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 351
+
+Query ID: ruvC
+Gene ID: ruvC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 474
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 471
+
+Query ID: adk
+Gene ID: adk
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 576
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 573
+
+Query ID: gpt
+Gene ID: gpt
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 462
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 459
+
+Query ID: hel
+Gene ID: hel
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 693
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 690
+
+Query ID: acpS
+Gene ID: acpS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 360
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 357
+
+Query ID: ylxH
+Gene ID: ylxH
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 885
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 882
+
+Query ID: edd
+Gene ID: edd
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1827
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1824
+
+Query ID: cysS
+Gene ID: cysS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1398
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1395
+
+Query ID: mrdA
+Gene ID: mrdA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1767
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1764
+
+Query ID: cdsA
+Gene ID: cdsA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 801
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 798
+
+Query ID: fucP
+Gene ID: fucP
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1224
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1221
+
+Query ID: pglK
+Gene ID: pglK
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1737
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1734
+
+Query ID: purB
+Gene ID: purB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1323
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1320
+
+Query ID: lolA
+Gene ID: lolA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 558
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 555
+
+Query ID: pyrD
+Gene ID: pyrD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1056
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1053
+
+Query ID: hrcA
+Gene ID: hrcA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 831
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 828
+
+Query ID: rny
+Gene ID: rny
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1590
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1587
+
+Query ID: rsmG
+Gene ID: rsmG
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 537
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 534
+
+Query ID: bioB
+Gene ID: bioB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 849
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 846
+
+Query ID: tyrA
+Gene ID: tyrA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 291
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 288
+
+Query ID: panC
+Gene ID: panC
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 831
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 828
+
+Query ID: metN
+Gene ID: metN
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 984
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 981
+
+Query ID: tilS
+Gene ID: tilS
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1017
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1014
+
+Query ID: nadA
+Gene ID: nadA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1011
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1008
+
+Query ID: ctpB
+Gene ID: ctpB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1365
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1362
+
+Query ID: aroK
+Gene ID: aroK
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 489
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 486
+
+Query ID: pgbA
+Gene ID: pgbA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1350
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1347
+
+Query ID: rpmA
+Gene ID: rpmA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 267
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 264
+
+Query ID: modB
+Gene ID: modB
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 675
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 672
+
+Query ID: gpmI
+Gene ID: gpmI
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1476
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1473
+
+Query ID: gspA~~~gspA
+Gene ID: gspA~~~gspA
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1140
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1137
+
+Query ID: rpsM
+Gene ID: rpsM
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 363
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 360
+
+Query ID: ppiD
+Gene ID: ppiD
+Gene Name: Unknown
+Product: Unknown product
+Strand: +
+Sequence length: 1464
+Total ORF stop codons: 1
+Premature stop codons: 0
+ORF stop codon positions: 1461
+
+------------------------------------------------------------
+
+BLAST alignments without pangenome or Snippy matches:
+Query ID: GMDGPPPN_00201
+Query Gene Name: Unknown
+Query Product: No annotation found
+Subject ID: lcl|CP079517.1_cds_WRG29887.1_98
+Identity: 98.684%
+Alignment Length: 228
+Mismatches: 3
+Gap Opens: 0
+Query Start-End: 1-228
+Subject Start-End: 1-228
+E-value: 1.44e-120
+Bit Score: 428
+Query Length: 231
+Subject Length: 780
+
+------------------------------------------------------------
+

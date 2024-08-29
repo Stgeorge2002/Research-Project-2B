@@ -1,0 +1,24 @@
+Gene: ftsW
+Contig: gnl|Prokka|KEHBOGCB_1
+Position: 193
+Strand: +
+Original Codon: AGC
+Mutated Codon: TAA
+
+
+Gene: wbnK
+Contig: gnl|Prokka|KEHBOGCB_1
+Position: 163
+Strand: -
+Original Codon: AGC
+Mutated Codon: TAA
+
+
+Gene: NA
+Contig: gnl|Prokka|KEHBOGCB_1
+Position: 535
+Strand: -
+Original Codon: GCG
+Mutated Codon: TAA
+
+

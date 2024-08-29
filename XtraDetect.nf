@@ -109,10 +109,12 @@ workflow PROCESS_SAMPLE {
         pangenome_reference
     )
 
+    pangenome_reference_ch = Channel.fromPath(pangenome_reference)
+
     snippy_input = FASTP.out.cleaned_reads
-        .combine(EXTRACT_KEYWORD_GENES.out.extracted_genes)
-        .map { id, r1, r2, extracted_genes -> 
-            tuple(id, r1, r2, extracted_genes)
+        .combine(pangenome_reference_ch)
+        .map { id, r1, r2, pangenome_reference -> 
+            tuple(id, r1, r2, pangenome_reference)
         }
 
     SNIPPY_REAL_READS(snippy_input)
@@ -126,6 +128,8 @@ workflow PROCESS_SAMPLE {
         EXTRACT_ACETYLTRANSFERASE_GENES_GFF_REAL.out.extracted_genes,
         custom_db.collect()
     )
+    
+    gene_info = file("${params.outputDir}/Custom_BLAST_DB/gene_info.tsv")
 
     // Then, update the GATHER_TOP_BLAST_INFO_AND_ANNOTATIONS_READS process call
     GATHER_TOP_BLAST_INFO_AND_ANNOTATIONS_READS(
@@ -134,7 +138,8 @@ workflow PROCESS_SAMPLE {
         ALIGN_ACETYLTRANSFERASES_TO_PANGENOME.out.blast_results,
         APPLY_SNIPPY_CHANGES_REAL.out.analysis_results.map { it -> it[1] },
         PROKKA_ASSEMBLED.out.prokka_results.map { it -> it[1] },
-        pangenome_reference  // Add this line to include the pangenome reference file
+        pangenome_reference,
+        gene_info
     )
 }
 

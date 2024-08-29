@@ -22,9 +22,14 @@ process ALIGN_KEYWORD_GENES_TO_REFERENCE {
            -word_size ${params.blast_word_size} \
            -perc_identity ${params.blast_perc_identity} \
            -max_target_seqs ${params.blast_max_target_seqs} \
-           -out acetyltransferases_alignments.txt
+           -dust ${params.blast_dust} \
+           -soft_masking ${params.blast_soft_masking} \
+           -xdrop_ungap ${params.blast_xdrop_ungap} \
+           -xdrop_gap ${params.blast_xdrop_gap} \
+           -ungapped \
+           -out temp_alignments.txt
 
-    # Process BLAST results and add corresponding sequences
+    # Filter alignments with length >= 50 and add corresponding sequences
     awk -F'\\t' 'NR==FNR {
         if (\$0 ~ /^>/) {
             header = substr(\$0, 2);
@@ -33,15 +38,15 @@ process ALIGN_KEYWORD_GENES_TO_REFERENCE {
         }
         next
     }
-    {
+    \$4 >= 50 {
         if (\$1 in seq) {
             print \$0 "\\t" seq[\$1]
         } else {
             print \$0 "\\tSequence not found"
         }
-    }' ${extracted_genes} acetyltransferases_alignments.txt > acetyltransferases_alignments_with_seq.txt
+    }' ${extracted_genes} temp_alignments.txt > acetyltransferases_alignments_with_seq.txt
 
     # Clean up
-    rm pangenome_db*
+    rm pangenome_db* temp_alignments.txt
     """
 }

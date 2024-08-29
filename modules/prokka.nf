@@ -18,8 +18,15 @@ process PROKKA {
            --cpus ${task.cpus} \
            --genus ${params.prokka_genus} \
            --species ${params.prokka_species} \
-           --strain ${params.prokka_strain} \
-           ${is_mutated ? '--force' : ''} \
+           --kingdom ${params.prokka_kingdom} \
+           --gcode ${params.prokka_gcode} \
+           --usegenus \
+           --evalue ${params.prokka_evalue} \
+           --mincontiglen ${params.prokka_mincontiglen} \
+           --compliant \
+           --proteins ${params.prokka_additional_proteins} \
+           --force \
+           --coverage ${params.prokka_coverage} \
            ${fasta}
     """
 }

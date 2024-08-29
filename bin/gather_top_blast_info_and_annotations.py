@@ -17,6 +17,7 @@ snippy_analysis = sys.argv[5]
 query_gff = sys.argv[6]
 email = sys.argv[7]
 pangenome_reference = sys.argv[8]  # New argument for pangenome reference file
+gene_info_file = sys.argv[9]  # New argument for gene_info.tsv file
 
 # Set your email for NCBI queries
 Entrez.email = email
@@ -111,6 +112,21 @@ def parse_pangenome_reference(fasta_file):
             pangenome_sequences[gene] = str(record.seq)
     return pangenome_sequences
 
+def parse_gene_info(gene_info_file):
+    gene_info = {}
+    with open(gene_info_file, 'r') as f:
+        reader = csv.reader(f, delimiter='\t')
+        for row in reader:
+            if len(row) >= 2:
+                blast_id = row[0].split()[0]
+                gene_name = re.search(r'\[gene=(\w+)\]', row[0])
+                product = re.search(r'\[protein=(.+?)\]', row[0])
+                gene_info[blast_id] = {
+                    'gene_name': gene_name.group(1) if gene_name else "Unknown",
+                    'product': product.group(1) if product else "No annotation found"
+                }
+    return gene_info
+
 print("Parsing extracted genes...")
 extracted_genes = parse_extracted_genes(extracted_genes)
 
@@ -125,6 +141,9 @@ snippy_data = parse_snippy_analysis(snippy_analysis)
 
 print("Parsing pangenome reference sequences...")
 pangenome_sequences = parse_pangenome_reference(pangenome_reference)
+
+print("Parsing gene info...")
+gene_info = parse_gene_info(gene_info_file)
 
 print("Processing BLAST results...")
 top_hits = []
@@ -147,12 +166,33 @@ with open(f"{sampleName}_top_blast_info_and_annotations.tsv", 'w') as out_f:
     out_f.write("Truncated sequence IDs in custom BLAST DB:\n")
     for seq_id in truncated_sequences:
         out_f.write(f"{seq_id}\n")
-    out_f.write("\n" + "="*50 + "\n\n")
+    out_f.write("\n")
+
+    # New section: Write truncation summary for pangenome alignments
+    truncated_pangenome = [qid for qid, align in pangenome_alignments.items() if is_truncated(int(align['pangenome_qlen']), int(align['pangenome_slen']))]
+    out_f.write(f"Number of truncated sequences in pangenome alignments: {len(truncated_pangenome)}\n")
+    out_f.write("Truncated sequence IDs in pangenome alignments:\n")
+    for seq_id in truncated_pangenome:
+        out_f.write(f"{seq_id}\n")
+    out_f.write("\n")
+
+    # New section: Write summary of Snippy genes with premature stop codons
+    premature_stop_genes = [gene_id for gene_id, info in snippy_data.items() if any("Premature stop codons: " in line and line.split(": ")[1] != "0" for line in info)]
+    out_f.write(f"Number of genes with premature stop codons: {len(premature_stop_genes)}\n")
+    out_f.write("Genes with premature stop codons:\n")
+    for gene_id in premature_stop_genes:
+        out_f.write(f"{gene_id}\n")
+    out_f.write("\n")
+
+    out_f.write("=" * 50 + "\n\n")
 
     for hit in top_hits:
         qseqid, sseqid, ident, align_len, qlen, slen, mismatches, gap_opens, qstart, qend, sstart, send, evalue, bitscore, qseq, sseq = hit[:16]
         
-        query_gene_name, query_product = query_annotations.get(qseqid, ("Unknown", "No annotation found"))
+        # Use gene_info instead of query_annotations
+        gene_info_entry = gene_info.get(qseqid, {'gene_name': "Unknown", 'product': "No annotation found"})
+        query_gene_name = gene_info_entry['gene_name']
+        query_product = gene_info_entry['product']
         
         out_f.write("BLAST Custom DB Results:\n")
         out_f.write(f"Query ID: {qseqid}\n")
@@ -175,18 +215,6 @@ with open(f"{sampleName}_top_blast_info_and_annotations.tsv", 'w') as out_f:
             out_f.write(f"Truncation: Yes (difference: {abs(int(qlen) - int(slen))})\n")
         else:
             out_f.write("Truncation: No\n")
-        
-        # Fetch GenBank data for the subject sequence
-        subject_genbank_id = extract_genbank_id(sseqid)
-        if subject_genbank_id:
-            try:
-                subject_record = fetch_genbank_data(subject_genbank_id)
-                subject_gene_name = get_gene_name(subject_record)
-                subject_description = subject_record.description
-                out_f.write(f"Subject GenBank Gene Name: {subject_gene_name}\n")
-                out_f.write(f"Subject GenBank Description: {subject_description}\n")
-            except Exception as e:
-                out_f.write(f"Error fetching Subject GenBank data: {str(e)}\n")
         
         out_f.write("\n")  # Add a gap
         
@@ -248,33 +276,73 @@ with open(f"{sampleName}_top_blast_info_and_annotations.tsv", 'w') as out_f:
         
         out_f.write("\n" + "-" * 60 + "\n\n")
 
+    # New section to print unmatched alignments and analyses
+    out_f.write("\n" + "="*50 + "\n\n")
+    out_f.write("Unmatched alignments and analyses:\n\n")
+
+    # Set of all query IDs
+    all_query_ids = set(hit[0] for hit in top_hits)
+
+    # Unmatched pangenome alignments
+    unmatched_pangenome = set(pangenome_alignments.keys()) - all_query_ids
+    if unmatched_pangenome:
+        out_f.write("Unmatched pangenome alignments:\n")
+        for query_id in unmatched_pangenome:
+            out_f.write(f"Query ID: {query_id}\n")
+            pan_align = pangenome_alignments[query_id]
+            out_f.write(f"Pangenome Subject ID: {pan_align['pangenome_subject_id']}\n")
+            out_f.write(f"Pangenome Identity: {pan_align['pangenome_identity']}%\n")
+            out_f.write(f"Pangenome Alignment Length: {pan_align['pangenome_alignment_length']}\n")
+            out_f.write(f"Pangenome Query Length: {pan_align['pangenome_qlen']}\n")
+            out_f.write(f"Pangenome Subject Length: {pan_align['pangenome_slen']}\n")
+            out_f.write(f"Pangenome Mismatches: {pan_align['pangenome_mismatches']}\n")
+            out_f.write(f"Pangenome Gaps: {pan_align['pangenome_gaps']}\n")
+            out_f.write(f"Pangenome Query Start-End: {pan_align['pangenome_qstart']}-{pan_align['pangenome_qend']}\n")
+            out_f.write(f"Pangenome Subject Start-End: {pan_align['pangenome_sstart']}-{pan_align['pangenome_send']}\n")
+            out_f.write(f"Pangenome E-value: {pan_align['pangenome_evalue']}\n")
+            out_f.write(f"Pangenome Bit Score: {pan_align['pangenome_bitscore']}\n\n")
+        out_f.write("-" * 60 + "\n\n")
+
+    # Unmatched Snippy analyses
+    unmatched_snippy = set(snippy_data.keys()) - all_query_ids - set(pangenome_alignments.keys())
+    if unmatched_snippy:
+        out_f.write("Unmatched Snippy analyses:\n")
+        for query_id in unmatched_snippy:
+            out_f.write(f"Query ID: {query_id}\n")
+            snippy_info = snippy_data[query_id]
+            for line in snippy_info:
+                out_f.write(f"{line}\n")
+            out_f.write("\n")
+        out_f.write("-" * 60 + "\n\n")
+
+    # BLAST alignments without pangenome or Snippy matches
+    blast_without_matches = all_query_ids - set(pangenome_alignments.keys()) - set(snippy_data.keys())
+    if blast_without_matches:
+        out_f.write("BLAST alignments without pangenome or Snippy matches:\n")
+        for query_id in blast_without_matches:
+            out_f.write(f"Query ID: {query_id}\n")
+            hit = next(hit for hit in top_hits if hit[0] == query_id)
+            qseqid, sseqid, ident, align_len, qlen, slen, mismatches, gap_opens, qstart, qend, sstart, send, evalue, bitscore, qseq, sseq = hit[:16]
+            
+            # Use gene_info instead of query_annotations
+            gene_info_entry = gene_info.get(qseqid, {'gene_name': "Unknown", 'product': "No annotation found"})
+            query_gene_name = gene_info_entry['gene_name']
+            query_product = gene_info_entry['product']
+            
+            out_f.write(f"Query Gene Name: {query_gene_name}\n")
+            out_f.write(f"Query Product: {query_product}\n")
+            out_f.write(f"Subject ID: {sseqid}\n")
+            out_f.write(f"Identity: {ident}%\n")
+            out_f.write(f"Alignment Length: {align_len}\n")
+            out_f.write(f"Mismatches: {mismatches}\n")
+            out_f.write(f"Gap Opens: {gap_opens}\n")
+            out_f.write(f"Query Start-End: {qstart}-{qend}\n")
+            out_f.write(f"Subject Start-End: {sstart}-{send}\n")
+            out_f.write(f"E-value: {evalue}\n")
+            out_f.write(f"Bit Score: {bitscore}\n")
+            out_f.write(f"Query Length: {qlen}\n")
+            out_f.write(f"Subject Length: {slen}\n\n")
+        out_f.write("-" * 60 + "\n\n")
+
 print(f"Done! Output written to {sampleName}_top_blast_info_and_annotations.tsv")
-
-# New section to print unmatched alignments and analyses
-print("\nUnmatched alignments and analyses:")
-
-# Set of all query IDs
-all_query_ids = set(hit[0] for hit in top_hits)
-
-# Unmatched pangenome alignments
-unmatched_pangenome = set(pangenome_alignments.keys()) - all_query_ids
-if unmatched_pangenome:
-    print("\nUnmatched pangenome alignments:")
-    for query_id in unmatched_pangenome:
-        print(f"  {query_id}")
-
-# Unmatched Snippy analyses
-unmatched_snippy = set(snippy_data.keys()) - all_query_ids - set(pangenome_alignments.keys())
-if unmatched_snippy:
-    print("\nUnmatched Snippy analyses:")
-    for query_id in unmatched_snippy:
-        print(f"  {query_id}")
-
-# BLAST alignments without pangenome or Snippy matches
-blast_without_matches = all_query_ids - set(pangenome_alignments.keys()) - set(snippy_data.keys())
-if blast_without_matches:
-    print("\nBLAST alignments without pangenome or Snippy matches:")
-    for query_id in blast_without_matches:
-        print(f"  {query_id}")
-
 print("\nAnalysis complete.")

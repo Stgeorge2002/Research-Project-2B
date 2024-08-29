@@ -1,0 +1,40 @@
+Gene: wbnH_2
+Contig: gnl|Prokka|NOPCHMGJ_26
+Position: 367
+Strand: -
+Original Codon: TTT
+Mutated Codon: TAA
+
+
+Gene: elmGT
+Contig: gnl|Prokka|NOPCHMGJ_61
+Position: 694
+Strand: +
+Original Codon: TCT
+Mutated Codon: TAA
+
+
+Gene: pbpC
+Contig: gnl|Prokka|NOPCHMGJ_13
+Position: 520
+Strand: +
+Original Codon: GGT
+Mutated Codon: TAA
+
+
+Gene: mdoH
+Contig: gnl|Prokka|NOPCHMGJ_1
+Position: 640
+Strand: -
+Original Codon: GCC
+Mutated Codon: TAA
+
+
+Gene: wbnH_1
+Contig: gnl|Prokka|NOPCHMGJ_26
+Position: 418
+Strand: -
+Original Codon: AAC
+Mutated Codon: TAA
+
+
