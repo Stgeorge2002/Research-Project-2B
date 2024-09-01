@@ -1,0 +1,80 @@
+Gene: oatA
+Contig: gnl|Prokka|ANBCFOPA_17
+Position: 532
+Strand: +
+Original Codon: AGT
+Mutated Codon: TAA
+
+
+Gene: pta
+Contig: gnl|Prokka|ANBCFOPA_44
+Position: 367
+Strand: -
+Original Codon: AGA
+Mutated Codon: TAA
+
+
+Gene: aaaT
+Contig: gnl|Prokka|ANBCFOPA_21
+Position: 475
+Strand: -
+Original Codon: TGC
+Mutated Codon: TAA
+
+
+Gene: pflB
+Contig: gnl|Prokka|ANBCFOPA_39
+Position: 2176
+Strand: +
+Original Codon: AAA
+Mutated Codon: TAA
+
+
+Gene: dapH
+Contig: gnl|Prokka|ANBCFOPA_11
+Position: 427
+Strand: -
+Original Codon: CTC
+Mutated Codon: TAA
+
+
+Gene: pdhC
+Contig: gnl|Prokka|ANBCFOPA_12
+Position: 394
+Strand: +
+Original Codon: CAA
+Mutated Codon: TAA
+
+
+Gene: mshD
+Contig: gnl|Prokka|ANBCFOPA_29
+Position: 199
+Strand: +
+Original Codon: GAC
+Mutated Codon: TAA
+
+
+Gene: ydaF
+Contig: gnl|Prokka|ANBCFOPA_1
+Position: 529
+Strand: +
+Original Codon: GGT
+Mutated Codon: TAA
+
+
+Gene: cysE
+Contig: gnl|Prokka|ANBCFOPA_29
+Position: 511
+Strand: +
+Original Codon: GGT
+Mutated Codon: TAA
+
+
+Gene: yjaB
+Contig: gnl|Prokka|ANBCFOPA_22
+Position: 349
+Strand: +
+Original Codon: ATT
+Mutated Codon: TAA
+
+
